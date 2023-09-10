@@ -1479,6 +1479,9 @@
             <offset x="1.91858" y="-0.708616"/>
             <text>inflate</text>
             </StaffText>
+          <RehearsalMark>
+            <text>A</text>
+            </RehearsalMark>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -1581,6 +1584,9 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <text>B</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -1648,6 +1654,9 @@
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <text>C</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -1783,6 +1792,15 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <RehearsalMark>
+            <text>D</text>
+            </RehearsalMark>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <BarLine>
             <spanToOffset>1</spanToOffset>
             <visible>0</visible>
@@ -1811,6 +1829,15 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/6</fractions>
+            </location>
+          <RehearsalMark>
+            <text>E</text>
+            </RehearsalMark>
+          <location>
+            <fractions>1/6</fractions>
+            </location>
           <BarLine>
             <spanToOffset>1</spanToOffset>
             <visible>0</visible>
@@ -2072,6 +2099,15 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/24</fractions>
+            </location>
+          <RehearsalMark>
+            <text>F</text>
+            </RehearsalMark>
+          <location>
+            <fractions>1/24</fractions>
+            </location>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2384,6 +2420,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <RehearsalMark>
+            <text>G</text>
+            </RehearsalMark>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -2816,6 +2855,15 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <RehearsalMark>
+            <text>H</text>
+            </RehearsalMark>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -2892,6 +2940,15 @@
                 </Spanner>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/24</fractions>
+            </location>
+          <RehearsalMark>
+            <text>I</text>
+            </RehearsalMark>
+          <location>
+            <fractions>1/24</fractions>
+            </location>
           <Rest>
             <visible>0</visible>
             <durationType>16th</durationType>
@@ -3062,6 +3119,15 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <RehearsalMark>
+            <text>J</text>
+            </RehearsalMark>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <BarLine>
             <spanToOffset>1</spanToOffset>
             <visible>0</visible>
@@ -3074,6 +3140,15 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <RehearsalMark>
+            <text>K</text>
+            </RehearsalMark>
+          <location>
+            <fractions>3/8</fractions>
+            </location>
           <BarLine>
             <spanToOffset>1</spanToOffset>
             <visible>0</visible>
@@ -3212,6 +3287,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <RehearsalMark>
+            <text>L</text>
+            </RehearsalMark>
           <Chord>
             <durationType>half</durationType>
             <Stem>
@@ -3277,6 +3355,15 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-5/8</fractions>
+            </location>
+          <RehearsalMark>
+            <text>M</text>
+            </RehearsalMark>
+          <location>
+            <fractions>5/8</fractions>
+            </location>
           <BarLine>
             <spanToOffset>1</spanToOffset>
             <visible>0</visible>
