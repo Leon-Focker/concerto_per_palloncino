@@ -1655,6 +1655,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <text>C</text>
@@ -1670,6 +1671,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -1682,6 +1684,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -1771,6 +1774,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1788,7 +1792,10 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
+        <stretch>0</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -19538,12 +19545,6 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <size>12</size>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>hier unterdruck streicher</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -21504,18 +21505,62 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-6"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-6"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -24132,10 +24177,22 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-6"/>
+                </Symbol>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -27931,18 +27988,62 @@ wrapped part of strings
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-6.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-6.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -29111,20 +29212,65 @@ wrapped part of strings
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            <visible>0</visible>
+            </Dynamic>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>keyboardPedalHeel2</name>
+                <font>Bravura</font>
+                <offset x="-2.5" y="1"/>
+                </Symbol>
+              <Symbol>
+                <name>mensuralNoteheadLongaVoid</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.720359" y="0"/>
+                    <off2 x="22.612" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
