@@ -15,7 +15,7 @@
       <akkoladeDistance>3.5</akkoladeDistance>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -3380,6 +3380,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3409,10 +3412,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <spanToOffset>1</spanToOffset>
-            <visible>0</visible>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -4748,8 +4747,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5314,10 +5311,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <spanToOffset>1</spanToOffset>
-            <visible>0</visible>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5884,10 +5877,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <spanFromOffset>-4</spanFromOffset>
-            <spanToOffset>4</spanToOffset>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -8428,8 +8417,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -9297,8 +9284,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10074,8 +10059,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -10546,8 +10529,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12309,8 +12290,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12794,8 +12773,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13261,8 +13238,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -14691,8 +14666,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -15459,8 +15432,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -16294,8 +16265,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -16697,7 +16666,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16715,7 +16683,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16733,7 +16700,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16751,7 +16717,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16769,7 +16734,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -16797,7 +16761,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16815,7 +16778,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16833,7 +16795,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16851,7 +16812,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16869,7 +16829,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -16887,7 +16846,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -17378,7 +17336,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17392,7 +17349,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17406,7 +17362,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17420,7 +17375,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17434,7 +17388,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17448,7 +17401,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -17472,7 +17424,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17486,7 +17437,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17500,7 +17450,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17514,7 +17463,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17528,7 +17476,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17542,7 +17489,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -17566,7 +17512,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -17580,7 +17525,6 @@
                 </Symbol>
               <pitch>81</pitch>
               <tpc>17</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Rest>
@@ -18969,8 +18913,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20999,12 +20941,6 @@
           <BarLine>
             </BarLine>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -21022,8 +20958,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21644,7 +21578,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21658,7 +21591,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21672,7 +21604,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21686,7 +21617,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21700,7 +21630,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -21724,7 +21653,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21738,7 +21666,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21752,7 +21679,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21766,7 +21692,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21780,7 +21705,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21794,7 +21718,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -21826,7 +21749,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21840,7 +21762,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21854,7 +21775,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21868,7 +21788,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21882,7 +21801,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21896,7 +21814,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -21925,7 +21842,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21939,7 +21855,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21953,7 +21868,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21967,7 +21881,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21981,7 +21894,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -21995,7 +21907,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -22019,7 +21930,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22033,7 +21943,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22047,7 +21956,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22061,7 +21969,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22075,7 +21982,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22089,7 +21995,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -22113,7 +22018,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22127,7 +22031,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22141,7 +22044,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22155,7 +22057,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22169,7 +22070,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -22183,7 +22083,6 @@
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -23610,15 +23509,24 @@
           <BarLine>
             </BarLine>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <bold>1</bold>
+            <color r="255" g="0" b="0" a="255"/>
+            <text>obertöne des grundtons</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -23633,18 +23541,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25356,28 +25252,22 @@
           <BarLine>
             </BarLine>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -25396,8 +25286,42 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
@@ -25719,13 +25643,20 @@ wrapped part of strings
             <Note>
               <Image>
                 <autoplace>0</autoplace>
-                <offset x="-7.18106" y="-3.26212"/>
+                <offset x="-9.62" y="-7.53"/>
                 <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                 <linkPath>../Notation/vor_der_brücke.svg</linkPath>
-                <size w="6.00064" h="8.48477"/>
+                <size w="8.46954" h="11.9757"/>
                 </Image>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -25733,13 +25664,6 @@ wrapped part of strings
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -25753,8 +25677,8 @@ wrapped part of strings
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Spanner type="Ottava">
@@ -25959,7 +25883,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -25973,7 +25896,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -25987,7 +25909,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26001,7 +25922,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26015,7 +25935,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26039,7 +25958,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26053,7 +25971,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26067,7 +25984,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26081,7 +25997,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26095,7 +26010,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26109,7 +26023,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26141,7 +26054,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26155,7 +26067,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26169,7 +26080,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26183,7 +26093,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26197,7 +26106,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26211,7 +26119,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26240,7 +26147,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26254,7 +26160,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26268,7 +26173,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26282,7 +26186,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26296,7 +26199,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26310,7 +26212,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26334,7 +26235,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26348,7 +26248,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26362,7 +26261,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26376,7 +26274,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26390,7 +26287,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26404,7 +26300,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26428,7 +26323,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26442,7 +26336,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26456,7 +26349,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26470,7 +26362,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26484,7 +26375,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26498,7 +26388,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26528,7 +26417,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26542,7 +26430,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26556,7 +26443,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26570,7 +26456,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26584,7 +26469,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26598,7 +26482,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26622,7 +26505,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26636,7 +26518,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26650,7 +26531,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26664,7 +26544,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26678,7 +26557,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26692,7 +26570,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -26716,7 +26593,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -26730,7 +26606,6 @@ wrapped part of strings
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <play>0</play>
               </Note>
             </Chord>
           <Rest>
@@ -27490,58 +27365,495 @@ wrapped part of strings
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>22mb</subtype>
+              <visible>0</visible>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <measures>4</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            <Image>
+              <autoplace>0</autoplace>
+              <offset x="-8.62" y="-6.53"/>
+              <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+              <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+              <size w="8.46954" h="11.9757"/>
+              </Image>
             </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <StaffText>
+            <offset x="-6.81701" y="-4.0754"/>
+            <frameType>1</frameType>
+            <text>on wrapped part
+of the strings
+</text>
+            </StaffText>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-13/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.12" y="-6.53"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>13/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/6</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/6</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <StaffText>
             <bold>1</bold>
             <color r="255" g="0" b="0" a="255"/>
-            <text>obertöne des grundtons</text>
+            <text>fermata</text>
             </StaffText>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             <subtype>end</subtype>
             </BarLine>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -28946,6 +29258,23 @@ wrapped part of strings
           <BarLine>
             </BarLine>
           </voice>
+        <voice>
+          <location>
+            <fractions>7/8</fractions>
+            </location>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>101</pitch>
+              <tpc>13</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -28981,43 +29310,358 @@ wrapped part of strings
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>22mb</subtype>
+              <visible>0</visible>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <measures>3</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            <Image>
+              <autoplace>0</autoplace>
+              <offset x="-8.62" y="-6.53"/>
+              <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+              <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+              <size w="8.46954" h="11.9757"/>
+              </Image>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-13/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.12" y="-6.53"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>13/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             <subtype>end</subtype>
             </BarLine>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-3</measures>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -30408,32 +31052,6 @@ wrapped part of strings
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
-              <Spanner type="Glissando">
-                <Glissando>
-                  <glissandoStyle>portamento</glissandoStyle>
-                  <offset x="-61.6184" y="-2.65979"/>
-                  <diagonal>1</diagonal>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>1</subtype>
-                    <offset x="0" y="-2.65979"/>
-                    <off2 x="0" y="0"/>
-                    <offset x="0" y="-2.65979"/>
-                    </Segment>
-                  <Segment>
-                    <subtype>3</subtype>
-                    <offset x="0" y="-2.65979"/>
-                    <off2 x="0" y="0"/>
-                    <offset x="0" y="-2.65979"/>
-                    </Segment>
-                  </Glissando>
-                <next>
-                  <location>
-                    <measures>4</measures>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           <Rest>
@@ -30455,11 +31073,6 @@ wrapped part of strings
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>auf dem Saitenhalter</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -30474,8 +31087,6 @@ wrapped part of strings
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -30494,14 +31105,6 @@ wrapped part of strings
             <Note>
               <pitch>28</pitch>
               <tpc>18</tpc>
-              <Spanner type="Glissando">
-                <prev>
-                  <location>
-                    <measures>-4</measures>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             </Chord>
           <BarLine>
