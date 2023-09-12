@@ -1512,6 +1512,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="43"/>
           <synti>Fluid</synti>
@@ -1525,6 +1526,7 @@
           <midiChannel>4</midiChannel>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -1590,7 +1592,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.0201793</lineWidth>
+                  <lineWidth>0.0141255</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -1792,7 +1794,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.0201793</lineWidth>
+                  <lineWidth>0.0141255</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -1992,7 +1994,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.0141255</lineWidth>
+                  <lineWidth>0.00988785</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -2442,7 +2444,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.0201793</lineWidth>
+                  <lineWidth>0.0141255</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -2999,7 +3001,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.0201793</lineWidth>
+                  <lineWidth>0.0141255</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -3408,7 +3410,7 @@
               <tpc>13</tpc>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.0201793</lineWidth>
+                  <lineWidth>0.0141255</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -9912,11 +9914,10 @@
             <span>1</span>
             </BarLine>
           <StaffText>
-            <minDistance>0.5</minDistance>
             <offset x="8.8841" y="-3.76754"/>
             <frameType>1</frameType>
             <text>if not quiet enough,
-choose other multiphonic
+choose other multiphonics
 </text>
             </StaffText>
           <Rest>
@@ -9961,14 +9962,64 @@ choose other multiphonic
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>leise fagott multiphonics?</text>
-            </StaffText>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="1.77787" y="-5.23639"/>
+                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
+                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
+                <size w="2.40714" h="2.40714"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              <small>1</small>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="1.77787" y="-5.23639"/>
+                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
+                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
+                <size w="2.40714" h="2.40714"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <small>1</small>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              <small>1</small>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -9976,10 +10027,65 @@ choose other multiphonic
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="1.77787" y="-5.23639"/>
+                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
+                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
+                <size w="2.40714" h="2.40714"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <small>1</small>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="1.77787" y="-5.23639"/>
+                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
+                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
+                <size w="2.40714" h="2.40714"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              <small>1</small>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -34735,7 +34841,6 @@ of the strings
           <BarLine>
             </BarLine>
           <StaffText>
-            <minDistance>0.5</minDistance>
             <offset x="23.9796" y="-3.76754"/>
             <frameType>1</frameType>
             <text>pizz. on lowest string,
@@ -35498,9 +35603,6 @@ touch strings with stick
     <Staff id="22">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
