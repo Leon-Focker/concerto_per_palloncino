@@ -19915,10 +19915,6 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <offset x="-1.23146" y="-1.03611"/>
-            <text>behind bridge</text>
-            </StaffText>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -19943,27 +19939,22 @@ as possible, creating a dense
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-9.12" y="-8.03"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <BarLine>
@@ -19972,9 +19963,6 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>behind bridge, c.l.b.</text>
-            </StaffText>
           <Spanner type="Ottava">
             <prev>
               <location>
@@ -19990,450 +19978,63 @@ as possible, creating a dense
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <StaffText>
-            <minDistance>0.36037</minDistance>
-            <offset x="-1.75758" y="-2.4045"/>
-            <text>| on bridge</text>
+            <offset x="-4.92584" y="-0.713858"/>
+            <text>c.l.b.</text>
             </StaffText>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -20446,106 +20047,136 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.62" y="-7.03"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -20558,106 +20189,177 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
+              <pitch>69</pitch>
               <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>articStaccatissimoAbove</subtype>
-              <visible>0</visible>
-              </Articulation>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -20676,82 +20378,55 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -20764,82 +20439,55 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -20852,36 +20500,33 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <endTuplet/>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -20891,6 +20536,10 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <StaffText>
             <channelSwitch voice="0" name="pizzicato"/>
             <channelSwitch voice="1" name="pizzicato"/>
@@ -23345,11 +22994,6 @@ as possible, creating a dense
               <beginText>exaggerated vib.</beginText>
               <endText>&gt;</endText>
               <lineWidth>0.0968968</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="1.00401" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -25227,9 +24871,6 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>behind bridge, c.l.b.</text>
-            </StaffText>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -25237,6 +24878,10 @@ as possible, creating a dense
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
+          <StaffText>
+            <offset x="-4.92584" y="-0.713858"/>
+            <text>c.l.b.</text>
+            </StaffText>
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
@@ -25248,70 +24893,55 @@ as possible, creating a dense
             </Tuplet>
           <Rest>
             <durationType>16th</durationType>
+            <Image>
+              <autoplace>0</autoplace>
+              <offset x="-11.62" y="-6.53"/>
+              <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+              <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+              <size w="8.46954" h="11.9757"/>
+              </Image>
             </Rest>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -25324,82 +24954,55 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -25411,6 +25014,11 @@ as possible, creating a dense
         <voice>
           <BarLine>
             </BarLine>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
@@ -25420,175 +25028,62 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.62" y="-7.03"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <StaffText>
-            <minDistance>-0.198147</minDistance>
-            <offset x="1.52373" y="-1.84598"/>
-            <text>| on bridge</text>
-            </StaffText>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -25601,82 +25096,55 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -25689,82 +25157,116 @@ as possible, creating a dense
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -25774,6 +25276,10 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>C3</concertClefType>
+            <transposingClefType>C3</transposingClefType>
+            </Clef>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -28266,11 +27772,6 @@ as possible, creating a dense
               <beginText>exaggerated vib.</beginText>
               <endText>&gt;</endText>
               <lineWidth>0.0968968</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0.961946" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -29787,19 +29288,12 @@ wrapped part of strings
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>behind bridge, c.l.b.</text>
-            </StaffText>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -29807,6 +29301,10 @@ wrapped part of strings
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
+          <StaffText>
+            <offset x="-4.92584" y="-0.713858"/>
+            <text>c.l.b.</text>
+            </StaffText>
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
@@ -29818,76 +29316,55 @@ wrapped part of strings
             </Tuplet>
           <Rest>
             <durationType>16th</durationType>
+            <Image>
+              <autoplace>0</autoplace>
+              <offset x="-11.62" y="-6.53"/>
+              <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+              <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+              <size w="8.46954" h="11.9757"/>
+              </Image>
             </Rest>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="-0.746377" y="-2.83668"/>
-            <text>mit Stegschlüssel...</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -29900,82 +29377,55 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -29987,6 +29437,11 @@ wrapped part of strings
         <voice>
           <BarLine>
             </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Tuplet>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
@@ -29996,175 +29451,62 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.62" y="-7.03"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <StaffText>
-            <minDistance>-0.267962</minDistance>
-            <offset x="1.73317" y="-1.77616"/>
-            <text>| on bridge</text>
-            </StaffText>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -30177,82 +29519,55 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -30265,82 +29580,116 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -30359,82 +29708,55 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -30447,82 +29769,55 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <endTuplet/>
@@ -30535,30 +29830,23 @@ wrapped part of strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <visible>0</visible>
-              <Symbol>
-                <name>noteheadTriangleUpBlack</name>
-                <font>Bravura</font>
-                <offset x="-0.5" y="0"/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Rest>
@@ -30568,6 +29856,10 @@ wrapped part of strings
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <BarLine>
             </BarLine>
           </voice>
@@ -31058,11 +30350,6 @@ wrapped part of strings
             <HairPin>
               <subtype>0</subtype>
               <hairpinCircledTip>1</hairpinCircledTip>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.3579" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -31156,11 +30443,6 @@ wrapped part of strings
             <HairPin>
               <subtype>0</subtype>
               <hairpinCircledTip>1</hairpinCircledTip>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-1.3579" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -31454,13 +30736,13 @@ wrapped part of strings
               <subtype>22mb</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -32788,11 +32070,6 @@ of the strings
               <beginText>exaggerated vib.</beginText>
               <endText>&gt;</endText>
               <lineWidth>0.0968968</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="-4.60772" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -33724,13 +33001,13 @@ of the strings
               <subtype>22mb</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -34485,6 +33762,9 @@ of the strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -34571,6 +33851,9 @@ of the strings
               <text>6</text>
               </Number>
             </Tuplet>
+          <Beam>
+            <distribute>1</distribute>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -34763,11 +34046,6 @@ of the strings
               <beginText>exaggerated vib.</beginText>
               <endText>&gt;</endText>
               <lineWidth>0.0968968</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0.226277" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
