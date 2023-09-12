@@ -1,0 +1,2581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="3.02">
+  <programVersion>3.6.0</programVersion>
+  <programRevision>1977cb3</programRevision>
+  <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <pageWidth>11.6902</pageWidth>
+      <pageHeight>16.5402</pageHeight>
+      <pagePrintableWidth>10.5091</pagePrintableWidth>
+      <enableVerticalSpread>1</enableVerticalSpread>
+      <spreadSystem>2</spreadSystem>
+      <spreadSquareBracket>1</spreadSquareBracket>
+      <minSystemSpread>6</minSystemSpread>
+      <minSpreadSpread>1</minSpreadSpread>
+      <useStandardNoteNames>0</useStandardNoteNames>
+      <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+      <showHeader>0</showHeader>
+      <showFooter>0</showFooter>
+      <Spatium>1.75</Spatium>
+      </Style>
+    <showInvisible>0</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer"></metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2022-12-11</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source"></metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">Legende</metaTag>
+    <Order id="orchestral" customized="1">
+      <name>Orchestral</name>
+      <instrument id="piano">
+        <family id="keyboards">Tasteninstrumente</family>
+        </instrument>
+      <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
+        <family>flutes</family>
+        <family>oboes</family>
+        <family>clarinets</family>
+        <family>saxophones</family>
+        <family>bassoons</family>
+        <unsorted group="woodwinds"/>
+        </section>
+      <section id="brass" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>horns</family>
+        <family>trumpets</family>
+        <family>cornets</family>
+        <family>trombones</family>
+        <family>tubas</family>
+        </section>
+      <section id="timpani" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>timpani</family>
+        </section>
+      <section id="percussion" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>keyboard-percussion</family>
+        <family>drums</family>
+        <family>unpitched-metal-percussion</family>
+        <family>unpitched-wooden-percussion</family>
+        <family>other-percussion</family>
+        </section>
+      <family>keyboards</family>
+      <family>harps</family>
+      <family>organs</family>
+      <family>synths</family>
+      <section id="plucked-strings" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>plucked-strings</family>
+        </section>
+      <soloists/>
+      <section id="voices" brackets="true" showSystemMarkings="false" barLineSpan="false" thinBrackets="true">
+        <family>voices</family>
+        </section>
+      <section id="strings" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
+        <family>orchestral-strings</family>
+        </section>
+      <unsorted/>
+      </Order>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <clef>0</clef>
+          <barlines>0</barlines>
+          <timesig>0</timesig>
+          <invisible>1</invisible>
+          </StaffType>
+        <invisible>1</invisible>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <bracket type="1" span="2" col="2"/>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <clef>0</clef>
+          <barlines>0</barlines>
+          <timesig>0</timesig>
+          </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <bracket type="1" span="2" col="2"/>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <trackName>Klavier</trackName>
+      <Instrument id="piano">
+        <longName>Klavier</longName>
+        <trackName>Klavier</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
+        <singleNoteDynamics>0</singleNoteDynamics>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <VBox>
+        <height>1</height>
+        <bottomGap>0.5</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Title</style>
+          <family>Yu Gothic UI Semibold</family>
+          <size>25</size>
+          <align>left,top</align>
+          <text>Legende</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>4</height>
+        <bottomGap>2</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>15</size>
+          <underline>1</underline>
+          <text>general remarks</text>
+          </Text>
+        </VBox>
+      <VBox>
+        <height>13</height>
+        <topGap>1</topGap>
+        <bottomGap>1</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <text>- Vorschläge kommen immer vor dem Schlag
+
+- play everything non-vibrato except when specified
+ 
+</text>
+          </Text>
+        </VBox>
+      <Measure len="3/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              </Tremolo>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>langsamer, mittelschneller und schneller Tremolo</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <StaffText>
+            <offset x="-3.4209" y="-1.81069"/>
+            <text>trem. irreg.</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
+            </Chord>
+          <Segment>
+            <leadingSpace>3.5</leadingSpace>
+            </Segment>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Tremolo ohne erkennbaren Rhythmus, irregulär
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <endText>&gt;</endText>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-0.332473" y="-2.49355"/>
+                    <off2 x="0" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <offset x="2.5" y="0"/>
+              </Stem>
+            <Note>
+              <offset x="2.5" y="0"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>arrows show a gradual change between the specified states</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <offset x="3.5" y="0"/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                </Symbol>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Segment>
+            <leadingSpace>-1.2</leadingSpace>
+            </Segment>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              </Articulation>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Triller mit Nebennote in Klammern</text>
+          </Text>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <text></text>
+          </Text>
+        </TBox>
+      <VBox>
+        <height>8</height>
+        <topGap>0</topGap>
+        <bottomGap>2</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>15</size>
+          <underline>1</underline>
+          <text>Woodwinds</text>
+          </Text>
+        </VBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Luftton ohne Rohr. Mund wie beim Pfeifen ansetzen, so dass ähnlich wie bei einem whistle Tone
+verschiedene Obertöne hörbar werden
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Luftton ohne Rohr. Notiert sind der Griff (eckig) und das Resultat (in Klammern)</text>
+          </Text>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <topGap>4</topGap>
+        <bottomGap>5.5</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <text></text>
+          </Text>
+        </TBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Multiphonic, find one as close to the specified notes as possible, lowest note is most important</text>
+          </Text>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <topGap>5</topGap>
+        <bottomGap>5.5</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <text></text>
+          </Text>
+        </TBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>8va</subtype>
+              </Ottava>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.789676" y="-3.62518"/>
+                <path>aff3274b04d18fa7cca14e507dc6c072.png</path>
+                <linkPath>Oboe/Q.png</linkPath>
+                <size w="2.60105" h="2.60105"/>
+                </Image>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <head>triangle-up</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Quietschen - Um einen höchstmöglichen Ton zu erzeugen vorne fest auf das Rohr beißen 
+und mit viel Luft blasen
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.468512" y="-3.114"/>
+                <path>6f1cf49d24fc8d6ce8d7fcd368665091.png</path>
+                <linkPath>Oboe/Notation/Pfeil_Punkt_links.png</linkPath>
+                <size w="2.59103" h="2.59103"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.132756" y="-3.00911"/>
+                <path>09bddafbae55019e601b4f4b23d1bb7d.png</path>
+                <linkPath>Oboe/Notation/Pfeil_Punkt_rechts.png</linkPath>
+                <size w="2.36938" h="2.36938"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>einatmen (links), ausatmen (rechts)</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Klappengeräusche, gegriffen notiert</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>withx</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>mit Rohr, kein normaler Ton: zB. mit großem Luftanteil - jeweils Text beachten</text>
+          </Text>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <text></text>
+          </Text>
+        </TBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>stringsHarmonic</name>
+                <font>Bravura</font>
+                <offset x="0" y="-2.5"/>
+                </Symbol>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <Symbol>
+                <name>stringsHarmonic</name>
+                <font>Bravura</font>
+                <offset x="0" y="-2.5"/>
+                </Symbol>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Doppelflageolett</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <ChordLine>
+              <subtype>3</subtype>
+              <straight>1</straight>
+              <offset x="-0.104723" y="1.22176"/>
+              <Path>
+                <Element type="0" x="0" y="0"/>
+                <Element type="1" x="-2.06982" y="-1.40657"/>
+                </Path>
+              </ChordLine>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <ChordLine>
+              <subtype>2</subtype>
+              <straight>1</straight>
+              <lengthY>5</lengthY>
+              <offset x="-0.277061" y="-0.49871"/>
+              <Path>
+                <Element type="0" x="0" y="0"/>
+                <Element type="1" x="1.97229" y="-1.44588"/>
+                </Path>
+              </ChordLine>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Glissando über den ansatz, vor oder nach der Note
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Phrasierungsbögen indikieren, dass die Phrase als eine Note intoniert werden soll (eine neue Tonhöhe in der
+Phrase wird nicht neu angesetzt etc. -  nur der Griff ändert sich rhythmisch. So ähnlich wie bei einem Triller)
+</text>
+          </Text>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        </HBox>
+      <VBox>
+        <height>4</height>
+        <topGap>10</topGap>
+        <bottomGap>2</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>15</size>
+          <underline>1</underline>
+          <text>Streicher</text>
+          </Text>
+        </VBox>
+      <HBox>
+        <width>27.5</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>9</size>
+          <align>left,center</align>
+          <text>msp / sp / psp / ord / pst / st / mst   </text>
+          </Text>
+        </HBox>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Contact point of the bow with the strings. Stays valid until new indication. 
+ord. means contact point as well as bow pressure
+</text>
+          </Text>
+        </HBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Bridge Clef, indicating the contact point of the bow. First note would be msp, second one mst</text>
+          </Text>
+        </HBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Bridge Clef, indicating the contact point of the bow. First note would be on silk wrapped part of the strings,
+second one on the not wrapped part near the bridge.
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>17</text>
+          </MeasureNumber>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>keyboardPedalHeel2</name>
+                <font>Bravura</font>
+                <offset x="-2.5" y="1"/>
+                </Symbol>
+              <Symbol>
+                <name>mensuralNoteheadLongaVoid</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.81455" y="0"/>
+                    <off2 x="-0.81455" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Bow at the edge of the bridge, no discernable pitch</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Flageolett (finger only touches the string)</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.191402" y="-2.69645"/>
+                <path>1048e8f7f0cbb9662bf61ba04bc48a32.png</path>
+                <linkPath>C:/Users/leonf/Desktop/Dokument1/Dokument1/945px-Coda_sign.svg.png</linkPath>
+                <size w="1.61588" h="1.75096"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.191402" y="-2.69645"/>
+                <path>1048e8f7f0cbb9662bf61ba04bc48a32.png</path>
+                <linkPath>C:/Users/leonf/Desktop/Dokument1/Dokument1/945px-Coda_sign.svg.png</linkPath>
+                <size w="1.61588" h="1.75096"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Abdämpfen (linke Hand), abgedämpftes Flageolett - fragiler Klang</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>pluckedSnapPizzicatoAbove</subtype>
+              <offset x="0" y="1"/>
+              </Articulation>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Bartok Pizzicato</text>
+          </Text>
+        </HBox>
+      <Measure len="4/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowWhiteUp</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowWhiteDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>from left to right: almost no bow pressure, small bow pressure, 
+more bow pressure than usual (pitch still discernable), lots of bow pressure (no clear pitch)
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <StaffText>
+            <text>ccb</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <text>clb</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>con crini battuto, col legno battuto. discernable pitch</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <StaffText>
+            <text>ccb</text>
+            </StaffText>
+          <Beam>
+            <Fragment>
+              <y1>4.46528</y1>
+              <y2>4.46528</y2>
+              </Fragment>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.191402" y="-2.69645"/>
+                <path>1048e8f7f0cbb9662bf61ba04bc48a32.png</path>
+                <linkPath>C:/Users/leonf/Desktop/Dokument1/Dokument1/945px-Coda_sign.svg.png</linkPath>
+                <size w="1.61588" h="1.75096"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.191402" y="-2.69645"/>
+                <path>1048e8f7f0cbb9662bf61ba04bc48a32.png</path>
+                <linkPath>C:/Users/leonf/Desktop/Dokument1/Dokument1/945px-Coda_sign.svg.png</linkPath>
+                <size w="1.61588" h="1.75096"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <text>clb</text>
+            </StaffText>
+          <Beam>
+            <Fragment>
+              <y1>4.52748</y1>
+              <y2>4.52748</y2>
+              </Fragment>
+            </Beam>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.191402" y="-2.69645"/>
+                <path>1048e8f7f0cbb9662bf61ba04bc48a32.png</path>
+                <linkPath>C:/Users/leonf/Desktop/Dokument1/Dokument1/945px-Coda_sign.svg.png</linkPath>
+                <size w="1.61588" h="1.75096"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.191402" y="-2.69645"/>
+                <path>1048e8f7f0cbb9662bf61ba04bc48a32.png</path>
+                <linkPath>C:/Users/leonf/Desktop/Dokument1/Dokument1/945px-Coda_sign.svg.png</linkPath>
+                <size w="1.61588" h="1.75096"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>con crini battuto, col legno battuto. dampened, no specified pitch</text>
+          </Text>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.329928" y="-2.81148"/>
+                <path>e18d8820cac24364b6b85500bd3901f9.png</path>
+                <linkPath>Oboe/M.png</linkPath>
+                <size w="1.60295" h="1.60295"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>multiphonic, as many overtones at the same time as possible</text>
+          </Text>
+        </HBox>
+      <Measure len="4/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Fast alles soll auf einer Saite gespielt werden, außer ein Akkord hat zwei normale Notenköpfe
+zB links: künstliches Flageolett, rechts künstliches Flageolett aber beide Finger sind nur aufgelegt
+</text>
+          </Text>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <text></text>
+          </Text>
+        </TBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Auf dem Cello: Schnarren, indem der Bogen mit dem Holz auf die Saite gelegt und nah an den Steg gebracht wird, 
+während die Saite gezupft wird. Dadurch soll der Bogen anfang zu vibrieren und gegen die Saite schlagen
+</text>
+          </Text>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        </HBox>
+      <VBox>
+        <height>4</height>
+        <topGap>4.5</topGap>
+        <bottomGap>4</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>15</size>
+          <underline>1</underline>
+          <text>Woodwinds</text>
+          </Text>
+        </VBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Halbgedrückte Taste, wenn möglich</text>
+          </Text>
+        </HBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.1971" y="2.03029"/>
+                <path>dae80475cab17886121b60b56801d99b.svg</path>
+                <linkPath>Oboe/ausgewählte multiphonics/schwach.svg</linkPath>
+                <size w="2.17635" h="1.94482"/>
+                </Image>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.346585" y="2.13611"/>
+                <path>a7085f8455a0c0e719c3da9bcd17b0b4.svg</path>
+                <linkPath>E:/Instrumental/Oboe/ausgewählte multiphonics/normaldruck.svg</linkPath>
+                <size w="2.20555" h="1.73629"/>
+                </Image>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Image>
+                <offset x="-0.578956" y="2.02952"/>
+                <path>6f15d805a84f265fabb0ebfbb87044e3.svg</path>
+                <linkPath>E:/Instrumental/Oboe/ausgewählte multiphonics/stark.svg</linkPath>
+                <size w="2.17971" h="1.79221"/>
+                </Image>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>von links: Tasten gar nicht drücken, halb drücken und ganz drücken - mit Abstufungen durch Pfeile</text>
+          </Text>
+        </HBox>
+      <Measure len="1/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>breathMarkComma</name>
+                <font>Bravura</font>
+                <offset x="2" y="-3"/>
+                </Symbol>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Abrupter Stop, Taste schnell loslassen ohne Luftstrom vorher zu verringern</text>
+          </Text>
+        </HBox>
+      <Measure len="6/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>chromatische Cluster</text>
+          </Text>
+        </HBox>
+      <Measure len="4/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Luftknopf</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <stretch>0.9</stretch>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>Registerklappengeräusche</text>
+          </Text>
+        </HBox>
+      <HBox>
+        <width>5</width>
+        </HBox>
+      <HBox>
+        <width>5</width>
+        </HBox>
+      </Staff>
+    <Staff id="2">
+      <Measure len="3/4">
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <StaffText>
+            <offset x="-2.49549" y="-3.40022"/>
+            <text>Mund wie beim Pfeifen ansetzen</text>
+            </StaffText>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Image>
+                <offset x="-0.52" y="-7.93"/>
+                <path>6f1cf49d24fc8d6ce8d7fcd368665091.png</path>
+                <linkPath>Oboe/Notation/Pfeil_Punkt_links.png</linkPath>
+                <size w="2.59103" h="2.59103"/>
+                </Image>
+              <Symbol>
+                <name>mensuralNoteheadLongaVoid</name>
+                <font>Bravura</font>
+                <offset x="0.1" y="0"/>
+                </Symbol>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <visible>0</visible>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Image>
+                <offset x="-0.786007" y="-5.83682"/>
+                <path>6f1cf49d24fc8d6ce8d7fcd368665091.png</path>
+                <linkPath>Oboe/Notation/Pfeil_Punkt_links.png</linkPath>
+                <size w="2.59103" h="2.59103"/>
+                </Image>
+              <Symbol>
+                <name>mensuralNoteheadLongaBlack</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="0.419617" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalQuarterToneFlatStein</subtype>
+                </Accidental>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <offset x="-1" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                </Symbol>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <small>1</small>
+              <play>0</play>
+              <tuning>-50</tuning>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Image>
+            <offset x="3.10929" y="-3.37821"/>
+            <path>e18d8820cac24364b6b85500bd3901f9.png</path>
+            <linkPath>E:/Instrumental/Oboe/M.png</linkPath>
+            <size w="2.97187" h="2.97187"/>
+            </Image>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalQuarterToneSharpStein</subtype>
+                </Accidental>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <small>1</small>
+              </Note>
+            <Note>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <small>1</small>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <appoggiatura/>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>15</text>
+          </MeasureNumber>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.15" y="-2.63"/>
+                <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                <size w="5.75479" h="8.13715"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-11.12" y="-5.03"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/4">
+        <voice>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="4/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <head>diamond</head>
+              <headType>half</headType>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <StaffText>
+            <channelSwitch voice="0" name="pizzicato"/>
+            <channelSwitch voice="1" name="pizzicato"/>
+            <channelSwitch voice="2" name="pizzicato"/>
+            <channelSwitch voice="3" name="pizzicato"/>
+            <placement>below</placement>
+            <minDistance>0.428255</minDistance>
+            <offset x="-0.791653" y="4.41187"/>
+            <text>pizz.</text>
+            </StaffText>
+          <StaffText>
+            <minDistance>-3.60508</minDistance>
+            <offset x="-2.93453" y="-0.78668"/>
+            <text>clt</text>
+            </StaffText>
+          <StaffText>
+            <offset x="-2.91264" y="-2.85969"/>
+            <text>Schnarren</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endText>&gt;</endText>
+              <lineWidth>0.1488</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.124396" y="-1.1244"/>
+                <off2 x="1.09748" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <offset x="1.6548" y="-0.865217"/>
+            <text>sp</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="6/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <Symbol>
+                <name>noteheadClusterQuarter2nd</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>noteheadClusterHalf2nd</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>noteheadClusterRoundBlack</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>noteheadClusterRoundWhite</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="4/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-0.518796" y="0"/>
+                    <off2 x="0.913719" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <StaffText>
+            <text>Register</text>
+            </StaffText>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      </Staff>
+    </Score>
+  </museScore>
