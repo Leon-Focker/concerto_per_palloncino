@@ -22887,6 +22887,11 @@ as possible, creating a dense
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <StaffText>
+            <minDistance>0.206532</minDistance>
+            <offset x="-0.069815" y="-0.30185"/>
+            <text>s.t.</text>
+            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -22964,6 +22969,11 @@ as possible, creating a dense
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <tuning>50</tuning>
@@ -22976,14 +22986,16 @@ as possible, creating a dense
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <tuning>50</tuning>
               </Note>
             </Chord>
-          <StaffText>
-            <text>kratzen:</text>
-            </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -23002,11 +23014,6 @@ as possible, creating a dense
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>kratzen</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -23021,7 +23028,7 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowBlackDown</name>
                 <font>Bravura</font>
-                <offset x="0" y="-1"/>
+                <offset x="0" y="-4"/>
                 </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -27506,6 +27513,11 @@ as possible, creating a dense
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <StaffText>
+            <minDistance>0.206532</minDistance>
+            <offset x="-0.069815" y="-0.30185"/>
+            <text>s.t.</text>
+            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -27583,6 +27595,11 @@ as possible, creating a dense
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <tuning>50</tuning>
@@ -27595,14 +27612,16 @@ as possible, creating a dense
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <tuning>50</tuning>
               </Note>
             </Chord>
-          <StaffText>
-            <text>kratzen:</text>
-            </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -27635,7 +27654,7 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowBlackDown</name>
                 <font>Bravura</font>
-                <offset x="0" y="-1"/>
+                <offset x="0" y="-4.5"/>
                 </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -31758,6 +31777,11 @@ of the strings
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <StaffText>
+            <minDistance>0.206532</minDistance>
+            <offset x="-0.069815" y="-0.30185"/>
+            <text>s.t.</text>
+            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -31852,9 +31876,6 @@ of the strings
               <tuning>50</tuning>
               </Note>
             </Chord>
-          <StaffText>
-            <text>kratzen:</text>
-            </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -31887,7 +31908,7 @@ of the strings
               <Symbol>
                 <name>arrowBlackDown</name>
                 <font>Bravura</font>
-                <offset x="0" y="-1"/>
+                <offset x="0" y="-5"/>
                 </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -33595,6 +33616,11 @@ of the strings
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
+              <Symbol>
+                <name>arrowWhiteDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-5"/>
+                </Symbol>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
