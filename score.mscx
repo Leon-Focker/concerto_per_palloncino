@@ -180,6 +180,7 @@
           <controller ctrl="32" value="17"/>
           <program value="73"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           <midiPort>2</midiPort>
           <midiChannel>1</midiChannel>
           </Channel>
@@ -417,6 +418,7 @@
           <program value="68"/>
           <controller ctrl="10" value="40"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           <midiPort>0</midiPort>
           <midiChannel>1</midiChannel>
           </Channel>
@@ -486,6 +488,7 @@
           <controller ctrl="32" value="17"/>
           <program value="71"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
           </Channel>
@@ -1974,7 +1977,6 @@
           </LayoutBreak>
         <voice>
           <Chord>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Stem>
               <visible>0</visible>
@@ -1986,27 +1988,46 @@
                 <name>mensuralNoteheadLongaVoid</name>
                 <font>Bravura</font>
                 </Symbol>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
               <pitch>77</pitch>
               <tpc>13</tpc>
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00692149</lineWidth>
+                  <lineWidth>0.5</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0.547389" y="0"/>
-                    <off2 x="-0.547389" y="0"/>
+                    <offset x="0.593428" y="0"/>
+                    <off2 x="-0.593428" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <fractions>15/16</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>mensuralNoteheadLongaBlack</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
                 </Spanner>
               </Note>
             </Chord>
@@ -2038,20 +2059,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <visible>0</visible>
-              <Symbol>
-                <name>mensuralNoteheadLongaBlack</name>
-                <font>Bravura</font>
-                </Symbol>
               <pitch>77</pitch>
               <tpc>13</tpc>
               <play>0</play>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <fractions>-15/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             </Chord>
           <BarLine>
@@ -2302,10 +2312,6 @@
             <span>0</span>
             <visible>0</visible>
             </BarLine>
-          <StaffText>
-            <offset x="-3.32515" y="-2.56368"/>
-            <text>grip further apart</text>
-            </StaffText>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -4003,6 +4009,11 @@
             <color r="255" g="0" b="0" a="255"/>
             <text>holzbläser phrasen</text>
             </StaffText>
+          <StaffText>
+            <size>8</size>
+            <offset x="31.122" y="-2.00714"/>
+            <text>tight grip, seal with lips</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -4085,6 +4096,11 @@
           <BarLine>
             <span>0</span>
             </BarLine>
+          <StaffText>
+            <size>8</size>
+            <offset x="-3.32515" y="-2.56368"/>
+            <text>grip further apart</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Stem>
