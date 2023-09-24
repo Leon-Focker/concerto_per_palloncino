@@ -417,7 +417,6 @@
           <program value="68"/>
           <controller ctrl="10" value="40"/>
           <synti>Fluid</synti>
-          <mute>1</mute>
           <midiPort>0</midiPort>
           <midiChannel>1</midiChannel>
           </Channel>
@@ -1594,7 +1593,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00237407</lineWidth>
+                  <lineWidth>0.00166185</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -1796,7 +1795,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00237407</lineWidth>
+                  <lineWidth>0.00166185</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -1992,7 +1991,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.12005</lineWidth>
+                  <lineWidth>0.084035</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -2180,9 +2179,6 @@
         </Measure>
       <Measure>
         <stretch>0.9</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2526,7 +2522,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00237407</lineWidth>
+                  <lineWidth>0.35</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -3382,7 +3378,7 @@
               <tpc>13</tpc>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.245</lineWidth>
+                  <lineWidth>0.1715</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -4134,14 +4130,9 @@
                   <lineWidth>0.5</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
-                    <subtype>1</subtype>
+                    <subtype>0</subtype>
                     <offset x="-2.33098" y="0"/>
                     <off2 x="10.4766" y="0"/>
-                    </Segment>
-                  <Segment>
-                    <subtype>3</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="0" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -7061,56 +7052,9 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
           <BarLine>
             </BarLine>
           </voice>
@@ -7122,6 +7066,10 @@ then let balloon go, so it flies away
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -7182,14 +7130,9 @@ then let balloon go, so it flies away
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -7207,16 +7150,36 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            <Note>
+              <Symbol>
+                <name>stringsHarmonic</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <Symbol>
+                <name>stringsHarmonic</name>
+                <font>Bravura</font>
+                <offset x="0" y="-2"/>
+                </Symbol>
+              <Image>
+                <offset x="0.125136" y="-7.46764"/>
+                <path>3c4455fc152192bc6fe17a560d8c0c6f.svg</path>
+                <linkPath>C:/Users/leonf/Desktop/Oboe_doppelflageolett_a5.svg</linkPath>
+                <size w="6.54791" h="8.73055"/>
+                </Image>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -7235,6 +7198,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -7243,6 +7207,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Tuplet>
@@ -7266,6 +7231,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -7294,6 +7260,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -7302,6 +7269,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -7323,6 +7291,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Rest>
@@ -7334,6 +7303,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <endTuplet/>
@@ -7343,6 +7313,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -7351,6 +7322,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -7359,6 +7331,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -7367,6 +7340,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <Chord>
@@ -7375,6 +7349,7 @@ then let balloon go, so it flies away
             <Note>
               <pitch>81</pitch>
               <tpc>17</tpc>
+              <play>0</play>
               </Note>
             </Chord>
           <BarLine>
@@ -9179,9 +9154,64 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <endTuplet/>
           <BarLine>
             </BarLine>
           </voice>
@@ -9210,11 +9240,6 @@ then let balloon go, so it flies away
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>still woodwinds...</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -9464,12 +9489,6 @@ then let balloon go, so it flies away
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <Image>
-            <offset x="-0.11056" y="-3.46628"/>
-            <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
-            <linkPath>../Instrumental/Oboe/Notation/M.svg</linkPath>
-            <size w="1.90898" h="1.90898"/>
-            </Image>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -9499,8 +9518,8 @@ then let balloon go, so it flies away
                     </location>
                   </next>
                 </Spanner>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
@@ -9527,6 +9546,11 @@ then let balloon go, so it flies away
               <tpc>20</tpc>
               </Note>
             <Note>
+              <Image>
+                <offset x="1.32567" y="-8.83296"/>
+                <path>d20eb460970729c8b7a8528f1e1d55a8.svg</path>
+                <linkPath>bassoon_mult_5_4221.svg</linkPath>
+                </Image>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -9534,8 +9558,8 @@ then let balloon go, so it flies away
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
@@ -10035,13 +10059,6 @@ then let balloon go, so it flies away
           <BarLine>
             <span>1</span>
             </BarLine>
-          <StaffText>
-            <offset x="8.8841" y="-3.76754"/>
-            <frameType>1</frameType>
-            <text>if not quiet enough,
-choose other multiphonics
-</text>
-            </StaffText>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -10055,27 +10072,30 @@ choose other multiphonics
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Image>
-                <offset x="1.77787" y="-5.23639"/>
-                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
-                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
-                <size w="2.40714" h="2.40714"/>
-                </Image>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-8.82254" y="-6.87005"/>
+                <path>f5dcadadd7e4752922c2e848f74e4bae.svg</path>
+                <linkPath>bassoon_mult_1_2446.svg</linkPath>
+                <size w="11.0562" h="8.29215"/>
+                </Image>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             </Chord>
           <BarLine>
@@ -10090,54 +10110,58 @@ choose other multiphonics
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Image>
-                <offset x="1.77787" y="-5.23639"/>
-                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
-                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
-                <size w="2.40714" h="2.40714"/>
-                </Image>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <small>1</small>
-              </Note>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <small>1</small>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <Image>
-                <offset x="1.77787" y="-5.23639"/>
-                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
-                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
-                <size w="2.40714" h="2.40714"/>
-                </Image>
-              <pitch>48</pitch>
+              <pitch>60</pitch>
               <tpc>14</tpc>
-              </Note>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>66</pitch>
-              <tpc>8</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               <small>1</small>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <Image>
+                <offset x="-0.0820188" y="-10.0196"/>
+                <path>353d198694394568fb13c170d8aa4349.svg</path>
+                <linkPath>bassoon_mult_3_4063.svg</linkPath>
+                <size w="10.1111" h="7.58333"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <small>1</small>
+              </Note>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <small>1</small>
+              <play>0</play>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <small>1</small>
+              <play>0</play>
               </Note>
             </Chord>
           <Rest>
@@ -10149,29 +10173,39 @@ choose other multiphonics
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Image>
-                <offset x="1.77787" y="-5.23639"/>
-                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
-                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
-                <size w="2.40714" h="2.40714"/>
-                </Image>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             </Chord>
+          <Image>
+            <autoplace>0</autoplace>
+            <offset x="-7.81456" y="-7.5399"/>
+            <path>0b5fa169464d0175f81fef93b9985018.svg</path>
+            <linkPath>bassoon_mult_4_2844.svg</linkPath>
+            <size w="9.91629" h="7.43721"/>
+            </Image>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -10186,26 +10220,59 @@ choose other multiphonics
             <durationType>quarter</durationType>
             <Note>
               <Image>
-                <offset x="1.77787" y="-5.23639"/>
-                <path>49ef0076d6646ba9c6584a31d29232cd.svg</path>
-                <linkPath>E:/Instrumental/Oboe/Notation/M.svg</linkPath>
-                <size w="2.40714" h="2.40714"/>
+                <autoplace>0</autoplace>
+                <offset x="-9.52623" y="-10.8283"/>
+                <path>f5dcadadd7e4752922c2e848f74e4bae.svg</path>
+                <linkPath>bassoon_mult_1_2446.svg</linkPath>
+                <size w="11.0562" h="8.29215"/>
                 </Image>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               <small>1</small>
+              <play>0</play>
               </Note>
             </Chord>
           <BarLine>
@@ -10214,9 +10281,50 @@ choose other multiphonics
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -18740,6 +18848,10 @@ as possible, creating a dense
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <size>8</size>
+            <text>tiefste Saite auf C</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -20552,6 +20664,18 @@ as possible, creating a dense
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>eighth</durationType>
+            <acciaccatura/>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -30756,6 +30880,11 @@ as possible, creating a dense
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -32103,13 +32232,13 @@ fingernail close to bridge
               <subtype>15ma</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="-2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="-2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -33747,13 +33876,13 @@ fingernail close to bridge
               <subtype>22mb</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -35201,43 +35330,8 @@ of the strings
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -36120,13 +36214,13 @@ of the strings
               <subtype>22mb</subtype>
               <visible>0</visible>
               <Segment>
-                <subtype>1</subtype>
+                <subtype>3</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
                 </Segment>
               <Segment>
-                <subtype>3</subtype>
+                <subtype>1</subtype>
                 <offset x="0" y="2"/>
                 <off2 x="0" y="0"/>
                 <visible>0</visible>
@@ -37993,129 +38087,9 @@ of the strings
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <channelSwitch voice="0" name="pizzicato"/>
-            <channelSwitch voice="1" name="pizzicato"/>
-            <channelSwitch voice="2" name="pizzicato"/>
-            <channelSwitch voice="3" name="pizzicato"/>
-            <visible>0</visible>
-            <text>pizz.</text>
-            </StaffText>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>eighth</durationType>
-            <Image>
-              <autoplace>0</autoplace>
-              <offset x="-7.65" y="-4.13"/>
-              <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
-              <linkPath>../Notation/Kontaktstelle.svg</linkPath>
-              <size w="5.75479" h="8.13715"/>
-              </Image>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            </Dynamic>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>weg?</text>
-            </StaffText>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <StaffText>
-            <channelSwitch voice="0" name="arco"/>
-            <channelSwitch voice="1" name="arco"/>
-            <channelSwitch voice="2" name="arco"/>
-            <channelSwitch voice="3" name="arco"/>
-            <visible>0</visible>
-            <text>Arco</text>
-            </StaffText>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -39346,7 +39320,7 @@ touch strings with stick
             <Note>
               <Image>
                 <autoplace>0</autoplace>
-                <offset x="-8.62" y="-3.53"/>
+                <offset x="-9.62" y="-3.53"/>
                 <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                 <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                 <size w="8.46954" h="11.9757"/>
