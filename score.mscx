@@ -13,7 +13,6 @@
       <pageEvenLeftMargin>0.592913</pageEvenLeftMargin>
       <staffDistance>5.5</staffDistance>
       <akkoladeDistance>3.5</akkoladeDistance>
-      <createMultiMeasureRests>1</createMultiMeasureRests>
       <Spatium>1.75</Spatium>
       </Style>
     <showInvisible>0</showInvisible>
@@ -632,6 +631,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <bracket type="2" span="4" col="1"/>
         <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
@@ -1594,7 +1594,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00484504</lineWidth>
+                  <lineWidth>0.00237407</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -1796,7 +1796,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00484504</lineWidth>
+                  <lineWidth>0.00237407</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -1992,7 +1992,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.245</lineWidth>
+                  <lineWidth>0.12005</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -2526,7 +2526,7 @@
               <play>0</play>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.00484504</lineWidth>
+                  <lineWidth>0.00237407</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -3382,7 +3382,7 @@
               <tpc>13</tpc>
               <Spanner type="TextLine">
                 <TextLine>
-                  <lineWidth>0.5</lineWidth>
+                  <lineWidth>0.245</lineWidth>
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
@@ -4839,9 +4839,46 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <offset x="2.85886" y="-5.35293"/>
+            <frameType>1</frameType>
+            <text>let air out slowly, try to get as 
+many 'multiphonics' as possible
+</text>
+            </StaffText>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>5/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -4850,9 +4887,32 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-5/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -13535,145 +13595,8 @@ choose other multiphonics
       <Measure>
         <voice>
           <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -13682,40 +13605,8 @@ choose other multiphonics
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -13743,63 +13634,10 @@ choose other multiphonics
         </Measure>
       <Measure>
         <voice>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <endTuplet/>
           <BarLine>
             </BarLine>
           </voice>
@@ -13807,78 +13645,19 @@ choose other multiphonics
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <endTuplet/>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <endTuplet/>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -19559,53 +19338,8 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -19624,35 +19358,8 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -19660,19 +19367,19 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -21879,29 +21586,202 @@ as possible, creating a dense
         <voice>
           <BarLine>
             </BarLine>
+          <Dynamic>
+            <subtype>ppp</subtype>
+            <velocity>16</velocity>
+            <visible>0</visible>
+            </Dynamic>
+          <StaffText>
+            <offset x="9.14312" y="-2.11957"/>
+            <text>s.t.</text>
+            </StaffText>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <hairpinCircledTip>1</hairpinCircledTip>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <endText>&gt;</endText>
+                  <lineWidth>0.105</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-0.511157" y="-7.4309"/>
+                    <off2 x="0" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <hairpinCircledTip>1</hairpinCircledTip>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            <Tremolo>
+              <subtype>r16</subtype>
+              </Tremolo>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
+          <Dynamic>
+            <subtype>ppp</subtype>
+            <velocity>16</velocity>
+            <visible>0</visible>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -21948,6 +21828,21 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="0" y="-3"/>
                 </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-5/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -21958,46 +21853,314 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-3"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>5/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-2.5"/>
+                </Symbol>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-2"/>
+                </Symbol>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-3"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3"/>
+                </Symbol>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-9" y="-4.63"/>
+                <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                <size w="5.75479" h="8.13715"/>
+                </Image>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-2"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-2.5"/>
+                </Symbol>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-1"/>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1.5"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-1.5"/>
+                </Symbol>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-3"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3"/>
+                </Symbol>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -24896,10 +25059,25 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowBlackDown</name>
                 <font>Bravura</font>
-                <offset x="0" y="-3"/>
+                <offset x="0" y="-3.5"/>
                 </Symbol>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-5/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <BarLine>
@@ -24908,49 +25086,237 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-3.5"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>5/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-2.5"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-2.5"/>
+                </Symbol>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-9" y="-4.13"/>
+                <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                <size w="5.75479" h="8.13715"/>
+                </Image>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-3"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3"/>
+                </Symbol>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-1"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-1"/>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>1</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="-0.124396" y="-8.08575"/>
+                    </Segment>
+                  <Segment>
+                    <subtype>3</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="0" y="0"/>
+                    </Segment>
+                  </Glissando>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-3"/>
+                </Symbol>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-2" y="-3"/>
+                </Symbol>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-9" y="-4.63"/>
+                <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                <size w="5.75479" h="8.13715"/>
+                </Image>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
@@ -27537,11 +27903,6 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>art des kratzens durchmischen (umwicklung vorwegnehmen)</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -27898,6 +28259,18 @@ as possible, creating a dense
                   <offset x="2.89949" y="1.64566"/>
                   <diagonal>1</diagonal>
                   <anchor>3</anchor>
+                  <Segment>
+                    <subtype>1</subtype>
+                    <offset x="0" y="1.64566"/>
+                    <off2 x="0" y="0"/>
+                    <offset x="0" y="1.64566"/>
+                    </Segment>
+                  <Segment>
+                    <subtype>3</subtype>
+                    <offset x="0" y="1.64566"/>
+                    <off2 x="0" y="0"/>
+                    <offset x="0" y="1.64566"/>
+                    </Segment>
                   </Glissando>
                 <next>
                   <location>
@@ -30244,9 +30617,100 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <StaffText>
+            <offset x="5.47343" y="-1"/>
+            <text>s.t.</text>
+            </StaffText>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalQuarterToneSharpStein</subtype>
+                </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <tuning>50</tuning>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalQuarterToneSharpStein</subtype>
+                </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <tuning>50</tuning>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalQuarterToneSharpStein</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <tuning>50</tuning>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -30254,39 +30718,56 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalQuarterToneSharpStein</subtype>
+                </Accidental>
+              <Symbol>
+                <name>arrowBlackDown</name>
+                <font>Bravura</font>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <tuning>50</tuning>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -30526,6 +31007,18 @@ as possible, creating a dense
                   <offset x="-38.1274" y="0.621981"/>
                   <diagonal>1</diagonal>
                   <anchor>3</anchor>
+                  <Segment>
+                    <subtype>1</subtype>
+                    <offset x="0" y="0.621981"/>
+                    <off2 x="0" y="0"/>
+                    <offset x="0" y="0.621981"/>
+                    </Segment>
+                  <Segment>
+                    <subtype>3</subtype>
+                    <offset x="0" y="0.621981"/>
+                    <off2 x="0" y="0"/>
+                    <offset x="0" y="0.621981"/>
+                    </Segment>
                   </Glissando>
                 <next>
                   <location>
@@ -35391,18 +35884,123 @@ of the strings
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <StaffText>
+            <offset x="-1.97908" y="-3.7792"/>
+            <frameType>1</frameType>
+            <text>on wrapped part
+of the strings
+</text>
+            </StaffText>
+          <Rest>
+            <durationType>quarter</durationType>
+            <Image>
+              <autoplace>0</autoplace>
+              <offset x="-8.62" y="-6.53"/>
+              <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+              <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+              <size w="8.46954" h="11.9757"/>
+              </Image>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>15mb</subtype>
+              <visible>0</visible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-11/16</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>11/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -38106,16 +38704,13 @@ touch strings with stick
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <visible>0</visible>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
                 </Accidental>
               <Symbol>
                 <name>arrowBlackDown</name>
                 <font>Bravura</font>
                 <offset x="0" y="-4"/>
-                <visible>0</visible>
                 </Symbol>
               <pitch>32</pitch>
               <tpc>10</tpc>
@@ -38126,8 +38721,8 @@ touch strings with stick
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="-0.227962" y="-4.7831"/>
-                    <off2 x="-4.46816" y="0"/>
+                    <offset x="2.15476" y="-4.7831"/>
+                    <off2 x="-6.85089" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -38239,18 +38834,28 @@ touch strings with stick
               </Note>
             </Chord>
           <endTuplet/>
-          <Rest>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <visible>0</visible>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <durationType>eighth</durationType>
-            </Rest>
+            <Note>
+              <visible>0</visible>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -38686,30 +39291,70 @@ touch strings with stick
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>15mb</subtype>
+              <visible>0</visible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>whole</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalQuarterToneSharpStein</subtype>
-                </Accidental>
-              <pitch>29</pitch>
-              <tpc>13</tpc>
-              <tuning>50</tuning>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-8.62" y="-3.53"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <BarLine>
             </BarLine>
           </voice>
@@ -38726,51 +39371,70 @@ touch strings with stick
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Ottava">
+            <Ottava>
+              <subtype>15mb</subtype>
+              <visible>0</visible>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </Ottava>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Image>
+                <autoplace>0</autoplace>
+                <offset x="-10.12" y="-3.53"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>saitenhalter?</text>
-            </StaffText>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          <Spanner type="Ottava">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
