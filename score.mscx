@@ -15,7 +15,7 @@
       <akkoladeDistance>3.5</akkoladeDistance>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -9420,10 +9420,16 @@ then let balloon go, so it flies away
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="-3.1999" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
-                <fractions>13/20</fractions>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -9503,13 +9509,6 @@ then let balloon go, so it flies away
               <tuning>50</tuning>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-13/20</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -9529,6 +9528,14 @@ then let balloon go, so it flies away
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -11670,13 +11677,13 @@ then let balloon go, so it flies away
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -16329,13 +16336,13 @@ as possible, creating a dense
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -18667,9 +18674,25 @@ as possible, creating a dense
           <BarLine>
             </BarLine>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -18677,9 +18700,21 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -23864,6 +23899,7 @@ as possible, creating a dense
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
+            <offset x="-1.67127" y="2.71102"/>
             </Dynamic>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -29640,6 +29676,7 @@ as possible, creating a dense
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
+            <offset x="-1.481" y="3.07185"/>
             </Dynamic>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -34926,6 +34963,7 @@ of the strings
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
+            <offset x="-1.71778" y="3.23631"/>
             </Dynamic>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -37545,6 +37583,7 @@ of the strings
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
+            <offset x="-1.53593" y="2.92186"/>
             </Dynamic>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -38117,10 +38156,6 @@ of the strings
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -38135,7 +38170,7 @@ of the strings
             <span>1</span>
             </BarLine>
           <StaffText>
-            <offset x="23.9796" y="-3.76754"/>
+            <offset x="22.0515" y="-3.76754"/>
             <frameType>1</frameType>
             <text>pizz. on lowest string,
 touch strings with stick
