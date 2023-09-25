@@ -11839,10 +11839,7 @@ then let balloon go, so it flies away
               </Spanner>
             </Rest>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <span>0</span>
@@ -16087,8 +16084,8 @@ as possible, creating a dense
               </Pedal>
             <next>
               <location>
-                <measures>2</measures>
-                <fractions>-9/16</fractions>
+                <measures>3</measures>
+                <fractions>-15/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -16215,32 +16212,24 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Spanner type="Pedal">
             <prev>
               <location>
-                <measures>-2</measures>
-                <fractions>9/16</fractions>
+                <measures>-3</measures>
+                <fractions>15/16</fractions>
                 </location>
               </prev>
             </Spanner>
           <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -16293,15 +16282,46 @@ as possible, creating a dense
           <Rest>
             <durationType>half</durationType>
             </Rest>
-          <Rest>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>pictDamp1</name>
+                <font>Bravura</font>
+                <offset x="-1.5" y="0"/>
+                </Symbol>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-0.470188" y="0"/>
+                    <off2 x="7.36628" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
           <StaffText>
             <offset x="0.0558806" y="-2.11646"/>
             <frameType>1</frameType>
             <text>dampen strings for player 1</text>
             </StaffText>
           <Rest>
+            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -16311,6 +16331,7 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -16321,9 +16342,32 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -16517,10 +16561,7 @@ as possible, creating a dense
               </Spanner>
             </Rest>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             </BarLine>
@@ -19111,10 +19152,7 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
@@ -25477,10 +25515,6 @@ as possible, creating a dense
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            </Dynamic>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -25496,6 +25530,10 @@ as possible, creating a dense
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -28090,10 +28128,6 @@ as possible, creating a dense
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            </Dynamic>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -28106,6 +28140,10 @@ as possible, creating a dense
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -29668,10 +29706,7 @@ as possible, creating a dense
             <text>Arco</text>
             </StaffText>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Dynamic>
             <subtype>f</subtype>
@@ -30945,15 +30980,12 @@ as possible, creating a dense
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -31937,12 +31969,6 @@ as possible, creating a dense
             </Rest>
           <BarLine>
             </BarLine>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -33767,15 +33793,12 @@ fingernail close to bridge
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -36175,14 +36198,7 @@ of the strings
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            </Dynamic>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -36190,6 +36206,10 @@ of the strings
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -37575,10 +37595,7 @@ of the strings
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Dynamic>
             <subtype>f</subtype>
