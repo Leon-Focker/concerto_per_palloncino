@@ -15,7 +15,7 @@
       <akkoladeDistance>3.5</akkoladeDistance>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -10452,7 +10452,6 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <BarLine>
-            <span>0</span>
             </BarLine>
           <Rest>
             <durationType>measure</durationType>
@@ -10488,7 +10487,6 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <BarLine>
-            <span>0</span>
             </BarLine>
           <Rest>
             <durationType>measure</durationType>
@@ -13755,6 +13753,7 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13765,6 +13764,7 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13775,6 +13775,7 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13785,6 +13786,7 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13794,6 +13796,9 @@ then let balloon go, so it flies away
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13807,6 +13812,7 @@ then let balloon go, so it flies away
             </Rest>
           <BarLine>
             <subtype>end</subtype>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -19802,11 +19808,16 @@ as possible, creating a dense
             <durationType>half</durationType>
             </Rest>
           <StaffText>
+            <autoplace>0</autoplace>
             <placement>below</placement>
             <size>8</size>
-            <offset x="0.277061" y="1.76029"/>
+            <offset x="-0.966901" y="1.4493"/>
             <text>I</text>
             </StaffText>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Spanner type="Ottava">
             <Ottava>
               <subtype>15ma</subtype>
@@ -19890,6 +19901,14 @@ as possible, creating a dense
               <size w="5.75479" h="8.13715"/>
               </Image>
             </Rest>
+          <StaffText>
+            <channelSwitch voice="0" name="pizzicato"/>
+            <channelSwitch voice="1" name="pizzicato"/>
+            <channelSwitch voice="2" name="pizzicato"/>
+            <channelSwitch voice="3" name="pizzicato"/>
+            <visible>0</visible>
+            <text>pizz.</text>
+            </StaffText>
           <Beam>
             <distribute>1</distribute>
             </Beam>
@@ -20480,6 +20499,14 @@ as possible, creating a dense
               <head>cross</head>
               </Note>
             </Chord>
+          <StaffText>
+            <channelSwitch voice="0" name="arco"/>
+            <channelSwitch voice="1" name="arco"/>
+            <channelSwitch voice="2" name="arco"/>
+            <channelSwitch voice="3" name="arco"/>
+            <visible>0</visible>
+            <text>Arco</text>
+            </StaffText>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -26262,6 +26289,14 @@ as possible, creating a dense
               <size w="5.75479" h="8.13715"/>
               </Image>
             </Rest>
+          <StaffText>
+            <channelSwitch voice="0" name="pizzicato"/>
+            <channelSwitch voice="1" name="pizzicato"/>
+            <channelSwitch voice="2" name="pizzicato"/>
+            <channelSwitch voice="3" name="pizzicato"/>
+            <visible>0</visible>
+            <text>pizz.</text>
+            </StaffText>
           <Beam>
             <distribute>1</distribute>
             </Beam>
@@ -26652,24 +26687,12 @@ as possible, creating a dense
               <head>cross</head>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <durationType>16th</durationType>
-            <Note>
-              <offset x="0" y="-0.1"/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <Chord>
+            </Rest>
+          <Rest>
             <durationType>16th</durationType>
-            <Note>
-              <offset x="0" y="-0.1"/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
+            </Rest>
           <endTuplet/>
           <BarLine>
             </BarLine>
@@ -26681,6 +26704,14 @@ as possible, creating a dense
             <concertClefType>C3</concertClefType>
             <transposingClefType>C3</transposingClefType>
             </Clef>
+          <StaffText>
+            <channelSwitch voice="0" name="arco"/>
+            <channelSwitch voice="1" name="arco"/>
+            <channelSwitch voice="2" name="arco"/>
+            <channelSwitch voice="3" name="arco"/>
+            <visible>0</visible>
+            <text>Arco</text>
+            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -28244,8 +28275,8 @@ as possible, creating a dense
             <durationType>half</durationType>
             <Note>
               <visible>0</visible>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               <play>0</play>
               </Note>
             </Chord>
@@ -31011,8 +31042,8 @@ as possible, creating a dense
             <durationType>half</durationType>
             <Note>
               <visible>0</visible>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               <play>0</play>
               </Note>
             </Chord>
@@ -32398,6 +32429,14 @@ fingernail close to bridge
               <size w="5.75479" h="8.13715"/>
               </Image>
             </Rest>
+          <StaffText>
+            <channelSwitch voice="0" name="pizzicato"/>
+            <channelSwitch voice="1" name="pizzicato"/>
+            <channelSwitch voice="2" name="pizzicato"/>
+            <channelSwitch voice="3" name="pizzicato"/>
+            <visible>0</visible>
+            <text>pizz.</text>
+            </StaffText>
           <Beam>
             <distribute>1</distribute>
             </Beam>
@@ -32966,6 +33005,14 @@ fingernail close to bridge
             <durationType>quarter</durationType>
             </Rest>
           <endTuplet/>
+          <StaffText>
+            <channelSwitch voice="0" name="arco"/>
+            <channelSwitch voice="1" name="arco"/>
+            <channelSwitch voice="2" name="arco"/>
+            <channelSwitch voice="3" name="arco"/>
+            <visible>0</visible>
+            <text>Arco</text>
+            </StaffText>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -33872,7 +33919,7 @@ fingernail close to bridge
             <durationType>quarter</durationType>
             <Image>
               <autoplace>0</autoplace>
-              <offset x="-8.62" y="-6.53"/>
+              <offset x="-11.12" y="-6.53"/>
               <path>c7482df32e69971d9aff9fad8c680246.svg</path>
               <linkPath>../Notation/vor_der_brücke.svg</linkPath>
               <size w="8.46954" h="11.9757"/>
