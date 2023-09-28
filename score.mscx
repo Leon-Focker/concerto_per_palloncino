@@ -430,8 +430,8 @@
         </Staff>
       <trackName>Klarinette in B</trackName>
       <Instrument id="bb-clarinet">
-        <longName>Klarinette in B</longName>
-        <shortName>B Kl.</shortName>
+        <longName>Clarinet in B</longName>
+        <shortName>B Cl.</shortName>
         <trackName>Klarinette in B</trackName>
         <minPitchP>50</minPitchP>
         <maxPitchP>94</maxPitchP>
@@ -500,8 +500,9 @@
         </Staff>
       <trackName>Fagott</trackName>
       <Instrument id="bassoon">
-        <longName>Fagott</longName>
-        <shortName>Fgt.</shortName>
+        <longName>Bassoon
+</longName>
+        <shortName>Bsn.</shortName>
         <trackName>Fagott</trackName>
         <minPitchP>34</minPitchP>
         <maxPitchP>76</maxPitchP>
@@ -646,8 +647,8 @@
         </Staff>
       <trackName>Klavier 1</trackName>
       <Instrument id="piano">
-        <longName>Klavier 1 </longName>
-        <shortName>Klv. 1</shortName>
+        <longName>Piano 1</longName>
+        <shortName>Pno. 1</shortName>
         <trackName>Klavier</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
@@ -721,8 +722,8 @@
         </Staff>
       <trackName>Klavier 2</trackName>
       <Instrument id="piano">
-        <longName>Klavier 2</longName>
-        <shortName>Klv. 2</shortName>
+        <longName>Piano 2</longName>
+        <shortName>Pno. 2</shortName>
         <trackName>Klavier</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
@@ -795,8 +796,8 @@
         </Staff>
       <trackName>Harfe</trackName>
       <Instrument id="harp">
-        <longName>Harfe</longName>
-        <shortName>Hrf.</shortName>
+        <longName>Harp</longName>
+        <shortName>Hp.</shortName>
         <trackName>Harfe</trackName>
         <minPitchP>23</minPitchP>
         <maxPitchP>104</maxPitchP>
@@ -876,7 +877,7 @@
         </Staff>
       <trackName>Violine 1</trackName>
       <Instrument id="violin">
-        <longName>Violine 1</longName>
+        <longName>Violin 1</longName>
         <shortName>Vl. 1</shortName>
         <trackName>Violine</trackName>
         <minPitchP>55</minPitchP>
@@ -957,7 +958,7 @@
         </Staff>
       <trackName>Violine 2</trackName>
       <Instrument id="violin">
-        <longName>Violine 2</longName>
+        <longName>Violin 2</longName>
         <shortName>Vl. 2</shortName>
         <trackName>Violine</trackName>
         <minPitchP>55</minPitchP>
@@ -1040,8 +1041,8 @@
         </Staff>
       <trackName>Bratsche 1</trackName>
       <Instrument id="viola">
-        <longName>Bratsche 1</longName>
-        <shortName>Bra. 1</shortName>
+        <longName>Viola 1</longName>
+        <shortName>Vla. 1</shortName>
         <trackName>Bratsche</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>93</maxPitchP>
@@ -1123,8 +1124,8 @@
         </Staff>
       <trackName>Bratsche 2</trackName>
       <Instrument id="viola">
-        <longName>Bratsche 2</longName>
-        <shortName>Bra. 2</shortName>
+        <longName>Viola 2</longName>
+        <shortName>Vla. 2</shortName>
         <trackName>Bratsche</trackName>
         <minPitchP>48</minPitchP>
         <maxPitchP>93</maxPitchP>
@@ -1462,8 +1463,8 @@
         </Staff>
       <trackName>Kontrabass</trackName>
       <Instrument id="contrabass">
-        <longName>Kontrabass</longName>
-        <shortName>Kb.</shortName>
+        <longName>Double Bass</longName>
+        <shortName>Db.</shortName>
         <trackName>Kontrabass</trackName>
         <minPitchP>24</minPitchP>
         <maxPitchP>67</maxPitchP>
@@ -4452,6 +4453,10 @@
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -4473,6 +4478,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -4497,6 +4506,10 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -7028,168 +7041,19 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
           <Rest>
-            <durationType>16th</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -11622,6 +11486,10 @@ then let balloon go, so it flies away
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -13439,7 +13307,7 @@ then let balloon go, so it flies away
             <size>9</size>
             <offset x="-4.38842" y="-2.95995"/>
             <frameType>1</frameType>
-            <text>dampen with finger on different spots on the string, changes when indicated</text>
+            <text>dampen string with finger on different harmonics, changes when indicated</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -13539,9 +13407,46 @@ then let balloon go, so it flies away
             <durationType>eighth</durationType>
             </Rest>
           <endTuplet/>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
+          <StaffText>
+            <frameType>1</frameType>
+            <text>glide on string</text>
+            </StaffText>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <play>0</play>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
             <span>0</span>
             </BarLine>
@@ -16318,7 +16223,7 @@ as possible, creating a dense
           <StaffText>
             <offset x="0.0558806" y="-2.11646"/>
             <frameType>1</frameType>
-            <text>dampen strings for player 1</text>
+            <text>dampen strings for player 1 with palm</text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -18120,8 +18025,8 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="-0.5" y="0"/>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18151,8 +18056,8 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="-0.5" y="0"/>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18179,8 +18084,8 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="-0.5" y="0"/>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18207,8 +18112,8 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="-0.5" y="0"/>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18235,8 +18140,8 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="-0.5" y="0"/>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18262,8 +18167,8 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <offset x="-0.5" y="0"/>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18400,6 +18305,10 @@ as possible, creating a dense
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>32nd</durationType>
             <StemDirection>down</StemDirection>
@@ -18905,7 +18814,7 @@ as possible, creating a dense
             </TimeSig>
           <StaffText>
             <size>8</size>
-            <text>tiefste Saite auf C</text>
+            <text>tune lowest string to C</text>
             </StaffText>
           <Rest>
             <durationType>measure</durationType>
@@ -19223,6 +19132,10 @@ as possible, creating a dense
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -20612,6 +20525,11 @@ as possible, creating a dense
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <visible>0</visible>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -20640,43 +20558,39 @@ as possible, creating a dense
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <StaffText>
+            <offset x="-0.767965" y="-0.72074"/>
+            <text>c.l.b.</text>
+            </StaffText>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>pluckedSnapPizzicatoAbove</subtype>
-              <minDistance>-999</minDistance>
-              <offset x="0" y="1.5"/>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>pluckedSnapPizzicatoAbove</subtype>
-              <minDistance>-999</minDistance>
-              <offset x="0" y="1.5"/>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>pluckedSnapPizzicatoAbove</subtype>
-              <minDistance>-999</minDistance>
-              <offset x="0" y="1.5"/>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <StaffText>
@@ -21547,6 +21461,11 @@ as possible, creating a dense
             <channelSwitch voice="3" name="arco"/>
             <visible>0</visible>
             <text>Arco</text>
+            </StaffText>
+          <StaffText>
+            <minDistance>0.421571</minDistance>
+            <offset x="2.6644" y="-0.516888"/>
+            <text>vib.</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -23329,7 +23248,7 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-4"/>
                 </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -23352,7 +23271,7 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-4"/>
                 </Symbol>
               <Spanner type="Tie">
                 <Tie>
@@ -25093,6 +25012,10 @@ as possible, creating a dense
               </Note>
             </Chord>
           <endTuplet/>
+          <StaffText>
+            <offset x="2.6644" y="-1.44986"/>
+            <text>vib.</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -25117,6 +25040,10 @@ as possible, creating a dense
             <subtype>mp</subtype>
             <velocity>64</velocity>
             </Dynamic>
+          <StaffText>
+            <offset x="2.6644" y="-1.44986"/>
+            <text>vib.</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -26233,6 +26160,13 @@ as possible, creating a dense
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <StaffText>
+            <minDistance>0.193227</minDistance>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-10.8783" y="-0.611085"/>
+            <text>no pitch</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -26853,6 +26787,11 @@ as possible, creating a dense
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <visible>0</visible>
+            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
             <Articulation>
@@ -26897,43 +26836,39 @@ as possible, creating a dense
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <StaffText>
+            <offset x="-0.907595" y="-0.72074"/>
+            <text>c.l.b.</text>
+            </StaffText>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>pluckedSnapPizzicatoAbove</subtype>
-              <minDistance>-999</minDistance>
-              <offset x="0" y="1.5"/>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>pluckedSnapPizzicatoAbove</subtype>
-              <minDistance>-999</minDistance>
-              <offset x="0" y="1.5"/>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>pluckedSnapPizzicatoAbove</subtype>
-              <minDistance>-999</minDistance>
-              <offset x="0" y="1.5"/>
-              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           <StaffText>
@@ -29120,7 +29055,7 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-4.5"/>
                 </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -29143,7 +29078,7 @@ as possible, creating a dense
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-4.5"/>
                 </Symbol>
               <Spanner type="Tie">
                 <Tie>
@@ -29618,6 +29553,12 @@ as possible, creating a dense
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <StaffText>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-8.78385" y="-1.02997"/>
+            <text>no pitch</text>
+            </StaffText>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -30713,6 +30654,10 @@ as possible, creating a dense
             <subtype>mp</subtype>
             <velocity>64</velocity>
             </Dynamic>
+          <StaffText>
+            <offset x="2.6644" y="-1.44986"/>
+            <text>vib.</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -30820,7 +30765,7 @@ as possible, creating a dense
             <durationType>half</durationType>
             </Rest>
           <StaffText>
-            <offset x="5.47343" y="-1"/>
+            <offset x="4.21676" y="-1.04962"/>
             <text>s.t.</text>
             </StaffText>
           <Rest>
@@ -33989,10 +33934,11 @@ fingernail close to bridge
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <offset x="-6.81701" y="-4.0754"/>
+            <minDistance>0.148154</minDistance>
+            <offset x="-3.29855" y="-4.18381"/>
             <frameType>1</frameType>
-            <text>on wrapped part
-of the strings
+            <text>always on wrapped
+part of the strings
 </text>
             </StaffText>
           <Dynamic>
@@ -34462,7 +34408,7 @@ of the strings
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-5"/>
                 </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -34485,7 +34431,7 @@ of the strings
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-5"/>
                 </Symbol>
               <Spanner type="Tie">
                 <Tie>
@@ -34887,6 +34833,12 @@ of the strings
             <subtype>pp</subtype>
             <velocity>33</velocity>
             </Dynamic>
+          <StaffText>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-6.96866" y="-1.23659"/>
+            <text>no pitch</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -35784,6 +35736,10 @@ of the strings
         <voice>
           <BarLine>
             </BarLine>
+          <StaffText>
+            <offset x="2.6644" y="-1.44986"/>
+            <text>vib.</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -36325,6 +36281,14 @@ of the strings
             <subtype>p</subtype>
             <velocity>49</velocity>
             </Dynamic>
+          <StaffText>
+            <minDistance>0.148154</minDistance>
+            <offset x="-3.29855" y="-4.18381"/>
+            <frameType>1</frameType>
+            <text>always on wrapped
+part of the strings
+</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -37363,7 +37327,7 @@ of the strings
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-5"/>
                 </Symbol>
               <pitch>29</pitch>
               <tpc>13</tpc>
@@ -37386,7 +37350,7 @@ of the strings
               <Symbol>
                 <name>arrowWhiteDown</name>
                 <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
+                <offset x="0.25" y="-5"/>
                 </Symbol>
               <Spanner type="Tie">
                 <Tie>
@@ -37415,11 +37379,6 @@ of the strings
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
-              <Symbol>
-                <name>arrowWhiteDown</name>
-                <font>Bravura</font>
-                <offset x="0.25" y="-1"/>
-                </Symbol>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -37533,6 +37492,16 @@ of the strings
             <subtype>pp</subtype>
             <velocity>33</velocity>
             <visible>0</visible>
+            </Dynamic>
+          <StaffText>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="2.03748" y="-2.21683"/>
+            <text>noise</text>
+            </StaffText>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
             </Dynamic>
           <Chord>
             <durationType>whole</durationType>
@@ -38577,6 +38546,10 @@ touch strings with stick
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <offset x="2.6644" y="-1.44986"/>
+            <text>vib.</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -38609,6 +38582,10 @@ touch strings with stick
             <subtype>mp</subtype>
             <velocity>64</velocity>
             </Dynamic>
+          <StaffText>
+            <offset x="2.6644" y="-1.44986"/>
+            <text>vib.</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
