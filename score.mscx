@@ -13,6 +13,7 @@
       <pageEvenLeftMargin>0.592913</pageEvenLeftMargin>
       <staffDistance>5.5</staffDistance>
       <akkoladeDistance>3.5</akkoladeDistance>
+      <dividerLeft>1</dividerLeft>
       <Spatium>1.75</Spatium>
       </Style>
     <showInvisible>0</showInvisible>
@@ -3766,7 +3767,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="-9.37967" y="0"/>
-                    <off2 x="21.6542" y="0"/>
+                    <off2 x="21.4676" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3813,8 +3814,9 @@
               <lineStyle>2</lineStyle>
               <Segment>
                 <subtype>1</subtype>
-                <offset x="-2.90273" y="-2.8583"/>
-                <off2 x="0" y="0"/>
+                <offset x="-9.76372" y="-2.33053"/>
+                <off2 x="9.58779" y="0"/>
+                <minDistance>0.650611</minDistance>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
@@ -4233,7 +4235,6 @@ seal with lips
               <Spanner type="TextLine">
                 <TextLine>
                   <linkedMain/>
-                  <diagonal>1</diagonal>
                   <lineWidth>0.500063</lineWidth>
                   <anchor>3</anchor>
                   </TextLine>
@@ -4645,12 +4646,13 @@ seal with lips
               <font>Bravura</font>
               <autoplace>0</autoplace>
               <offset x="-15.5186" y="-1.07615"/>
+              <visible>0</visible>
               </Symbol>
             <Symbol>
               <name>mensuralNoteheadLongaBlack</name>
               <font>Bravura</font>
               <linkedMain/>
-              <offset x="-15.5166" y="-1.07601"/>
+              <offset x="-13.9773" y="-1.07601"/>
               </Symbol>
             </Rest>
           <BarLine>
@@ -5285,7 +5287,7 @@ maybe even 'multiphonics'
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="8.15678" y="0"/>
+                    <off2 x="8.54467" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
