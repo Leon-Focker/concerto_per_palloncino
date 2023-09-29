@@ -17200,9 +17200,9 @@ sound with almost no attacks
             </Chord>
           <StaffText>
             <linkedMain/>
-            <offset x="0.0558806" y="-2.11646"/>
+            <offset x="-0.100849" y="-2.74338"/>
             <frameType>1</frameType>
-            <text>dampen strings for player 1 with palm</text>
+            <text>dampen strings for Piano 1 with palm</text>
             </StaffText>
           <Rest>
             <linkedMain/>
@@ -34149,7 +34149,7 @@ note ends
             <size>8</size>
             <offset x="-21.5831" y="-3.66577"/>
             <frameType>1</frameType>
-            <text>imitate Balloon, use 
+            <text>imitate balloon, use 
 fingernail close to bridge
 </text>
             </StaffText>
@@ -60353,7 +60353,7 @@ sound with almost no attacks
               <linked>
                 </linked>
               <frameType>1</frameType>
-              <text>dampen strings for player 1 with palm</text>
+              <text>dampen strings for Piano 1 with palm</text>
               </StaffText>
             <Rest>
               <linked>
@@ -80985,7 +80985,7 @@ note ends
               <size>8</size>
               <offset x="-4.07548" y="-5.55624"/>
               <frameType>1</frameType>
-              <text>imitate Balloon, use 
+              <text>imitate balloon, use 
 fingernail close to bridge
 </text>
               </StaffText>
