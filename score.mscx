@@ -124,6 +124,7 @@
           <ledgerlines>0</ledgerlines>
           </StaffType>
         <hideWhenEmpty>1</hideWhenEmpty>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>atmen</trackName>
       <Instrument id="flute">
@@ -195,6 +196,7 @@
           </StaffType>
         <defaultConcertClef>G8va</defaultConcertClef>
         <defaultTransposingClef>G</defaultTransposingClef>
+        <barLineSpan>1</barLineSpan>
         <distOffset>-8</distOffset>
         </Staff>
       <trackName>Piccoloflöte</trackName>
@@ -414,7 +416,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="68"/>
-          <controller ctrl="10" value="40"/>
+          <controller ctrl="10" value="70"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>1</midiChannel>
@@ -484,6 +486,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="71"/>
+          <controller ctrl="10" value="85"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>2</midiChannel>
@@ -496,7 +499,6 @@
           <name>stdNormal</name>
           </StaffType>
         <defaultClef>F</defaultClef>
-        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Fagott</trackName>
       <Instrument id="bassoon">
@@ -554,6 +556,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="70"/>
+          <controller ctrl="10" value="97"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>3</midiChannel>
@@ -565,85 +568,17 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <barLineSpan>1</barLineSpan>
-        </Staff>
-      <show>0</show>
-      <trackName>Vibraphon</trackName>
-      <Instrument id="vibraphone">
-        <longName>Vibraphon</longName>
-        <shortName>Vib.</shortName>
-        <trackName>Vibraphon</trackName>
-        <minPitchP>48</minPitchP>
-        <maxPitchP>96</maxPitchP>
-        <minPitchA>53</minPitchA>
-        <maxPitchA>89</maxPitchA>
-        <instrumentId>pitched-percussion.vibraphone</instrumentId>
-        <singleNoteDynamics>0</singleNoteDynamics>
-        <Articulation>
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="staccatissimo">
-          <velocity>100</velocity>
-          <gateTime>33</gateTime>
-          </Articulation>
-        <Articulation name="staccato">
-          <velocity>100</velocity>
-          <gateTime>50</gateTime>
-          </Articulation>
-        <Articulation name="portato">
-          <velocity>100</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="tenuto">
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="marcato">
-          <velocity>120</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="sforzato">
-          <velocity>150</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="sforzatoStaccato">
-          <velocity>150</velocity>
-          <gateTime>50</gateTime>
-          </Articulation>
-        <Articulation name="marcatoStaccato">
-          <velocity>120</velocity>
-          <gateTime>50</gateTime>
-          </Articulation>
-        <Articulation name="marcatoTenuto">
-          <velocity>120</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Channel>
-          <program value="11"/>
-          <synti>Fluid</synti>
-          <midiPort>0</midiPort>
-          <midiChannel>4</midiChannel>
-          </Channel>
-        </Instrument>
-      </Part>
-    <Part>
-      <Staff id="9">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
-          </StaffType>
         <bracket type="2" span="4" col="1"/>
         <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <Staff id="10">
+      <Staff id="9">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
         <defaultClef>F</defaultClef>
         <hideWhenEmpty>1</hideWhenEmpty>
         <cutaway>1</cutaway>
-        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Klavier 1</trackName>
       <Instrument id="piano">
@@ -699,6 +634,7 @@
           </Articulation>
         <Channel>
           <program value="0"/>
+          <controller ctrl="10" value="29"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>5</midiChannel>
@@ -706,7 +642,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="11">
+      <Staff id="10">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -714,7 +650,7 @@
         <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <Staff id="12">
+      <Staff id="11">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -774,6 +710,7 @@
           </Articulation>
         <Channel>
           <program value="0"/>
+          <controller ctrl="10" value="35"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>6</midiChannel>
@@ -781,14 +718,14 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="13">
+      <Staff id="12">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
         <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <Staff id="14">
+      <Staff id="13">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -848,18 +785,21 @@
           </Articulation>
         <Channel>
           <program value="46"/>
+          <controller ctrl="10" value="16"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>7</midiChannel>
           </Channel>
         <Channel name="staccato">
           <program value="45"/>
+          <controller ctrl="10" value="16"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>8</midiChannel>
           </Channel>
         <Channel name="flageoletti">
           <program value="11"/>
+          <controller ctrl="10" value="16"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>10</midiChannel>
@@ -867,7 +807,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="15">
+      <Staff id="14">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -929,12 +869,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="10" value="2"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>11</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="2"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>12</midiChannel>
@@ -943,6 +885,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="2"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>13</midiChannel>
@@ -950,7 +893,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="16">
+      <Staff id="15">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1010,12 +953,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
+          <controller ctrl="10" value="127"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>14</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="127"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
           <midiChannel>15</midiChannel>
@@ -1024,6 +969,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="127"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>0</midiChannel>
@@ -1031,7 +977,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="17">
+      <Staff id="16">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1094,12 +1040,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="41"/>
+          <controller ctrl="10" value="108"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>1</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="108"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>2</midiChannel>
@@ -1108,6 +1056,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="108"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>3</midiChannel>
@@ -1115,7 +1064,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="18">
+      <Staff id="17">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1177,12 +1126,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="41"/>
+          <controller ctrl="10" value="104"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>4</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="104"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>5</midiChannel>
@@ -1191,6 +1142,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="104"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>6</midiChannel>
@@ -1198,7 +1150,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="19">
+      <Staff id="18">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1261,12 +1213,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="10" value="39"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>7</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="39"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>8</midiChannel>
@@ -1275,6 +1229,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="39"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>10</midiChannel>
@@ -1282,7 +1237,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="20">
+      <Staff id="19">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1344,12 +1299,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="10" value="35"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>11</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="45"/>
+          <controller ctrl="10" value="35"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>12</midiChannel>
@@ -1358,6 +1315,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="35"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>13</midiChannel>
@@ -1365,7 +1323,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="21">
+      <Staff id="20">
         <StaffType group="pitched">
           <name>stdNormal</name>
           <small>1</small>
@@ -1433,12 +1391,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="43"/>
+          <controller ctrl="10" value="18"/>
           <synti>Fluid</synti>
           <midiPort>2</midiPort>
           <midiChannel>3</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="32"/>
+          <controller ctrl="10" value="18"/>
           <synti>Fluid</synti>
           <midiPort>2</midiPort>
           <midiChannel>4</midiChannel>
@@ -1447,6 +1407,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="18"/>
           <synti>Fluid</synti>
           <midiPort>2</midiPort>
           <midiChannel>5</midiChannel>
@@ -1454,7 +1415,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="22">
+      <Staff id="21">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1519,12 +1480,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="43"/>
+          <controller ctrl="10" value="29"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>14</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="32"/>
+          <controller ctrl="10" value="29"/>
           <synti>Fluid</synti>
           <midiPort>1</midiPort>
           <midiChannel>15</midiChannel>
@@ -1533,6 +1496,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
+          <controller ctrl="10" value="29"/>
           <synti>Fluid</synti>
           <midiPort>2</midiPort>
           <midiChannel>0</midiChannel>
@@ -1555,6 +1519,7 @@
         <stretch>0</stretch>
         <voice>
           <BarLine>
+            <span>0</span>
             <visible>0</visible>
             </BarLine>
           <TimeSig>
@@ -1582,7 +1547,7 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
+        <stretch>0.8</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -1595,6 +1560,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <RehearsalMark>
             <visible>0</visible>
@@ -1750,6 +1716,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <visible>0</visible>
             </BarLine>
           <Rest>
@@ -1831,6 +1798,7 @@
         <stretch>0.9</stretch>
         <voice>
           <BarLine>
+            <span>0</span>
             <visible>0</visible>
             </BarLine>
           <StaffText>
@@ -1877,6 +1845,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <bold>1</bold>
+            <color r="255" g="0" b="0" a="255"/>
+            <offset x="1.72402" y="-3.7529"/>
+            <text>Ballooon notation</text>
+            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2141,6 +2115,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <visible>0</visible>
             </BarLine>
           <Rest>
@@ -2276,7 +2251,6 @@
         <stretch>0.9</stretch>
         <voice>
           <BarLine>
-            <span>1</span>
             <spanFromOffset>-4</spanFromOffset>
             <spanToOffset>-2</spanToOffset>
             <visible>0</visible>
@@ -2625,7 +2599,6 @@
         <stretch>0.9</stretch>
         <voice>
           <BarLine>
-            <span>1</span>
             <visible>0</visible>
             </BarLine>
           <Chord>
@@ -2647,35 +2620,22 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <visible>0</visible>
               <Symbol>
                 <name>noteheadTriangleRightBlack</name>
                 <font>Bravura</font>
+                <offset x="-0.5" y="0"/>
                 </Symbol>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           <BarLine>
             <spanToOffset>1</spanToOffset>
             <visible>0</visible>
@@ -2717,6 +2677,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <visible>0</visible>
             </BarLine>
           <Chord>
@@ -2792,6 +2753,7 @@
         <stretch>0.8</stretch>
         <voice>
           <BarLine>
+            <span>0</span>
             <visible>0</visible>
             </BarLine>
           <Rest>
@@ -3035,7 +2997,6 @@
       <Measure>
         <voice>
           <BarLine>
-            <span>1</span>
             </BarLine>
           <TimeSig>
             <sigN>4</sigN>
@@ -3058,6 +3019,7 @@
               </Symbol>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3068,6 +3030,7 @@
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3094,7 +3057,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.59486" y="0"/>
+                    <off2 x="4.26229" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3124,6 +3087,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         <voice>
@@ -3176,6 +3140,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         <voice>
@@ -3232,6 +3197,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3284,6 +3250,7 @@
             <durationType>half</durationType>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3294,19 +3261,20 @@
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
-            <span>1</span>
             </BarLine>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3317,6 +3285,7 @@
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3339,6 +3308,7 @@
               </Symbol>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3350,6 +3320,10 @@
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -3387,7 +3361,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="5.02668" y="0"/>
+                    <off2 x="3.57532" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3432,6 +3406,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3526,13 +3501,13 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
-            <span>1</span>
             <spanToOffset>11</spanToOffset>
             </BarLine>
           <Chord>
@@ -3561,7 +3536,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="-9.37967" y="0"/>
-                    <off2 x="21.3217" y="0"/>
+                    <off2 x="21.6542" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3574,6 +3549,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3621,6 +3597,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3635,15 +3612,25 @@
               <lineStyle>2</lineStyle>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-3.90964" y="-2.70053"/>
+                <offset x="-2.90273" y="-2.8583"/>
                 <off2 x="0" y="0"/>
-                <minDistance>0.630185</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
                 <measures>1</measures>
                 <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -3686,6 +3673,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3722,6 +3710,18 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Stem>
@@ -3767,6 +3767,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -3795,12 +3796,14 @@
               </Symbol>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>11</spanFromOffset>
             <spanToOffset>-15</spanToOffset>
             </BarLine>
@@ -3813,13 +3816,13 @@
               <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.0879614" y="2.81925"/>
-                <off2 x="-46.6676" y="0"/>
+                <offset x="0" y="2"/>
+                <off2 x="-0.336577" y="0"/>
                 </Segment>
               </HairPin>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -3850,6 +3853,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-15</spanToOffset>
             </BarLine>
@@ -3862,6 +3866,13 @@
             <velocity>64</velocity>
             <offset x="-0.69815" y="3.45185"/>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -3872,6 +3883,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-14</spanToOffset>
             </BarLine>
@@ -3879,13 +3891,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -3940,6 +3945,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-14</spanToOffset>
             </BarLine>
@@ -3948,6 +3954,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>17</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -3999,6 +4006,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4016,6 +4024,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4052,6 +4061,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4060,6 +4070,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>17</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4091,8 +4102,8 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="4.6627" y="0"/>
+                    <offset x="-2.58316" y="0"/>
+                    <off2 x="5.75693" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -4105,6 +4116,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4180,6 +4192,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4188,6 +4201,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>17</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4248,13 +4262,6 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <offset x="4.60779" y="-8.67965"/>
-            <text>???</text>
-            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -4265,9 +4272,36 @@
                 </location>
               </next>
             </Spanner>
-          <Rest>
+          <Beam>
+            <visible>0</visible>
+            </Beam>
+          <Chord>
             <durationType>eighth</durationType>
-            </Rest>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-0.6661" y="0"/>
+                    <off2 x="6.34754" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
@@ -4279,10 +4313,26 @@
                 </location>
               </prev>
             </Spanner>
-          <Rest>
+          <Chord>
             <durationType>eighth</durationType>
-            </Rest>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4307,6 +4357,7 @@
               </Symbol>
             </Rest>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4315,6 +4366,7 @@
       <Measure>
         <voice>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>17</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4372,6 +4424,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4384,6 +4437,7 @@
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4430,6 +4484,7 @@
             </Chord>
           <endTuplet/>
           <BarLine>
+            <span>0</span>
             <spanFromOffset>4</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
             </BarLine>
@@ -4438,8 +4493,7 @@
       <Measure>
         <voice>
           <BarLine>
-            <span>1</span>
-            <spanToOffset>15</spanToOffset>
+            <spanToOffset>16</spanToOffset>
             </BarLine>
           <Rest>
             <durationType>quarter</durationType>
@@ -4456,6 +4510,8 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <minDistance>0.156388</minDistance>
+            <offset x="0.159659" y="5.51879"/>
             </Dynamic>
           <Chord>
             <durationType>16th</durationType>
@@ -4470,6 +4526,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4509,6 +4566,8 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <minDistance>0.0363408</minDistance>
+            <offset x="0.776027" y="6.66531"/>
             </Dynamic>
           <Chord>
             <durationType>16th</durationType>
@@ -4523,6 +4582,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4552,6 +4612,7 @@
               </Symbol>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4606,6 +4667,7 @@
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4652,6 +4714,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4662,6 +4725,7 @@
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4671,13 +4735,17 @@
             <minDistance>0.394257</minDistance>
             <offset x="5.32719" y="-4.6618"/>
             <frameType>1</frameType>
-            <text>let air out slowly, try to get as 
-many 'multiphonics' as possible
+            <text>lots of pitch variation,
+maybe even 'multiphonics'
 </text>
             </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Stem>
@@ -4710,6 +4778,7 @@ many 'multiphonics' as possible
             <durationType>half</durationType>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4743,6 +4812,7 @@ many 'multiphonics' as possible
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4753,6 +4823,7 @@ many 'multiphonics' as possible
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4782,21 +4853,27 @@ many 'multiphonics' as possible
               </Symbol>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <StaffText>
-            <offset x="-3.66322" y="-5.12014"/>
+            <minDistance>0.468483</minDistance>
+            <offset x="-1.14141" y="-4.73602"/>
             <frameType>1</frameType>
-            <text>let air out slowly, try to get as 
-many 'multiphonics' as possible
+            <text>lots of pitch variation,
+maybe even 'multiphonics'
 </text>
             </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Stem>
@@ -4845,6 +4922,7 @@ many 'multiphonics' as possible
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4885,6 +4963,7 @@ many 'multiphonics' as possible
               </Note>
             </Chord>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4937,6 +5016,7 @@ many 'multiphonics' as possible
             <leadingSpace>0.221649</leadingSpace>
             </Segment>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -4975,6 +5055,9 @@ many 'multiphonics' as possible
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5010,6 +5093,7 @@ then let balloon go, so it flies away
             </Chord>
           <BarLine>
             <subtype>end</subtype>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -6421,12 +6505,58 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <Chord>
+            <durationType>eighth</durationType>
+            <grace8after/>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Hook>
+              <name>flag8thUp</name>
+              <visible>0</visible>
+              </Hook>
+            <Note>
+              <visible>0</visible>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <text>gliss.</text>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <easeInSpin>100</easeInSpin>
+                  <visible>0</visible>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="0" y="0"/>
+                    <visible>0</visible>
+                    </Segment>
+                  </Glissando>
+                <next>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
+            <ChordLine>
+              <subtype>1</subtype>
+              </ChordLine>
             </Chord>
           <BarLine>
             </BarLine>
@@ -6436,37 +6566,119 @@ then let balloon go, so it flies away
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <grace8after/>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Hook>
+              <name>flag8thUp</name>
+              <visible>0</visible>
+              </Hook>
+            <Note>
+              <visible>0</visible>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <text>gliss.</text>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <easeInSpin>100</easeInSpin>
+                  <visible>0</visible>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="0" y="0"/>
+                    <visible>0</visible>
+                    </Segment>
+                  </Glissando>
+                <next>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             <ChordLine>
               <subtype>1</subtype>
               </ChordLine>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
+            <grace8after/>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Hook>
+              <name>flag8thUp</name>
+              <visible>0</visible>
+              </Hook>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>66</pitch>
-              <tpc>8</tpc>
+              <visible>0</visible>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
-            <ChordLine>
-              <subtype>1</subtype>
-              </ChordLine>
             </Chord>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <glissandoStyle>portamento</glissandoStyle>
+                  <easeInSpin>100</easeInSpin>
+                  <visible>0</visible>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="0" y="0"/>
+                    <visible>0</visible>
+                    </Segment>
+                  </Glissando>
+                <next>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
+            <ChordLine>
+              <subtype>1</subtype>
+              </ChordLine>
             </Chord>
           <Rest>
             <durationType>eighth</durationType>
@@ -6551,104 +6763,58 @@ then let balloon go, so it flies away
             <durationType>half</durationType>
             </Rest>
           <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
             <Number>
               <style>Tuplet</style>
-              <text>6</text>
+              <text>3</text>
               </Number>
             </Tuplet>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>eighth</durationType>
             <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <endTuplet/>
-          <Rest>
-            <durationType>32nd</durationType>
-            </Rest>
           <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>eighth</durationType>
             <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>32nd</durationType>
-            </Rest>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>eighth</durationType>
             <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <BarLine>
@@ -6659,138 +6825,6 @@ then let balloon go, so it flies away
         <voice>
           <BarLine>
             </BarLine>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <StaffText>
-            <bold>1</bold>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>Oboe</text>
-            </StaffText>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -6803,18 +6837,127 @@ then let balloon go, so it flies away
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>6</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>6</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <BarLine>
             </BarLine>
           </voice>
@@ -6822,29 +6965,8 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           <BarLine>
             </BarLine>
@@ -7115,432 +7237,29 @@ then let balloon go, so it flies away
           <BarLine>
             </BarLine>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Tuplet>
-            <normalNotes>8</normalNotes>
-            <actualNotes>9</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>9</text>
-              </Number>
-            </Tuplet>
           <Rest>
-            <dots>1</dots>
-            <durationType>16th</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>32nd</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
           <BarLine>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Tuplet>
-            <normalNotes>4</normalNotes>
-            <actualNotes>6</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>6</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              <play>0</play>
-              </Note>
-            </Chord>
-          <endTuplet/>
           <BarLine>
             </BarLine>
           </voice>
@@ -8316,6 +8035,20 @@ then let balloon go, so it flies away
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <tpc2>13</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <tpc2>20</tpc2>
@@ -8324,25 +8057,20 @@ then let balloon go, so it flies away
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <tpc2>15</tpc2>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              <tpc2>10</tpc2>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <tpc2>17</tpc2>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <tpc2>15</tpc2>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <tpc2>20</tpc2>
               </Note>
             </Chord>
           <BarLine>
@@ -8474,10 +8202,6 @@ then let balloon go, so it flies away
             <StemDirection>up</StemDirection>
             <Note>
               <visible>0</visible>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalQuarterToneSharpStein</subtype>
-                </Accidental>
               <Symbol>
                 <name>articAccentAbove</name>
                 <font>Bravura</font>
@@ -8486,7 +8210,6 @@ then let balloon go, so it flies away
               <pitch>71</pitch>
               <tpc>19</tpc>
               <tpc2>21</tpc2>
-              <tuning>50</tuning>
               </Note>
             </Chord>
           <Rest>
@@ -8547,9 +8270,12 @@ then let balloon go, so it flies away
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              <tpc2>15</tpc2>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <tpc2>14</tpc2>
               </Note>
             </Chord>
           <BarLine>
@@ -9181,6 +8907,7 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <TimeSig>
             <sigN>4</sigN>
@@ -9272,7 +8999,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9382,7 +9108,6 @@ then let balloon go, so it flies away
             <transposingClefType>C3</transposingClefType>
             </Clef>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9449,23 +9174,19 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalQuarterToneSharpStein</subtype>
-                </Accidental>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               <tuning>50</tuning>
               </Note>
             </Chord>
@@ -9476,7 +9197,6 @@ then let balloon go, so it flies away
             <durationType>half</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9487,7 +9207,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9498,7 +9217,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9509,31 +9227,19 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9544,7 +9250,16 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
             </BarLine>
           </voice>
         </Measure>
@@ -9585,7 +9300,6 @@ then let balloon go, so it flies away
               </Tremolo>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9613,14 +9327,18 @@ then let balloon go, so it flies away
             <durationType>half</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -9678,7 +9396,84 @@ then let balloon go, so it flies away
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
             </BarLine>
           </voice>
         </Measure>
@@ -9689,31 +9484,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9768,13 +9538,13 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Chord>
             <durationType>quarter</durationType>
@@ -9806,7 +9576,6 @@ then let balloon go, so it flies away
             <durationType>half</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9817,7 +9586,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9828,13 +9596,13 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Rest>
             <durationType>half</durationType>
@@ -9876,7 +9644,6 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -9946,7 +9713,6 @@ then let balloon go, so it flies away
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10055,13 +9821,13 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Chord>
             <durationType>quarter</durationType>
@@ -10109,7 +9875,6 @@ then let balloon go, so it flies away
             <durationType>half</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10120,20 +9885,19 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10144,13 +9908,13 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Rest>
             <durationType>quarter</durationType>
@@ -10189,7 +9953,6 @@ then let balloon go, so it flies away
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10200,7 +9963,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10211,31 +9973,19 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <BarLine>
+            <span>1</span>
             </BarLine>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10246,20 +9996,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10270,7 +10006,19 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
             </BarLine>
           </voice>
         </Measure>
@@ -10281,20 +10029,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10305,7 +10039,19 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
             </BarLine>
           </voice>
         </Measure>
@@ -10316,20 +10062,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10340,7 +10072,19 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
             </BarLine>
           </voice>
         </Measure>
@@ -10351,20 +10095,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -10375,7 +10105,29 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
             </BarLine>
           </voice>
         </Measure>
@@ -10390,477 +10142,11 @@ then let balloon go, so it flies away
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
       </Staff>
     <Staff id="8">
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
-          </voice>
-        </Measure>
-      </Staff>
-    <Staff id="9">
       <Measure>
         <voice>
           <BarLine>
@@ -10984,7 +10270,6 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11222,7 +10507,6 @@ then let balloon go, so it flies away
             </Chord>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11233,7 +10517,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11244,7 +10527,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11255,7 +10537,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11266,7 +10547,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11277,7 +10557,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11288,7 +10567,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11326,7 +10604,6 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11355,7 +10632,6 @@ then let balloon go, so it flies away
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11480,7 +10756,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11650,7 +10925,6 @@ then let balloon go, so it flies away
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11710,7 +10984,6 @@ then let balloon go, so it flies away
             <durationType>half</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11721,7 +10994,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -11732,7 +11004,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -12007,7 +11278,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -12504,7 +11774,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -12753,7 +12022,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13002,7 +12270,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13270,7 +12537,6 @@ then let balloon go, so it flies away
             </Rest>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13285,7 +12551,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13296,7 +12561,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13368,7 +12632,6 @@ then let balloon go, so it flies away
             </Chord>
           <endTuplet/>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13448,7 +12711,6 @@ then let balloon go, so it flies away
               </Note>
             </Chord>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13459,7 +12721,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13470,7 +12731,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13528,7 +12788,6 @@ then let balloon go, so it flies away
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13539,7 +12798,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13550,7 +12808,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13563,7 +12820,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13574,7 +12830,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13585,7 +12840,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13596,7 +12850,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13607,7 +12860,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13618,7 +12870,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13629,7 +12880,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13640,7 +12890,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13651,7 +12900,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13662,7 +12910,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13673,7 +12920,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13684,7 +12930,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13695,7 +12940,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13706,7 +12950,6 @@ then let balloon go, so it flies away
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -13721,7 +12964,476 @@ then let balloon go, so it flies away
             </Rest>
           <BarLine>
             <subtype>end</subtype>
-            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="9">
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <span>1</span>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
             </BarLine>
           </voice>
         </Measure>
@@ -13877,473 +13589,8 @@ then let balloon go, so it flies away
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
-          </voice>
-        </Measure>
-      </Staff>
-    <Staff id="11">
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <BarLine>
-            </BarLine>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <StaffText>
-            <offset x="-4.60266" y="-6.72793"/>
+            <offset x="-4.25358" y="-6.51848"/>
             <frameType>1</frameType>
             <text>hold each note for as long 
 as possible, creating a dense
@@ -15894,7 +15141,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="12">
+    <Staff id="11">
       <Measure>
         <voice>
           <BarLine>
@@ -16439,7 +15686,7 @@ as possible, creating a dense
               </Note>
             </Chord>
           <StaffText>
-            <offset x="-0.124396" y="-2.36836"/>
+            <offset x="0.124396" y="-1"/>
             <text>pedal right after note ends</text>
             </StaffText>
           <Spanner type="Pedal">
@@ -18001,7 +17248,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="13">
+    <Staff id="12">
       <Measure>
         <voice>
           <BarLine>
@@ -18802,7 +18049,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="14">
+    <Staff id="13">
       <Measure>
         <voice>
           <BarLine>
@@ -19505,7 +18752,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="15">
+    <Staff id="14">
       <Measure>
         <voice>
           <BarLine>
@@ -19881,6 +19128,7 @@ as possible, creating a dense
             <durationType>16th</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>56</track>
               <offset x="-10.15" y="-4.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
@@ -20751,12 +19999,6 @@ as possible, creating a dense
               <head>cross</head>
               </Note>
             </Chord>
-          <StaffText>
-            <bold>1</bold>
-            <italic>1</italic>
-            <color r="255" g="0" b="0" a="255"/>
-            <text>gedämpft?</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Stem>
@@ -21919,6 +21161,7 @@ as possible, creating a dense
             <durationType>quarter</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>56</track>
               <offset x="-9" y="-4.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
@@ -23224,7 +22467,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="16">
+    <Staff id="15">
       <Measure>
         <voice>
           <BarLine>
@@ -23456,11 +22699,8 @@ as possible, creating a dense
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <BarLine>
@@ -24364,6 +23604,7 @@ as possible, creating a dense
             <duration>4/4</duration>
             <Image>
               <autoplace>0</autoplace>
+              <track>60</track>
               <offset x="16" y="-3.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
@@ -25161,6 +24402,7 @@ as possible, creating a dense
             <durationType>quarter</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>60</track>
               <offset x="-9" y="-4.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
@@ -25687,7 +24929,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="17">
+    <Staff id="16">
       <Measure>
         <voice>
           <BarLine>
@@ -26291,6 +25533,7 @@ as possible, creating a dense
             <durationType>16th</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>64</track>
               <offset x="-10.15" y="-4.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
@@ -27750,6 +26993,12 @@ as possible, creating a dense
             <subtype>mp</subtype>
             <velocity>64</velocity>
             </Dynamic>
+          <StaffText>
+            <minDistance>-3.65333</minDistance>
+            <italic>1</italic>
+            <offset x="-6.03408" y="-0.813913"/>
+            <text>fragile</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -29031,7 +28280,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="18">
+    <Staff id="17">
       <Measure>
         <voice>
           <BarLine>
@@ -31782,7 +31031,7 @@ as possible, creating a dense
           </voice>
         </Measure>
       </Staff>
-    <Staff id="19">
+    <Staff id="18">
       <Measure>
         <voice>
           <BarLine>
@@ -31929,8 +31178,8 @@ as possible, creating a dense
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
               <tuning>50</tuning>
               </Note>
             </Chord>
@@ -31939,11 +31188,11 @@ as possible, creating a dense
             <Note>
               <Accidental>
                 <role>1</role>
-                <subtype>accidentalQuarterToneSharpStein</subtype>
+                <subtype>accidentalQuarterToneFlatStein</subtype>
                 </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <tuning>50</tuning>
+              <tuning>-50</tuning>
               <Spanner type="Glissando">
                 <Glissando>
                   <glissandoStyle>portamento</glissandoStyle>
@@ -31963,11 +31212,11 @@ as possible, creating a dense
             <Note>
               <Accidental>
                 <role>1</role>
-                <subtype>accidentalThreeQuarterTonesSharpStein</subtype>
+                <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
               <pitch>53</pitch>
               <tpc>13</tpc>
-              <tuning>150</tuning>
+              <tuning>50</tuning>
               <Spanner type="Glissando">
                 <Glissando>
                   <glissandoStyle>portamento</glissandoStyle>
@@ -32001,8 +31250,8 @@ as possible, creating a dense
                 <role>1</role>
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 </Accidental>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
               <tuning>50</tuning>
               <Spanner type="Glissando">
                 <prev>
@@ -32431,6 +31680,7 @@ fingernail close to bridge
             <durationType>16th</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>72</track>
               <offset x="-10.15" y="-4.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
@@ -33924,6 +33174,7 @@ fingernail close to bridge
             <durationType>quarter</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>72</track>
               <offset x="-11.12" y="-6.53"/>
               <path>c7482df32e69971d9aff9fad8c680246.svg</path>
               <linkPath>../Notation/vor_der_brücke.svg</linkPath>
@@ -34384,7 +33635,7 @@ part of the strings
           </voice>
         </Measure>
       </Staff>
-    <Staff id="20">
+    <Staff id="19">
       <Measure>
         <voice>
           <BarLine>
@@ -35389,7 +34640,6 @@ part of the strings
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -35400,7 +34650,6 @@ part of the strings
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -35411,7 +34660,6 @@ part of the strings
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <span>0</span>
             <spanToOffset>29</spanToOffset>
             <autoplace>0</autoplace>
             </BarLine>
@@ -35749,6 +34997,7 @@ part of the strings
                 <Symbol>
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
+                  <track>76</track>
                   <offset x="-26.7083" y="-147.08"/>
                   <z>499</z>
                   </Symbol>
@@ -36028,6 +35277,7 @@ of the strings
             <durationType>quarter</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>76</track>
               <offset x="-8.62" y="-6.53"/>
               <path>c7482df32e69971d9aff9fad8c680246.svg</path>
               <linkPath>../Notation/vor_der_brücke.svg</linkPath>
@@ -36271,6 +35521,7 @@ of the strings
             <durationType>quarter</durationType>
             <Image>
               <autoplace>0</autoplace>
+              <track>76</track>
               <offset x="-8.62" y="-6.53"/>
               <path>c7482df32e69971d9aff9fad8c680246.svg</path>
               <linkPath>../Notation/vor_der_brücke.svg</linkPath>
@@ -36629,7 +35880,7 @@ part of the strings
           </voice>
         </Measure>
       </Staff>
-    <Staff id="21">
+    <Staff id="20">
       <Measure>
         <voice>
           <TimeSig>
@@ -37302,7 +36553,7 @@ part of the strings
           </voice>
         </Measure>
       </Staff>
-    <Staff id="22">
+    <Staff id="21">
       <Measure>
         <voice>
           <BarLine>

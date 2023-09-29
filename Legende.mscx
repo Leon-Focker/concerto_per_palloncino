@@ -100,8 +100,7 @@
         <defaultConcertClef>G8va</defaultConcertClef>
         <defaultTransposingClef>G</defaultTransposingClef>
         <hideWhenEmpty>1</hideWhenEmpty>
-        <bracket type="0" span="2" col="0"/>
-        <bracket type="2" span="2" col="1"/>
+        <cutaway>1</cutaway>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Piccoloflöte</trackName>
@@ -178,6 +177,7 @@
         <defaultConcertClef>G8va</defaultConcertClef>
         <defaultTransposingClef>G</defaultTransposingClef>
         <hideWhenEmpty>1</hideWhenEmpty>
+        <distOffset>-4</distOffset>
         </Staff>
       <trackName>Piccoloflöte</trackName>
       <Instrument id="piccolo">
@@ -520,21 +520,28 @@
           <text>Balloon</text>
           </Text>
         </VBox>
+      <VBox>
+        <topGap>-7</topGap>
+        <bottomGap>11</bottomGap>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="0"/>
+          <text>The balloon should be a normal, medium sized, if possible colourful balloon. 
+It is mainly played by inflating it and then gripping the end (mouthpiece?) with both hands. By pulling the fingers apart, the mouthpiece
+should start to oscillate. It can then be modulated by both, the strength of the pull and the mouth of the player, by openinng and 
+closing it with their lips.
+</text>
+          </Text>
+        </VBox>
       <Measure>
         <measureNumberMode>2</measureNumberMode>
         <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -543,20 +550,37 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="-3"/>
+          <text>Inflate the balloon either fully or halfway, to prepare for the next passage</text>
+          </Text>
         </HBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure len="2/4">
         <measureNumberMode>2</measureNumberMode>
         <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <HBox>
@@ -564,6 +588,20 @@
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="-9.5"/>
+          <text>The lower system is always notated and shows when to open the mouthpiece with your fingers (the thick line)
+and how much (the notated dynamics).
+pp-mp - 'pure' sound
+mf-ff    - 'distorted' sound
+When the upper system is notated, the player should additionally enclose the mouthpiece with their mouth
+and then let the balloon sound according to the notated rhythm. 
+</text>
+          </Text>
         </HBox>
       <Measure len="1/4">
         <measureNumberMode>2</measureNumberMode>
@@ -584,7 +622,7 @@
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Percussive sound, pull balloon and let is snap back</text>
           </Text>
         </HBox>
@@ -740,12 +778,11 @@ Lowest not is most important.
           <text>Double harmonic (Oboe)</text>
           </Text>
         </HBox>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <measureNumberMode>2</measureNumberMode>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -761,7 +798,7 @@ Lowest not is most important.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Glissando with embouchure, before or after note
+          <text>Glissando with embouchure, before or after note, the curve of the line indicates 
 </text>
           </Text>
         </HBox>
@@ -1034,9 +1071,6 @@ will jump to another one mid glissando.
       <TBox>
         <height>1</height>
         <visible>0</visible>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <Text>
           <style>Frame</style>
           <text></text>
@@ -1118,26 +1152,73 @@ will jump to another one mid glissando.
         </Measure>
       <Measure>
         <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
           <Chord>
             <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
             <Note>
+              <visible>0</visible>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <StaffText>
+            <minDistance>-0.407595</minDistance>
+            <offset x="-8.02873" y="-0.687722"/>
             <text>inflate</text>
             </StaffText>
           <Rest>
+            <visible>0</visible>
             <durationType>quarter</durationType>
+            <Symbol>
+              <name>mensuralNoteheadLongaBlack</name>
+              <font>Bravura</font>
+              <autoplace>0</autoplace>
+              <offset x="-1.52621" y="-1.13372"/>
+              </Symbol>
             </Rest>
+          <StaffText>
+            <minDistance>-0.378597</minDistance>
+            <offset x="-2.90507" y="-0.71672"/>
+            <text>inflate</text>
+            </StaffText>
           <Rest>
+            <offset x="0.2962" y="0.1481"/>
+            <visible>0</visible>
             <durationType>quarter</durationType>
+            <Symbol>
+              <name>mensuralNoteheadLongaBlackVoid</name>
+              <font>Bravura</font>
+              <autoplace>0</autoplace>
+              <offset x="3.29438" y="-1.38438"/>
+              </Symbol>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure>
         <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="-2.72876" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Stem>
@@ -1153,8 +1234,77 @@ will jump to another one mid glissando.
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="7.7406" y="0"/>
+                    <offset x="-0.61573" y="0"/>
+                    <off2 x="4.74992" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            <offset x="2.7" y="2.5"/>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-1.57973" y="0"/>
+                    <off2 x="4.04265" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1232,11 +1382,10 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1464,6 +1613,14 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure len="2/4">
         <voice>
           <Rest>
@@ -1552,7 +1709,7 @@ will jump to another one mid glissando.
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <voice>
           <BarLine>
             <visible>0</visible>
@@ -1565,6 +1722,30 @@ will jump to another one mid glissando.
               </Note>
             <ChordLine>
               <subtype>4</subtype>
+              <straight>1</straight>
+              <offset x="0.07405" y="-0.8886"/>
+              </ChordLine>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <ChordLine>
+              <subtype>4</subtype>
+              </ChordLine>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <ChordLine>
+              <subtype>1</subtype>
+              <straight>1</straight>
+              <offset x="-0.320883" y="0.567717"/>
               </ChordLine>
             </Chord>
           <Chord>
@@ -1879,6 +2060,14 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure len="2/4">
         <voice>
           <Rest>
@@ -1970,10 +2159,10 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
