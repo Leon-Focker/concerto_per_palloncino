@@ -4038,11 +4038,6 @@ seal with lips
             <HairPin>
               <subtype>0</subtype>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-0.336577" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -4651,6 +4646,12 @@ seal with lips
               <autoplace>0</autoplace>
               <offset x="-15.5186" y="-1.07615"/>
               </Symbol>
+            <Symbol>
+              <name>mensuralNoteheadLongaBlack</name>
+              <font>Bravura</font>
+              <linkedMain/>
+              <offset x="-15.5166" y="-1.07601"/>
+              </Symbol>
             </Rest>
           <BarLine>
             <span>0</span>
@@ -5226,6 +5227,13 @@ maybe even 'multiphonics'
               <font>Bravura</font>
               <autoplace>0</autoplace>
               <offset x="-7.15817" y="-1.23417"/>
+              <visible>0</visible>
+              </Symbol>
+            <Symbol>
+              <name>mensuralNoteheadLongaBlackVoid</name>
+              <font>Bravura</font>
+              <linkedMain/>
+              <offset x="3.71651" y="-1.18729"/>
               </Symbol>
             </Rest>
           <BarLine>
@@ -14911,7 +14919,7 @@ then let balloon go, so it flies away
             <frameType>1</frameType>
             <text>hold each note for as long 
 as possible, creating a dense
- sound with almost no attacks
+sound with almost no attacks
 </text>
             </StaffText>
           <Rest>
@@ -17453,8 +17461,16 @@ as possible, creating a dense
             </Chord>
           <StaffText>
             <linkedMain/>
-            <offset x="0.124396" y="-1"/>
+            <offset x="-0.015234" y="-1.76738"/>
+            <frameType>1</frameType>
             <text>pedal right after note ends</text>
+            </StaffText>
+          <StaffText>
+            <linkedMain/>
+            <visible>0</visible>
+            <text>pedal right after
+note ends
+</text>
             </StaffText>
           <Spanner type="Pedal">
             <Pedal>
@@ -19899,6 +19915,12 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            <linkedMain/>
+            <offset x="-0.13963" y="3.8963"/>
+            </Dynamic>
           <Rest>
             <linkedMain/>
             <durationType>half</durationType>
@@ -22086,6 +22108,11 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>4</normalNotes>
@@ -23412,47 +23439,16 @@ as possible, creating a dense
               <head>cross</head>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <head>cross</head>
-              </Note>
-            </Chord>
+            <durationType>eighth</durationType>
+            </Rest>
           <endTuplet/>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             <linkedMain/>
             </Clef>
-          <StaffText>
-            <channelSwitch voice="0" name="arco"/>
-            <channelSwitch voice="1" name="arco"/>
-            <channelSwitch voice="2" name="arco"/>
-            <channelSwitch voice="3" name="arco"/>
-            <linkedMain/>
-            <visible>0</visible>
-            <text>Arco</text>
-            </StaffText>
-          <StaffText>
-            <linkedMain/>
-            <minDistance>0.421571</minDistance>
-            <offset x="2.6644" y="-0.516888"/>
-            <text>vib.</text>
-            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -23554,34 +23550,6 @@ as possible, creating a dense
             <linkedMain/>
             <visible>0</visible>
             </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-3/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>95</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -23593,6 +23561,23 @@ as possible, creating a dense
                 <fractions>3/4</fractions>
                 </location>
               </prev>
+            </Spanner>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <hairpinCircledTip>1</hairpinCircledTip>
+              <linkedMain/>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.99069" y="2"/>
+                <off2 x="-2.99069" y="0"/>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <durationType>whole</durationType>
@@ -23633,74 +23618,18 @@ as possible, creating a dense
             <velocity>33</velocity>
             <linkedMain/>
             </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <hairpinCircledTip>1</hairpinCircledTip>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>3/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>95</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>3/4</fractions>
+            </location>
           <Dynamic>
             <subtype>ppp</subtype>
             <velocity>16</velocity>
             <linkedMain/>
             <visible>0</visible>
             </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <pitch>95</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <linkedMain/>
-            </BarLine>
-          </voice>
         <voice>
           <Spanner type="HairPin">
             <prev>
@@ -23709,6 +23638,13 @@ as possible, creating a dense
                 </location>
               </prev>
             </Spanner>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25710,6 +25646,10 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <text>ord.</text>
+            </StaffText>
           <Rest>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -26874,6 +26814,14 @@ as possible, creating a dense
                 <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                 <size w="5.75479" h="8.13715"/>
                 </Image>
+              <Image>
+                <linkedMain/>
+                <offset x="-5.65929" y="-2.29971"/>
+                <visible>0</visible>
+                <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                <size w="5.75479" h="8.13715"/>
+                </Image>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <head>cross</head>
@@ -27985,19 +27933,6 @@ as possible, creating a dense
             <velocity>49</velocity>
             <linkedMain/>
             </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <pitch>89</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -28376,10 +28311,9 @@ as possible, creating a dense
             </Dynamic>
           <StaffText>
             <linkedMain/>
-            <minDistance>0.193227</minDistance>
             <size>8</size>
             <italic>1</italic>
-            <offset x="-10.8783" y="-0.611085"/>
+            <offset x="-11.9979" y="-0.984274"/>
             <text>no pitch</text>
             </StaffText>
           <Chord>
@@ -28425,6 +28359,7 @@ as possible, creating a dense
                 <font>Bravura</font>
                 <linkedMain/>
                 <offset x="0" y="-6"/>
+                <visible>0</visible>
                 </Symbol>
               <Spanner type="Tie">
                 <prev>
@@ -28531,6 +28466,14 @@ as possible, creating a dense
             <Image>
               <autoplace>0</autoplace>
               <offset x="-10.15" y="-4.13"/>
+              <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+              <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+              <size w="5.75479" h="8.13715"/>
+              </Image>
+            <Image>
+              <linkedMain/>
+              <offset x="-9.00001" y="-2.13"/>
+              <visible>0</visible>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
               <size w="5.75479" h="8.13715"/>
@@ -30098,35 +30041,6 @@ as possible, creating a dense
             <linkedMain/>
             <visible>0</visible>
             </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-3/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              <tuning>-50</tuning>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -30178,25 +30092,6 @@ as possible, creating a dense
             <velocity>33</velocity>
             <linkedMain/>
             </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <durationType>whole</durationType>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>3/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              <tuning>-50</tuning>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -32135,6 +32030,10 @@ as possible, creating a dense
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <StaffText>
+            <linkedMain/>
+            <text>ord.</text>
+            </StaffText>
           <Rest>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -33058,7 +32957,7 @@ as possible, creating a dense
                 <name>arrowBlackDown</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-5.5"/>
+                <offset x="0" y="-6"/>
                 </Symbol>
               <pitch>49</pitch>
               <tpc>21</tpc>
@@ -33264,12 +33163,6 @@ as possible, creating a dense
                 <subtype>accidentalQuarterToneSharpStein</subtype>
                 <visible>0</visible>
                 </Accidental>
-              <Symbol>
-                <name>arrowBlackDown</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-4.5"/>
-                </Symbol>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -33336,12 +33229,6 @@ as possible, creating a dense
             <durationType>whole</durationType>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>arrowBlackDown</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-4.5"/>
-                </Symbol>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -33361,6 +33248,10 @@ as possible, creating a dense
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <text>ord.</text>
+            </StaffText>
           <Rest>
             <linkedMain/>
             <durationType>half</durationType>
@@ -34087,24 +33978,6 @@ as possible, creating a dense
             <velocity>49</velocity>
             <linkedMain/>
             </Dynamic>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
-              <pitch>89</pitch>
-              <tpc>13</tpc>
-              <tuning>50</tuning>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -35170,6 +35043,11 @@ fingernail close to bridge
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Tuplet>
             <linkedMain/>
             <normalNotes>4</normalNotes>
@@ -35778,6 +35656,18 @@ fingernail close to bridge
             <offset x="-1.28353" y="-2.28321"/>
             <text>fragile</text>
             </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <hairpinCircledTip>1</hairpinCircledTip>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -35831,47 +35721,6 @@ fingernail close to bridge
             <velocity>33</velocity>
             <linkedMain/>
             </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <hairpinCircledTip>1</hairpinCircledTip>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <autoplace>0</autoplace>
-              <linkedMain/>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -35905,43 +35754,6 @@ fingernail close to bridge
               <headType>half</headType>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          <BarLine>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <autoplace>0</autoplace>
-              <linkedMain/>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Dynamic>
-            <subtype>ppp</subtype>
-            <velocity>16</velocity>
-            <linkedMain/>
-            <visible>0</visible>
-            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -35949,6 +35761,13 @@ fingernail close to bridge
                 </location>
               </prev>
             </Spanner>
+          <Rest>
+            <linkedMain/>
+            <durationType>half</durationType>
+            </Rest>
+          <BarLine>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37413,6 +37232,7 @@ part of the strings
                 <font>Bravura</font>
                 <linkedMain/>
                 <offset x="0" y="-6.5"/>
+                <visible>0</visible>
                 </Symbol>
               <Spanner type="Tie">
                 <prev>
@@ -37842,7 +37662,7 @@ part of the strings
               <beginText>exaggerated vib.</beginText>
               <endText>&gt;</endText>
               <linkedMain/>
-              <lineWidth>0.0968968</lineWidth>
+              <lineWidth>0.0953526</lineWidth>
               </TextLine>
             <next>
               <location>
@@ -38772,9 +38592,18 @@ part of the strings
           <Rest>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Image>
+              <linkedMain/>
+              <offset x="-8.61892" y="-6.52918"/>
+              <visible>0</visible>
+              <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+              <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+              <size w="8.46954" h="11.9757"/>
+              </Image>
             </Rest>
           <StaffText>
             <linkedMain/>
+            <visible>0</visible>
             <offset x="-1.97908" y="-3.7792"/>
             <frameType>1</frameType>
             <text>on wrapped part
@@ -41029,12 +40858,12 @@ touch strings with stick
               <beginText>exaggerated vib.</beginText>
               <endText>&gt;</endText>
               <linkedMain/>
-              <lineWidth>0.0968968</lineWidth>
+              <lineWidth>0.136201</lineWidth>
               </TextLine>
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>1/2</fractions>
+                <fractions>5/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -41111,14 +40940,6 @@ touch strings with stick
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -41135,6 +40956,14 @@ touch strings with stick
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -42486,6 +42315,7 @@ touch strings with stick
                 <font>Bravura</font>
                 <linkedMain/>
                 <offset x="0" y="-4"/>
+                <visible>0</visible>
                 </Symbol>
               <Spanner type="Tie">
                 <Tie>
@@ -42529,6 +42359,7 @@ touch strings with stick
                 <font>Bravura</font>
                 <linkedMain/>
                 <offset x="0" y="-4"/>
+                <visible>0</visible>
                 </Symbol>
               <Spanner type="Tie">
                 <prev>
@@ -44473,6 +44304,9 @@ touch strings with stick
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -44614,6 +44448,9 @@ touch strings with stick
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -44726,6 +44563,9 @@ touch strings with stick
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -44985,7 +44825,7 @@ touch strings with stick
                     <Segment>
                       <subtype>0</subtype>
                       <offset x="-2.0228" y="0"/>
-                      <off2 x="2.0228" y="0"/>
+                      <off2 x="4.0179" y="0"/>
                       </Segment>
                     </TextLine>
                   <next>
@@ -46064,6 +45904,11 @@ seal with lips
                       </linked>
                     <lineWidth>0.500127</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="-1.88524" y="0"/>
+                      <off2 x="3.97459" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -46202,6 +46047,11 @@ seal with lips
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="-1.80344" y="0"/>
+                      <off2 x="1.80344" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -46282,6 +46132,11 @@ seal with lips
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="0" y="0"/>
+                      <off2 x="1.58849" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -46296,6 +46151,7 @@ seal with lips
               <velocity>80</velocity>
               <linked>
                 </linked>
+              <offset x="0.5" y="2.5"/>
               </Dynamic>
             <Spanner type="HairPin">
               <prev>
@@ -46340,7 +46196,8 @@ seal with lips
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>-0.517883</minDistance>
+              <minDistance>-0.530765</minDistance>
+              <offset x="-0.590957" y="-0.564558"/>
               <text>inflate</text>
               </StaffText>
             <Rest>
@@ -46349,6 +46206,14 @@ seal with lips
               <visible>0</visible>
               <durationType>measure</durationType>
               <duration>4/4</duration>
+              <Symbol>
+                <name>mensuralNoteheadLongaBlack</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="2.14341" y="-1.13632"/>
+                </Symbol>
               </Rest>
             <BarLine>
               <span>0</span>
@@ -46375,10 +46240,11 @@ seal with lips
                 </linked>
               </Dynamic>
             <StaffText>
+              <autoplace>0</autoplace>
               <linked>
                 </linked>
               <size>8</size>
-              <offset x="-2.41925" y="-1.41855"/>
+              <offset x="0.135793" y="-6.60404"/>
               <text>open mouth slowly</text>
               </StaffText>
             <Chord>
@@ -46404,6 +46270,11 @@ seal with lips
                       </linked>
                     <lineWidth>0.500127</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="-1.09966" y="0"/>
+                      <off2 x="1.62749" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -46560,7 +46431,7 @@ seal with lips
               <velocity>80</velocity>
               <linked>
                 </linked>
-              <minDistance>0.156388</minDistance>
+              <offset x="0.17456" y="5.93796"/>
               </Dynamic>
             <Chord>
               <linked>
@@ -46671,7 +46542,8 @@ seal with lips
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>-0.529974</minDistance>
+              <minDistance>-0.834693</minDistance>
+              <offset x="0.0156615" y="-0.260629"/>
               <text>inflate</text>
               </StaffText>
             <Rest>
@@ -46685,7 +46557,7 @@ seal with lips
                 <font>Bravura</font>
                 <linked>
                   </linked>
-                <offset x="-7.15908" y="-1.23433"/>
+                <offset x="2.78389" y="-0.87641"/>
                 </Symbol>
               </Rest>
             <BarLine>
@@ -46849,7 +46721,7 @@ seal with lips
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>0.394257</minDistance>
+              <offset x="1.33006" y="-5.82884"/>
               <frameType>1</frameType>
               <text>lots of pitch variation,
 maybe even 'multiphonics'
@@ -46885,6 +46757,11 @@ maybe even 'multiphonics'
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="0" y="0"/>
+                      <off2 x="2.33127" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -46976,7 +46853,8 @@ maybe even 'multiphonics'
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>-0.41915</minDistance>
+              <minDistance>-0.637954</minDistance>
+              <offset x="-0.443354" y="-0.457368"/>
               <text>inflate</text>
               </StaffText>
             <Rest>
@@ -46985,6 +46863,13 @@ maybe even 'multiphonics'
               <visible>0</visible>
               <durationType>measure</durationType>
               <duration>4/4</duration>
+              <Symbol>
+                <name>mensuralNoteheadLongaBlackVoid</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="2.39596" y="-1.09809"/>
+                </Symbol>
               </Rest>
             <BarLine>
               <span>0</span>
@@ -46998,7 +46883,8 @@ maybe even 'multiphonics'
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>0.468483</minDistance>
+              <minDistance>-0.0252464</minDistance>
+              <offset x="5.43102" y="-5.18766"/>
               <frameType>1</frameType>
               <text>lots of pitch variation,
 maybe even 'multiphonics'
@@ -47038,6 +46924,11 @@ maybe even 'multiphonics'
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="0" y="0"/>
+                      <off2 x="4.88692" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -47150,6 +47041,11 @@ maybe even 'multiphonics'
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="-1.82884" y="0"/>
+                      <off2 x="3.86658" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -47239,7 +47135,8 @@ maybe even 'multiphonics'
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>0.395825</minDistance>
+              <minDistance>0.116529</minDistance>
+              <offset x="-13.1269" y="-6.81037"/>
               <frameType>1</frameType>
               <text>inflate again if neccessary,
 then let balloon go, so it flies away
@@ -47301,7 +47198,7 @@ then let balloon go, so it flies away
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -47841,6 +47738,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -48147,6 +48047,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <BarLine>
               <linked>
@@ -49000,7 +48903,7 @@ then let balloon go, so it flies away
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -49503,6 +49406,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -49848,6 +49754,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -50310,12 +50219,9 @@ then let balloon go, so it flies away
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -50585,7 +50491,7 @@ then let balloon go, so it flies away
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -50798,9 +50704,10 @@ then let balloon go, so it flies away
                 <linked>
                   </linked>
                 <Image>
+                  <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="1.32584" y="-8.83408"/>
+                  <offset x="-0.768874" y="-8.62461"/>
                   <path>d20eb460970729c8b7a8528f1e1d55a8.svg</path>
                   <linkPath>bassoon_mult_5_4221.svg</linkPath>
                   <size w="13.5467" h="10.16"/>
@@ -51061,6 +50968,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <BarLine>
               <span>1</span>
@@ -51111,6 +51021,7 @@ then let balloon go, so it flies away
           </Measure>
         <Measure len="24/4">
           <multiMeasureRest>6</multiMeasureRest>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -51199,6 +51110,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Clef>
               <concertClefType>F</concertClefType>
@@ -51255,6 +51167,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -51292,29 +51205,34 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
-            <BarLine>
-              <span>1</span>
-              <linked>
-                </linked>
-              </BarLine>
+            <Clef>
+              <concertClefType>F</concertClefType>
+              <transposingClefType>F</transposingClefType>
+              <visible>0</visible>
+              </Clef>
             <Dynamic>
               <subtype>f</subtype>
               <velocity>96</velocity>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>articStaccatoBelow</subtype>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 </Articulation>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>36</pitch>
                 <tpc>14</tpc>
@@ -51401,6 +51319,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -51514,6 +51433,7 @@ then let balloon go, so it flies away
           </Measure>
         <Measure len="8/4">
           <multiMeasureRest>2</multiMeasureRest>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -51541,6 +51461,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -51615,6 +51536,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <BarLine>
               <span>1</span>
@@ -51680,6 +51602,10 @@ then let balloon go, so it flies away
           </Measure>
         <Measure len="8/4">
           <multiMeasureRest>2</multiMeasureRest>
+          <stretch>0.9</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -51692,6 +51618,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -51708,13 +51637,9 @@ then let balloon go, so it flies away
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <span>1</span>
-              <linked>
-                </linked>
-              </BarLine>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -51828,7 +51753,7 @@ then let balloon go, so it flies away
                 <Image>
                   <linked>
                     </linked>
-                  <offset x="-0.0820292" y="-10.0209"/>
+                  <offset x="-1.05956" y="-9.95108"/>
                   <path>353d198694394568fb13c170d8aa4349.svg</path>
                   <linkPath>bassoon_mult_3_4063.svg</linkPath>
                   <size w="10.1111" h="7.58333"/>
@@ -51872,6 +51797,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <stretch>1.7</stretch>
           <voice>
             <Dynamic>
               <subtype>mp</subtype>
@@ -51910,9 +51836,10 @@ then let balloon go, so it flies away
                 </Note>
               </Chord>
             <Image>
+              <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="-7.81555" y="-7.54086"/>
+              <offset x="-6.17382" y="-7.32684"/>
               <path>0b5fa169464d0175f81fef93b9985018.svg</path>
               <linkPath>bassoon_mult_4_2844.svg</linkPath>
               <size w="9.91629" h="7.43721"/>
@@ -51944,7 +51871,7 @@ then let balloon go, so it flies away
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.52744" y="-10.8297"/>
+                  <offset x="-8.55572" y="-10.7768"/>
                   <path>f5dcadadd7e4752922c2e848f74e4bae.svg</path>
                   <linkPath>bassoon_mult_1_2446.svg</linkPath>
                   <size w="11.0562" h="8.29215"/>
@@ -52509,11 +52436,11 @@ then let balloon go, so it flies away
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
-      <metaTag name="partName">Piano 1</metaTag>
+      <metaTag name="partName">Piano</metaTag>
       <Part>
         <Staff id="1">
           <linkedTo>8</linkedTo>
@@ -52593,6 +52520,83 @@ then let balloon go, so it flies away
             </Channel>
           </Instrument>
         </Part>
+      <Part>
+        <Staff id="3">
+          <linkedTo>10</linkedTo>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          <hideWhenEmpty>1</hideWhenEmpty>
+          <bracket type="1" span="2" col="2"/>
+          <barLineSpan>1</barLineSpan>
+          </Staff>
+        <Staff id="4">
+          <linkedTo>11</linkedTo>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          <defaultClef>F</defaultClef>
+          <hideWhenEmpty>1</hideWhenEmpty>
+          </Staff>
+        <trackName>Klavier 2</trackName>
+        <Instrument id="piano">
+          <longName>Piano 2</longName>
+          <shortName>Pno. 2</shortName>
+          <trackName>Klavier</trackName>
+          <minPitchP>21</minPitchP>
+          <maxPitchP>108</maxPitchP>
+          <minPitchA>21</minPitchA>
+          <maxPitchA>108</maxPitchA>
+          <instrumentId>keyboard.piano</instrumentId>
+          <clef staff="2">F</clef>
+          <singleNoteDynamics>0</singleNoteDynamics>
+          <Articulation>
+            <velocity>100</velocity>
+            <gateTime>95</gateTime>
+            </Articulation>
+          <Articulation name="staccatissimo">
+            <velocity>100</velocity>
+            <gateTime>33</gateTime>
+            </Articulation>
+          <Articulation name="staccato">
+            <velocity>100</velocity>
+            <gateTime>50</gateTime>
+            </Articulation>
+          <Articulation name="portato">
+            <velocity>100</velocity>
+            <gateTime>67</gateTime>
+            </Articulation>
+          <Articulation name="tenuto">
+            <velocity>100</velocity>
+            <gateTime>100</gateTime>
+            </Articulation>
+          <Articulation name="marcato">
+            <velocity>120</velocity>
+            <gateTime>67</gateTime>
+            </Articulation>
+          <Articulation name="sforzato">
+            <velocity>150</velocity>
+            <gateTime>100</gateTime>
+            </Articulation>
+          <Articulation name="sforzatoStaccato">
+            <velocity>150</velocity>
+            <gateTime>50</gateTime>
+            </Articulation>
+          <Articulation name="marcatoStaccato">
+            <velocity>120</velocity>
+            <gateTime>50</gateTime>
+            </Articulation>
+          <Articulation name="marcatoTenuto">
+            <velocity>120</velocity>
+            <gateTime>100</gateTime>
+            </Articulation>
+          <Channel>
+            <program value="0"/>
+            <controller ctrl="10" value="35"/>
+            <synti>Fluid</synti>
+            </Channel>
+          </Instrument>
+        </Part>
       <Staff id="1">
         <VBox>
           <height>10</height>
@@ -52621,7 +52625,7 @@ then let balloon go, so it flies away
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
-            <text>Piano 1</text>
+            <text>Piano</text>
             </Text>
           </VBox>
         <Measure>
@@ -53182,6 +53186,9 @@ then let balloon go, so it flies away
           </Measure>
         <Measure len="24/4">
           <multiMeasureRest>6</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -53251,6 +53258,9 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -53869,24 +53879,10 @@ then let balloon go, so it flies away
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -56144,31 +56140,10 @@ then let balloon go, so it flies away
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <StaffText>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <frameType>1</frameType>
-              <text>prepare for inside piano</text>
-              </StaffText>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -56398,24 +56373,10 @@ then let balloon go, so it flies away
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -57001,24 +56962,10 @@ then let balloon go, so it flies away
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -57132,24 +57079,10 @@ then let balloon go, so it flies away
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -57202,24 +57135,10 @@ then let balloon go, so it flies away
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -57499,133 +57418,7 @@ then let balloon go, so it flies away
             </voice>
           </Measure>
         </Staff>
-      <name>Piano 1</name>
-      </Score>
-    <Score>
-      <LayerTag id="0" tag="default"></LayerTag>
-      <currentLayer>0</currentLayer>
-      <Division>480</Division>
-      <Style>
-        <pageWidth>8.27</pageWidth>
-        <pageHeight>11.69</pageHeight>
-        <staffDistance>5.5</staffDistance>
-        <akkoladeDistance>3.5</akkoladeDistance>
-        <createMultiMeasureRests>1</createMultiMeasureRests>
-        <Spatium>1.74978</Spatium>
-        </Style>
-      <showInvisible>1</showInvisible>
-      <showUnprintable>1</showUnprintable>
-      <showFrames>1</showFrames>
-      <showMargins>0</showMargins>
-      <metaTag name="partName">Piano 2</metaTag>
-      <Part>
-        <Staff id="1">
-          <linkedTo>10</linkedTo>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            </StaffType>
-          <hideWhenEmpty>1</hideWhenEmpty>
-          <bracket type="1" span="2" col="2"/>
-          <barLineSpan>1</barLineSpan>
-          </Staff>
-        <Staff id="2">
-          <linkedTo>11</linkedTo>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            </StaffType>
-          <defaultClef>F</defaultClef>
-          <hideWhenEmpty>1</hideWhenEmpty>
-          </Staff>
-        <trackName>Klavier 2</trackName>
-        <Instrument id="piano">
-          <longName>Piano 2</longName>
-          <shortName>Pno. 2</shortName>
-          <trackName>Klavier</trackName>
-          <minPitchP>21</minPitchP>
-          <maxPitchP>108</maxPitchP>
-          <minPitchA>21</minPitchA>
-          <maxPitchA>108</maxPitchA>
-          <instrumentId>keyboard.piano</instrumentId>
-          <clef staff="2">F</clef>
-          <singleNoteDynamics>0</singleNoteDynamics>
-          <Articulation>
-            <velocity>100</velocity>
-            <gateTime>95</gateTime>
-            </Articulation>
-          <Articulation name="staccatissimo">
-            <velocity>100</velocity>
-            <gateTime>33</gateTime>
-            </Articulation>
-          <Articulation name="staccato">
-            <velocity>100</velocity>
-            <gateTime>50</gateTime>
-            </Articulation>
-          <Articulation name="portato">
-            <velocity>100</velocity>
-            <gateTime>67</gateTime>
-            </Articulation>
-          <Articulation name="tenuto">
-            <velocity>100</velocity>
-            <gateTime>100</gateTime>
-            </Articulation>
-          <Articulation name="marcato">
-            <velocity>120</velocity>
-            <gateTime>67</gateTime>
-            </Articulation>
-          <Articulation name="sforzato">
-            <velocity>150</velocity>
-            <gateTime>100</gateTime>
-            </Articulation>
-          <Articulation name="sforzatoStaccato">
-            <velocity>150</velocity>
-            <gateTime>50</gateTime>
-            </Articulation>
-          <Articulation name="marcatoStaccato">
-            <velocity>120</velocity>
-            <gateTime>50</gateTime>
-            </Articulation>
-          <Articulation name="marcatoTenuto">
-            <velocity>120</velocity>
-            <gateTime>100</gateTime>
-            </Articulation>
-          <Channel>
-            <program value="0"/>
-            <controller ctrl="10" value="35"/>
-            <synti>Fluid</synti>
-            </Channel>
-          </Instrument>
-        </Part>
-      <Staff id="1">
-        <VBox>
-          <height>10</height>
-          <linked>
-            <location>
-              <staves>-9</staves>
-              </location>
-            </linked>
-          <Text>
-            <linked>
-              <location>
-                <staves>-9</staves>
-                </location>
-              </linked>
-            <style>Title</style>
-            <text>Concert for Balloon</text>
-            </Text>
-          <Text>
-            <linked>
-              <location>
-                <staves>-9</staves>
-                </location>
-              </linked>
-            <style>Composer</style>
-            <text>Leon Focker</text>
-            </Text>
-          <Text>
-            <style>Instrument Name (Part)</style>
-            <text>Piano 2</text>
-            </Text>
-          </VBox>
+      <Staff id="3">
         <Measure>
           <voice>
             <BarLine>
@@ -57638,20 +57431,8 @@ then let balloon go, so it flies away
               <sigN>4</sigN>
               <sigD>4</sigD>
               </TimeSig>
-            <Tempo>
-              <tempo>1</tempo>
-              <followText>1</followText>
-              <linked>
-                <location>
-                  <staves>-9</staves>
-                  </location>
-                <indexDiff>5</indexDiff>
-                </linked>
-              <text><sym>metNoteQuarterUp</sym> = 60</text>
-              </Tempo>
             <Rest>
               <linked>
-                <indexDiff>2</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -57867,10 +57648,12 @@ then let balloon go, so it flies away
             <StaffText>
               <linked>
                 </linked>
+              <minDistance>0.360352</minDistance>
+              <offset x="-17.5956" y="-5.96697"/>
               <frameType>1</frameType>
               <text>hold each note for as long 
 as possible, creating a dense
- sound with almost no attacks
+sound with almost no attacks
 </text>
               </StaffText>
             <Rest>
@@ -60104,7 +59887,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         </Staff>
-      <Staff id="2">
+      <Staff id="4">
         <Measure>
           <voice>
             <BarLine>
@@ -60874,7 +60657,17 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <visible>0</visible>
               <text>pedal right after note ends</text>
+              </StaffText>
+            <StaffText>
+              <linked>
+                </linked>
+              <offset x="-0.886708" y="-4.07519"/>
+              <frameType>1</frameType>
+              <text>pedal right after
+note ends
+</text>
               </StaffText>
             <Spanner type="Pedal">
               <Pedal>
@@ -60940,6 +60733,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="-1.1638" y="-0.889161"/>
               <text>una corda</text>
               </StaffText>
             <Spanner type="Pedal">
@@ -63018,7 +62812,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         </Staff>
-      <name>Piano 2</name>
+      <name>Piano</name>
       </Score>
     <Score>
       <LayerTag id="0" tag="default"></LayerTag>
@@ -63032,7 +62826,7 @@ as possible, creating a dense
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -63924,6 +63718,13 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
+            <Dynamic>
+              <subtype>mp</subtype>
+              <velocity>64</velocity>
+              <linked>
+                </linked>
+              <offset x="0.907709" y="3.9663"/>
+              </Dynamic>
             <Rest>
               <linked>
                 </linked>
@@ -63975,6 +63776,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -64122,12 +63926,9 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -64408,6 +64209,7 @@ as possible, creating a dense
               <linked>
                 </linked>
               <size>8</size>
+              <offset x="-0.175945" y="-1.52783"/>
               <text>tune lowest string to C</text>
               </StaffText>
             <Rest>
@@ -64909,6 +64711,7 @@ as possible, creating a dense
               <velocity>64</velocity>
               <linked>
                 </linked>
+              <offset x="-2.05051" y="3.99436"/>
               </Dynamic>
             <Rest>
               <linked>
@@ -65227,13 +65030,9 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <span>1</span>
-              <linked>
-                </linked>
-              </BarLine>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -65466,7 +65265,7 @@ as possible, creating a dense
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -66015,6 +65814,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -66025,7 +65827,9 @@ as possible, creating a dense
               <linked>
                 </linked>
               <placement>below</placement>
+              <minDistance>-999</minDistance>
               <size>8</size>
+              <offset x="-0.977533" y="-0.331203"/>
               <text>I</text>
               </StaffText>
             <Dynamic>
@@ -66033,6 +65837,8 @@ as possible, creating a dense
               <velocity>49</velocity>
               <linked>
                 </linked>
+              <minDistance>-2.71189</minDistance>
+              <offset x="-0.209471" y="1.86284"/>
               </Dynamic>
             <Spanner type="Ottava">
               <Ottava>
@@ -66062,10 +65868,9 @@ as possible, creating a dense
                 <linked>
                   </linked>
                 <Image>
-                  <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.12116" y="-8.03102"/>
+                  <offset x="-6.62" y="-8.03"/>
                   <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                   <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                   <size w="8.46954" h="11.9757"/>
@@ -66106,20 +65911,19 @@ as possible, creating a dense
                 </linked>
               <durationType>half</durationType>
               </Rest>
-            <Dynamic>
-              <subtype>mf</subtype>
-              <velocity>80</velocity>
-              <linked>
-                </linked>
-              </Dynamic>
             <StaffText>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
+              <minDistance>-1.11735</minDistance>
+              <offset x="0.870883" y="-0.952955"/>
               <text>c.l.b.</text>
               </StaffText>
             <Tuplet>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
+              <offset x="-0.313498" y="0.100415"/>
               <normalNotes>4</normalNotes>
               <actualNotes>6</actualNotes>
               <baseNote>16th</baseNote>
@@ -66127,9 +65931,11 @@ as possible, creating a dense
                 <style>Tuplet</style>
                 <text>6</text>
                 </Number>
+              <minDistance>-1.30261</minDistance>
               </Tuplet>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               </Rest>
@@ -66158,6 +65964,17 @@ as possible, creating a dense
                 <head>cross</head>
                 </Note>
               </Chord>
+            <Dynamic>
+              <subtype>mf</subtype>
+              <velocity>80</velocity>
+              <linked>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </linked>
+              <minDistance>0.437293</minDistance>
+              <offset x="-0.756556" y="4.46119"/>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -66327,20 +66144,19 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Clef>
               <concertClefType>G</concertClefType>
               <transposingClefType>G</transposingClefType>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <visible>0</visible>
               </Clef>
             <Tuplet>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <normalNotes>4</normalNotes>
               <actualNotes>6</actualNotes>
@@ -66355,6 +66171,7 @@ as possible, creating a dense
               </Beam>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               <Stem>
@@ -66362,13 +66179,14 @@ as possible, creating a dense
                 </Stem>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <offset x="0" y="0.100013"/>
                 <Image>
-                  <autoplace>0</autoplace>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
-                  <offset x="-9.15116" y="-3.63046"/>
+                  <offset x="-26.65" y="-3.63"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -66730,6 +66548,10 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Tuplet>
               <linked>
@@ -67155,6 +66977,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="-2.74311" y="-1.49608"/>
               <text>s.t.</text>
               </StaffText>
             <Dynamic>
@@ -67450,6 +67273,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
           <voice>
             <Clef>
               <concertClefType>G</concertClefType>
@@ -67481,7 +67305,7 @@ as possible, creating a dense
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.00114" y="-2.63033"/>
+                  <offset x="-5.5" y="-2.63"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -67733,6 +67557,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
           <voice>
             <Spanner type="HairPin">
               <HairPin>
@@ -68000,6 +67825,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
           <voice>
             <Clef>
               <concertClefType>G</concertClefType>
@@ -68020,6 +67846,7 @@ as possible, creating a dense
                   <linked>
                     </linked>
                   <offset x="-9.00114" y="-4.63059"/>
+                  <visible>0</visible>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -68154,6 +67981,10 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Tuplet>
               <linked>
@@ -68285,30 +68116,11 @@ as possible, creating a dense
                 <head>cross</head>
                 </Note>
               </Chord>
-            <Chord>
+            <Rest>
               <linked>
                 </linked>
-              <durationType>16th</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <head>cross</head>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>16th</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <head>cross</head>
-                </Note>
-              </Chord>
+              <durationType>eighth</durationType>
+              </Rest>
             <endTuplet/>
             <Clef>
               <concertClefType>G</concertClefType>
@@ -68316,22 +68128,6 @@ as possible, creating a dense
               <linked>
                 </linked>
               </Clef>
-            <StaffText>
-              <channelSwitch voice="0" name="arco"/>
-              <channelSwitch voice="1" name="arco"/>
-              <channelSwitch voice="2" name="arco"/>
-              <channelSwitch voice="3" name="arco"/>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <text>Arco</text>
-              </StaffText>
-            <StaffText>
-              <linked>
-                </linked>
-              <minDistance>0.421571</minDistance>
-              <text>vib.</text>
-              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -68351,12 +68147,9 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -68370,7 +68163,8 @@ as possible, creating a dense
               <linked>
                 </linked>
               <style>Expression</style>
-              <minDistance>-999</minDistance>
+              <minDistance>-0.133367</minDistance>
+              <offset x="-0.443353" y="-1.49018"/>
               <text>fragile</text>
               </StaffText>
             <Spanner type="HairPin">
@@ -68447,34 +68241,6 @@ as possible, creating a dense
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    <visible>0</visible>
-                    </Tie>
-                  <next>
-                    <location>
-                      <measures>1</measures>
-                      <fractions>-3/4</fractions>
-                      </location>
-                    </next>
-                  </Spanner>
-                <pitch>95</pitch>
-                <tpc>19</tpc>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -68486,6 +68252,18 @@ as possible, creating a dense
                   <fractions>3/4</fractions>
                   </location>
                 </prev>
+              </Spanner>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
               </Spanner>
             <Chord>
               <durationType>whole</durationType>
@@ -68528,35 +68306,9 @@ as possible, creating a dense
               <linked>
                 </linked>
               </Dynamic>
-            <Chord>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <dots>1</dots>
-              <durationType>half</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                <visible>0</visible>
-                <NoteDot>
-                  <visible>0</visible>
-                  </NoteDot>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      <fractions>3/4</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
-                <pitch>95</pitch>
-                <tpc>19</tpc>
-                </Note>
-              </Chord>
+            <location>
+              <fractions>3/4</fractions>
+              </location>
             <Dynamic>
               <subtype>ppp</subtype>
               <velocity>16</velocity>
@@ -68564,25 +68316,17 @@ as possible, creating a dense
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <pitch>95</pitch>
-                <tpc>19</tpc>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Rest>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -68609,6 +68353,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="1.28369" y="-0.802508"/>
               <text>s.t.</text>
               </StaffText>
             <Rest>
@@ -68661,6 +68406,11 @@ as possible, creating a dense
                       </linked>
                     <lineWidth>0.105013</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="-0.0622059" y="-6.84265"/>
+                      <off2 x="0" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -68849,6 +68599,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -68864,6 +68617,11 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <visible>0</visible>
+              </Clef>
             <Rest>
               <linked>
                 </linked>
@@ -69062,10 +68820,9 @@ as possible, creating a dense
                   <offset x="-2.00025" y="-3.00038"/>
                   </Symbol>
                 <Image>
-                  <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.00114" y="-4.63059"/>
+                  <offset x="-47" y="-4.63"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -69230,6 +68987,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -69475,6 +69235,7 @@ as possible, creating a dense
               <velocity>49</velocity>
               <linked>
                 </linked>
+              <visible>0</visible>
               </Dynamic>
             <Chord>
               <linked>
@@ -70040,7 +69801,7 @@ as possible, creating a dense
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -70457,6 +70218,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -70482,7 +70246,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>0.3217</minDistance>
+              <offset x="-1.97492" y="-1.09875"/>
               <text>p.s.p.</text>
               </StaffText>
             <Chord>
@@ -70734,6 +70498,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="-0.197492" y="-1.55405"/>
               <text>s.t.</text>
               </StaffText>
             <Chord>
@@ -70913,6 +70678,9 @@ as possible, creating a dense
           </Measure>
         <Measure len="16/4">
           <multiMeasureRest>4</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -70954,6 +70722,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -70969,6 +70740,12 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <offset x="3.04809" y="-1.06221"/>
+              <text>ord.</text>
+              </StaffText>
             <Rest>
               <linked>
                 </linked>
@@ -71137,26 +70914,34 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <visible>0</visible>
+              </Clef>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <role>1</role>
+                  <small>1</small>
                   <subtype>accidentalQuarterToneSharpStein</subtype>
                   </Accidental>
                 <Symbol>
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-4.00051"/>
                   </Symbol>
@@ -71386,6 +71171,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <visible>0</visible>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -71447,6 +71233,11 @@ as possible, creating a dense
                 <linked>
                   </linked>
                 <lineWidth>0.0969091</lineWidth>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="0" y="-1"/>
+                  <off2 x="1.24412" y="0"/>
+                  </Segment>
                 </TextLine>
               <next>
                 <location>
@@ -71609,15 +71400,21 @@ as possible, creating a dense
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="28/4">
-          <multiMeasureRest>7</multiMeasureRest>
+        <Measure len="24/4">
+          <multiMeasureRest>6</multiMeasureRest>
           <voice>
             <Rest>
               <durationType>measure</durationType>
               <duration>28/4</duration>
               </Rest>
+            <location>
+              <fractions>-1/1</fractions>
+              </location>
             <BarLine>
               <linked>
+                <location>
+                  <fractions>1/1</fractions>
+                  </location>
                 </linked>
               </BarLine>
             </voice>
@@ -71698,6 +71495,11 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <breakMultiMeasureRest>1</breakMultiMeasureRest>
+          <stretch>1.4</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <StaffText>
               <channelSwitch voice="0" name="pizzicato"/>
@@ -71733,7 +71535,7 @@ as possible, creating a dense
             <Image>
               <linked>
                 </linked>
-              <offset x="-9.00114" y="-2.13027"/>
+              <offset x="-5.66" y="-2.3"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
               <size w="5.75479" h="8.13715"/>
@@ -71741,6 +71543,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="2.115" y="-1.80318"/>
               <text>c.l.b.</text>
               </StaffText>
             <Dynamic>
@@ -72003,6 +71806,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Dynamic>
               <subtype>mp</subtype>
@@ -72304,6 +72110,15 @@ as possible, creating a dense
                   <linked>
                     </linked>
                   <offset x="-9.00114" y="-4.63059"/>
+                  <visible>0</visible>
+                  <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                  <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                  <size w="5.75479" h="8.13715"/>
+                  </Image>
+                <Image>
+                  <linked>
+                    </linked>
+                  <offset x="-5.66" y="-4.8"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -72414,6 +72229,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Tuplet>
               <linked>
@@ -72605,6 +72423,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="2.23436" y="-1.32935"/>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -72633,27 +72452,27 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Dynamic>
               <subtype>mp</subtype>
               <velocity>64</velocity>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <StaffText>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <text>vib.</text>
               </StaffText>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
@@ -72662,6 +72481,7 @@ as possible, creating a dense
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-5.5007"/>
                   </Symbol>
@@ -72723,27 +72543,8 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <hairpinCircledTip>1</hairpinCircledTip>
-                <linked>
-                  <location>
-                    <staves>-1</staves>
-                    <voices>1</voices>
-                    </location>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -72756,6 +72557,9 @@ as possible, creating a dense
           </Measure>
         <Measure len="24/4">
           <multiMeasureRest>6</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -72769,13 +72573,6 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Rest>
               <linked>
                 <indexDiff>1</indexDiff>
@@ -72836,6 +72633,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -72851,6 +72651,11 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <visible>0</visible>
+              </Clef>
             <Rest>
               <linked>
                 </linked>
@@ -73002,10 +72807,9 @@ as possible, creating a dense
                   <offset x="-2.00025" y="-2.50032"/>
                   </Symbol>
                 <Image>
-                  <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.00114" y="-4.13052"/>
+                  <offset x="-28.5" y="-4.13"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -73184,6 +72988,7 @@ as possible, creating a dense
                   <linked>
                     </linked>
                   <offset x="-9.00114" y="-4.63059"/>
+                  <visible>0</visible>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -73437,7 +73242,7 @@ as possible, creating a dense
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -73755,21 +73560,6 @@ as possible, creating a dense
               <linked>
                 </linked>
               </Dynamic>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <pitch>89</pitch>
-                <tpc>13</tpc>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -73977,6 +73767,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -74180,6 +73973,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -74194,6 +73988,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -74209,9 +74004,9 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>0.193227</minDistance>
               <size>8</size>
               <italic>1</italic>
+              <offset x="2.28728" y="-1.22931"/>
               <text>no pitch</text>
               </StaffText>
             <Chord>
@@ -74251,6 +74046,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -74265,6 +74061,7 @@ as possible, creating a dense
                   <linked>
                     </linked>
                   <offset x="0" y="-6.00076"/>
+                  <visible>0</visible>
                   </Symbol>
                 <Spanner type="Tie">
                   <prev>
@@ -74290,6 +74087,10 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -74351,6 +74152,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -74383,6 +74185,14 @@ as possible, creating a dense
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Image>
+                <linked>
+                  </linked>
+                <offset x="-7" y="-4"/>
+                <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
+                <linkPath>../Notation/Kontaktstelle.svg</linkPath>
+                <size w="5.75479" h="8.13715"/>
+                </Image>
               </Rest>
             <StaffText>
               <channelSwitch voice="0" name="pizzicato"/>
@@ -74565,20 +74375,22 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Clef>
               <concertClefType>C3</concertClefType>
               <transposingClefType>C3</transposingClefType>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <visible>0</visible>
               </Clef>
             <Tuplet>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <normalNotes>4</normalNotes>
               <actualNotes>6</actualNotes>
@@ -74593,6 +74405,7 @@ as possible, creating a dense
               </Beam>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               <Stem>
@@ -74600,13 +74413,16 @@ as possible, creating a dense
                 </Stem>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <offset x="0" y="0.100013"/>
                 <Image>
                   <autoplace>0</autoplace>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="-9.15116" y="-3.1304"/>
+                  <visible>0</visible>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -75340,7 +75156,7 @@ as possible, creating a dense
             <Image>
               <linked>
                 </linked>
-              <offset x="-9.00114" y="-2.13027"/>
+              <offset x="-7" y="-2.13"/>
               <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
               <linkPath>../Notation/Kontaktstelle.svg</linkPath>
               <size w="5.75479" h="8.13715"/>
@@ -75493,6 +75309,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
           <voice>
             <Chord>
               <linked>
@@ -75774,6 +75591,7 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
           <voice>
             <Clef>
               <concertClefType>C3</concertClefType>
@@ -75794,6 +75612,7 @@ as possible, creating a dense
                   <linked>
                     </linked>
                   <offset x="-9.00114" y="-4.63059"/>
+                  <visible>0</visible>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -75928,6 +75747,10 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Tuplet>
               <linked>
@@ -76108,12 +75931,9 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Rest>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -76126,7 +75946,8 @@ as possible, creating a dense
               <linked>
                 </linked>
               <style>Expression</style>
-              <minDistance>-999</minDistance>
+              <minDistance>0.014681</minDistance>
+              <offset x="-2.97823" y="-1.26198"/>
               <text>fragile</text>
               </StaffText>
             <Spanner type="HairPin">
@@ -76211,35 +76032,6 @@ as possible, creating a dense
                 </linked>
               <visible>0</visible>
               </Dynamic>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    <visible>0</visible>
-                    </Tie>
-                  <next>
-                    <location>
-                      <measures>1</measures>
-                      <fractions>-3/4</fractions>
-                      </location>
-                    </next>
-                  </Spanner>
-                <pitch>83</pitch>
-                <tpc>19</tpc>
-                <tuning>-50</tuning>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -76293,27 +76085,6 @@ as possible, creating a dense
               <linked>
                 </linked>
               </Dynamic>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>whole</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      <fractions>3/4</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
-                <pitch>83</pitch>
-                <tpc>19</tpc>
-                <tuning>-50</tuning>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -76405,8 +76176,9 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>-3.65333</minDistance>
+              <minDistance>-0.180194</minDistance>
               <italic>1</italic>
+              <offset x="0" y="-1.44335"/>
               <text>fragile</text>
               </StaffText>
             <Chord>
@@ -76573,6 +76345,9 @@ as possible, creating a dense
           </Measure>
         <Measure len="16/4">
           <multiMeasureRest>4</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -76614,6 +76389,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -76912,13 +76690,7 @@ as possible, creating a dense
                     <diagonal>1</diagonal>
                     <anchor>3</anchor>
                     <Segment>
-                      <subtype>1</subtype>
-                      <offset x="0" y="1.64587"/>
-                      <off2 x="0" y="0"/>
-                      <offset x="0" y="1.64587"/>
-                      </Segment>
-                    <Segment>
-                      <subtype>3</subtype>
+                      <subtype>0</subtype>
                       <offset x="0" y="1.64587"/>
                       <off2 x="0" y="0"/>
                       <offset x="0" y="1.64587"/>
@@ -77365,7 +77137,7 @@ as possible, creating a dense
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -78201,6 +77973,7 @@ as possible, creating a dense
                 </linked>
               <size>8</size>
               <italic>1</italic>
+              <offset x="1.66258" y="-1.03303"/>
               <text>no pitch</text>
               </StaffText>
             <Chord>
@@ -78443,6 +78216,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <BarLine>
               <linked>
@@ -78652,6 +78428,11 @@ as possible, creating a dense
                 </linked>
               <durationType>quarter</durationType>
               </Rest>
+            <StaffText>
+              <linked>
+                </linked>
+              <text>ord.</text>
+              </StaffText>
             <Rest>
               <linked>
                 </linked>
@@ -78692,6 +78473,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <visible>0</visible>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -78903,6 +78685,9 @@ as possible, creating a dense
           </Measure>
         <Measure len="32/4">
           <multiMeasureRest>8</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -79004,6 +78789,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -79019,6 +78807,10 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
+            <Clef>
+              <concertClefType>C3</concertClefType>
+              <transposingClefType>C3</transposingClefType>
+              </Clef>
             <Image>
               <linked>
                 </linked>
@@ -79349,6 +79141,7 @@ as possible, creating a dense
                   <linked>
                     </linked>
                   <offset x="-9.00114" y="-4.63059"/>
+                  <visible>0</visible>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -79701,27 +79494,28 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
             <Dynamic>
               <subtype>mp</subtype>
               <velocity>64</velocity>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <StaffText>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
+              <offset x="1.86618" y="-0.903007"/>
               <text>vib.</text>
               </StaffText>
             <Chord>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
@@ -79730,8 +79524,9 @@ as possible, creating a dense
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
                   <linked>
+                    <indexDiff>1</indexDiff>
                     </linked>
-                  <offset x="0" y="-5.5007"/>
+                  <offset x="0" y="-6"/>
                   </Symbol>
                 <pitch>49</pitch>
                 <tpc>21</tpc>
@@ -79885,6 +79680,7 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <offset x="-0.387934" y="-0.833742"/>
               <text>s.t.</text>
               </StaffText>
             <Rest>
@@ -79984,13 +79780,6 @@ as possible, creating a dense
                   <subtype>accidentalQuarterToneSharpStein</subtype>
                   <visible>0</visible>
                   </Accidental>
-                <Symbol>
-                  <name>arrowBlackDown</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-4.50057"/>
-                  </Symbol>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -80058,6 +79847,9 @@ as possible, creating a dense
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -80066,13 +79858,6 @@ as possible, creating a dense
               <Note>
                 <linked>
                   </linked>
-                <Symbol>
-                  <name>arrowBlackDown</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-4.50057"/>
-                  </Symbol>
                 <Spanner type="Tie">
                   <prev>
                     <location>
@@ -80093,6 +79878,11 @@ as possible, creating a dense
           </Measure>
         <Measure>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <text>ord.</text>
+              </StaffText>
             <Rest>
               <linked>
                 </linked>
@@ -80737,7 +80527,7 @@ as possible, creating a dense
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -80828,6 +80618,7 @@ as possible, creating a dense
       <Staff id="1">
         <VBox>
           <height>10</height>
+          <bottomGap>8</bottomGap>
           <linked>
             <location>
               <staves>-17</staves>
@@ -81008,26 +80799,6 @@ as possible, creating a dense
               <linked>
                 </linked>
               </Dynamic>
-            <Chord>
-              <linked>
-                </linked>
-              <dots>1</dots>
-              <durationType>half</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <NoteDot>
-                  <visible>0</visible>
-                  </NoteDot>
-                <pitch>89</pitch>
-                <tpc>13</tpc>
-                <tuning>50</tuning>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -81208,7 +80979,9 @@ as possible, creating a dense
             <StaffText>
               <linked>
                 </linked>
+              <minDistance>0.108127</minDistance>
               <size>8</size>
+              <offset x="-4.07548" y="-5.55624"/>
               <frameType>1</frameType>
               <text>imitate Balloon, use 
 fingernail close to bridge
@@ -81390,7 +81163,7 @@ fingernail close to bridge
               <linked>
                 </linked>
               <style>Expression</style>
-              <minDistance>-4.3761</minDistance>
+              <offset x="-0.313498" y="-3.64101"/>
               <text>steady</text>
               </StaffText>
             <Dynamic>
@@ -81582,6 +81355,10 @@ fingernail close to bridge
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Ottava">
               <prev>
@@ -81604,7 +81381,12 @@ fingernail close to bridge
             </voice>
           </Measure>
         <Measure>
+          <stretch>1.1</stretch>
           <voice>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              </Clef>
             <Rest>
               <linked>
                 </linked>
@@ -81805,6 +81587,10 @@ fingernail close to bridge
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.8</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <BarLine>
               <linked>
@@ -81842,7 +81628,7 @@ fingernail close to bridge
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.15116" y="-2.63033"/>
+                  <offset x="-44.15" y="-2.63"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
                   <linkPath>../Notation/Kontaktstelle.svg</linkPath>
                   <size w="5.75479" h="8.13715"/>
@@ -82208,7 +81994,13 @@ fingernail close to bridge
             </voice>
           </Measure>
         <Measure>
+          <stretch>0</stretch>
           <voice>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <visible>0</visible>
+              </Clef>
             <Tuplet>
               <linked>
                 </linked>
@@ -82482,6 +82274,9 @@ fingernail close to bridge
           </Measure>
         <Measure len="44/4">
           <multiMeasureRest>11</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -82625,6 +82420,9 @@ fingernail close to bridge
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -82931,9 +82729,21 @@ fingernail close to bridge
               <linked>
                 </linked>
               <style>Expression</style>
-              <minDistance>-6.18403</minDistance>
+              <offset x="-1.77341" y="-2.48773"/>
               <text>fragile</text>
               </StaffText>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>1</subtype>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -82994,41 +82804,12 @@ fingernail close to bridge
               <linked>
                 </linked>
               </Dynamic>
-            <Chord>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <durationType>half</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <autoplace>0</autoplace>
-                <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                <visible>0</visible>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      <indexDiff>1</indexDiff>
-                      </linked>
-                    <visible>0</visible>
-                    </Tie>
-                  <next>
-                    <location>
-                      <measures>1</measures>
-                      <fractions>-1/2</fractions>
-                      </location>
-                    </next>
-                  </Spanner>
-                <pitch>83</pitch>
-                <tpc>19</tpc>
-                </Note>
-              </Chord>
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <durationType>half</durationType>
@@ -83059,6 +82840,13 @@ fingernail close to bridge
                 <headType>half</headType>
                 </Note>
               </Chord>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Rest>
               <linked>
                 </linked>
@@ -83068,39 +82856,6 @@ fingernail close to bridge
               <linked>
                 </linked>
               </BarLine>
-            </voice>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              <Stem>
-                <visible>0</visible>
-                </Stem>
-              <Note>
-                <autoplace>0</autoplace>
-                <linked>
-                  </linked>
-                <visible>0</visible>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      <fractions>1/2</fractions>
-                      </location>
-                    </prev>
-                  </Spanner>
-                <pitch>83</pitch>
-                <tpc>19</tpc>
-                </Note>
-              </Chord>
-            <Dynamic>
-              <subtype>ppp</subtype>
-              <velocity>16</velocity>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              </Dynamic>
             </voice>
           </Measure>
         <Measure>
@@ -83398,6 +83153,9 @@ fingernail close to bridge
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -83523,18 +83281,17 @@ fingernail close to bridge
           </Measure>
         <Measure>
           <voice>
+            <Clef>
+              <concertClefType>G</concertClefType>
+              <transposingClefType>G</transposingClefType>
+              <visible>0</visible>
+              </Clef>
             <Spanner type="Ottava">
               <Ottava>
                 <subtype>22mb</subtype>
                 <visible>0</visible>
                 <Segment>
-                  <subtype>1</subtype>
-                  <offset x="0" y="2"/>
-                  <off2 x="0" y="0"/>
-                  <visible>0</visible>
-                  </Segment>
-                <Segment>
-                  <subtype>3</subtype>
+                  <subtype>0</subtype>
                   <offset x="0" y="2"/>
                   <off2 x="0" y="0"/>
                   <visible>0</visible>
@@ -83549,6 +83306,12 @@ fingernail close to bridge
               </Spanner>
             <Rest>
               <durationType>quarter</durationType>
+              <Image>
+                <offset x="-6.62" y="-6"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
               </Rest>
             <Rest>
               <linked>
@@ -83558,7 +83321,7 @@ fingernail close to bridge
             <StaffText>
               <linked>
                 </linked>
-              <minDistance>0.148154</minDistance>
+              <offset x="0" y="-4.58997"/>
               <frameType>1</frameType>
               <text>always on wrapped
 part of the strings
@@ -83912,6 +83675,7 @@ part of the strings
                   <linked>
                     </linked>
                   <offset x="-10.1213" y="-6.53083"/>
+                  <visible>0</visible>
                   <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                   <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                   <size w="8.46954" h="11.9757"/>
@@ -84151,7 +83915,7 @@ part of the strings
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.74978</Spatium>
         </Style>
-      <showInvisible>1</showInvisible>
+      <showInvisible>0</showInvisible>
       <showUnprintable>1</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
@@ -84241,6 +84005,7 @@ part of the strings
       <Staff id="1">
         <VBox>
           <height>10</height>
+          <bottomGap>8</bottomGap>
           <linked>
             <location>
               <staves>-18</staves>
@@ -84270,6 +84035,7 @@ part of the strings
             </Text>
           </VBox>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <TimeSig>
               <linked>
@@ -84329,6 +84095,7 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -84556,6 +84323,7 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -84569,24 +84337,12 @@ part of the strings
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
+          <breakMultiMeasureRest>1</breakMultiMeasureRest>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -84598,6 +84354,7 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -84717,6 +84474,7 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -84761,6 +84519,11 @@ part of the strings
                     <diagonal>1</diagonal>
                     <lineWidth>0.105013</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="0.609611" y="-2.27219"/>
+                      <off2 x="-2.49386" y="0.443353"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -84823,6 +84586,10 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -84895,6 +84662,7 @@ part of the strings
                 </linked>
               <size>8</size>
               <italic>1</italic>
+              <offset x="1.97938" y="-1.09629"/>
               <text>no pitch</text>
               </StaffText>
             <Chord>
@@ -84948,6 +84716,7 @@ part of the strings
                   <linked>
                     </linked>
                   <offset x="0" y="-6.50083"/>
+                  <visible>0</visible>
                   </Symbol>
                 <Spanner type="Tie">
                   <prev>
@@ -84986,24 +84755,11 @@ part of the strings
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
+          <breakMultiMeasureRest>1</breakMultiMeasureRest>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -85048,6 +84804,7 @@ part of the strings
               <velocity>96</velocity>
               <linked>
                 </linked>
+              <offset x="-1.31959" y="3.18292"/>
               </Dynamic>
             <Tuplet>
               <linked>
@@ -85156,6 +84913,9 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <BarLine>
               <linked>
@@ -85391,6 +85151,7 @@ part of the strings
             <StaffText>
               <linked>
                 </linked>
+              <visible>0</visible>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -85451,7 +85212,7 @@ part of the strings
                 <endText>&gt;</endText>
                 <linked>
                   </linked>
-                <lineWidth>0.0969091</lineWidth>
+                <lineWidth>0.0953646</lineWidth>
                 </TextLine>
               <next>
                 <location>
@@ -85591,6 +85352,9 @@ part of the strings
           </Measure>
         <Measure len="36/4">
           <multiMeasureRest>9</multiMeasureRest>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <durationType>measure</durationType>
@@ -85707,6 +85471,9 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -86168,6 +85935,9 @@ part of the strings
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <StaffText>
               <linked>
@@ -86198,24 +85968,6 @@ part of the strings
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <hairpinCircledTip>1</hairpinCircledTip>
-                <linked>
-                  <location>
-                    <staves>-1</staves>
-                    <voices>1</voices>
-                    </location>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -86275,13 +86027,6 @@ part of the strings
                 </linked>
               <durationType>half</durationType>
               </Rest>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Rest>
               <linked>
                 </linked>
@@ -86552,24 +86297,12 @@ part of the strings
               </BarLine>
             </voice>
           </Measure>
-        <Measure len="8/4">
-          <multiMeasureRest>2</multiMeasureRest>
-          <voice>
-            <Rest>
-              <durationType>measure</durationType>
-              <duration>8/4</duration>
-              </Rest>
-            <BarLine>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
         <Measure>
+          <breakMultiMeasureRest>1</breakMultiMeasureRest>
+          <stretch>1.7</stretch>
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -86586,6 +86319,15 @@ part of the strings
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Image>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-7.27" y="-6.5"/>
+                <path>c7482df32e69971d9aff9fad8c680246.svg</path>
+                <linkPath>../Notation/vor_der_brücke.svg</linkPath>
+                <size w="8.46954" h="11.9757"/>
+                </Image>
               </Rest>
             <StaffText>
               <linked>
@@ -86732,6 +86474,9 @@ of the strings
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -86811,6 +86556,7 @@ of the strings
             </voice>
           </Measure>
         <Measure>
+          <stretch>1.4</stretch>
           <voice>
             <Chord>
               <durationType>quarter</durationType>
@@ -87075,7 +86821,7 @@ part of the strings
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-10.1213" y="-6.53083"/>
+                  <offset x="-19.62" y="-6.5"/>
                   <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                   <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                   <size w="8.46954" h="11.9757"/>
@@ -88231,6 +87977,9 @@ touch strings with stick
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -88295,6 +88044,9 @@ touch strings with stick
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -88879,6 +88631,8 @@ touch strings with stick
               <velocity>96</velocity>
               <linked>
                 </linked>
+              <minDistance>-4.77835</minDistance>
+              <offset x="-1.23161" y="2.39117"/>
               </Dynamic>
             <Tuplet>
               <linked>
@@ -89401,6 +89155,7 @@ touch strings with stick
             <StaffText>
               <linked>
                 </linked>
+              <visible>0</visible>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -89462,12 +89217,13 @@ touch strings with stick
                 <endText>&gt;</endText>
                 <linked>
                   </linked>
-                <lineWidth>0.0969091</lineWidth>
+                <diagonal>1</diagonal>
+                <lineWidth>0.136218</lineWidth>
                 </TextLine>
               <next>
                 <location>
                   <measures>1</measures>
-                  <fractions>1/2</fractions>
+                  <fractions>5/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -89552,14 +89308,6 @@ touch strings with stick
                   </location>
                 </prev>
               </Spanner>
-            <Spanner type="TextLine">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -89578,6 +89326,14 @@ touch strings with stick
                 <tpc>15</tpc>
                 </Note>
               </Chord>
+            <Spanner type="TextLine">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Rest>
               <linked>
                 </linked>
@@ -90118,6 +89874,11 @@ touch strings with stick
                       </linked>
                     <lineWidth>0.100013</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="0.847098" y="-4.72038"/>
+                      <off2 x="-3.00242" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -90253,6 +90014,7 @@ touch strings with stick
             <StaffText>
               <linked>
                 </linked>
+              <offset x="1.48119" y="-1.57085"/>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -90302,6 +90064,7 @@ touch strings with stick
             <StaffText>
               <linked>
                 </linked>
+              <offset x="1.6293" y="-1.26828"/>
               <text>vib.</text>
               </StaffText>
             <Chord>
@@ -90517,6 +90280,11 @@ touch strings with stick
                       </linked>
                     <lineWidth>0.105013</lineWidth>
                     <anchor>3</anchor>
+                    <Segment>
+                      <subtype>0</subtype>
+                      <offset x="0.907709" y="-5.09714"/>
+                      <off2 x="-3.70066" y="0"/>
+                      </Segment>
                     </TextLine>
                   <next>
                     <location>
@@ -91285,6 +91053,8 @@ touch strings with stick
               <velocity>64</velocity>
               <linked>
                 </linked>
+              <minDistance>-2.47823</minDistance>
+              <offset x="0.235124" y="2.1265"/>
               </Dynamic>
             <Spanner type="Ottava">
               <Ottava>
@@ -91313,10 +91083,9 @@ touch strings with stick
                 <linked>
                   </linked>
                 <Image>
-                  <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-9.62122" y="-3.53045"/>
+                  <offset x="-7" y="-3.5"/>
                   <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                   <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                   <size w="8.46954" h="11.9757"/>
@@ -91359,6 +91128,8 @@ touch strings with stick
               <velocity>64</velocity>
               <linked>
                 </linked>
+              <visible>0</visible>
+              <offset x="0.0783746" y="2.10813"/>
               </Dynamic>
             <Spanner type="Ottava">
               <prev>
@@ -91397,7 +91168,7 @@ touch strings with stick
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="-10.1213" y="-3.53045"/>
+                  <offset x="-8" y="-3.5"/>
                   <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                   <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                   <size w="8.46954" h="11.9757"/>
