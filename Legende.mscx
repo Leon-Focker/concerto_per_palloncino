@@ -454,7 +454,7 @@
           <text>Slow, mid-tempo and fast tremolo</text>
           </Text>
         </HBox>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <measureNumberMode>2</measureNumberMode>
         <voice>
           <TimeSig>
@@ -463,8 +463,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>whole</durationType>
             </Rest>
           <Segment>
             <leadingSpace>3.5</leadingSpace>
@@ -506,7 +505,7 @@
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Play as high as possible</text>
           </Text>
         </HBox>
@@ -529,10 +528,10 @@
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>The balloon should be a normal, medium sized, if possible colourful balloon. 
+          <text>The balloon should be a normal, medium sized and if possible colourful balloon. 
 It is mainly played by inflating it and then gripping the end (mouthpiece?) with both hands. By pulling the fingers apart, the mouthpiece
-should start to oscillate. It can then be modulated by both, the strength of the pull and the mouth of the player, by openinng and 
-closing it with their lips.
+should start to oscillate. It can then be modulated by both, the strength of the pull and the mouth of the player (by opening and 
+closing it with their lips).
 </text>
           </Text>
         </VBox>
@@ -559,18 +558,38 @@ closing it with their lips.
           <text>Inflate the balloon either fully or halfway, to prepare for the next passage</text>
           </Text>
         </HBox>
-      <Measure>
-        <measureNumberMode>2</measureNumberMode>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure len="2/4">
         <measureNumberMode>2</measureNumberMode>
         <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>125</width>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>Frame</style>
+          <family>Yu Gothic UI</family>
+          <size>12</size>
+          <align>left,center</align>
+          <offset x="10" y="-9.5"/>
+          <text>The lower system for the balloon shows when to open the mouthpiece with your fingers (indicated by
+the thick line) and how much (indicated by the dynamics).
+pp-mp - 'pure' sound
+mf-ff    - 'distorted' sound
+</text>
+          </Text>
+        </HBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -593,13 +612,9 @@ closing it with their lips.
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="-9.5"/>
-          <text>The lower system is always notated and shows when to open the mouthpiece with your fingers (the thick line)
-and how much (the notated dynamics).
-pp-mp - 'pure' sound
-mf-ff    - 'distorted' sound
-When the upper system is notated, the player should additionally enclose the mouthpiece with their mouth
-and then let the balloon sound according to the notated rhythm. 
+          <offset x="10" y="0"/>
+          <text>If the upper system is notated, the player should additionally enclose the mouthpiece with their mouth
+and then let the balloon sound according to the notated rhythm (by opening and closing their lips). 
 </text>
           </Text>
         </HBox>
@@ -623,7 +638,7 @@ and then let the balloon sound according to the notated rhythm.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Percussive sound, pull balloon and let is snap back</text>
+          <text>Percussive sound, pull the flacid balloon and let it snap</text>
           </Text>
         </HBox>
       <TBox>
@@ -682,8 +697,8 @@ and then let the balloon sound according to the notated rhythm.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Multiphonic, if the specified fingering does not work for you, find one as close as possible. 
-Lowest not is most important.
+          <text>Multiphonic. If the specified fingering does not work for you, find one as close as possible. 
+Lowest note is most important.
 </text>
           </Text>
         </HBox>
@@ -774,7 +789,7 @@ Lowest not is most important.
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Double harmonic (Oboe)</text>
           </Text>
         </HBox>
@@ -838,9 +853,9 @@ Lowest not is most important.
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Contact point of the bow with the strings. Stays valid until new indication. 
-ord. means contact point as well as bow pressure
+ord. means ordinary contact point as well as ordinary bow pressure
 </text>
           </Text>
         </HBox>
@@ -888,7 +903,7 @@ ord. means contact point as well as bow pressure
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Bridge Clef, indicating the contact point of the bow. First note would be on silk wrapped part of the strings,
 second one on the not wrapped part near the bridge. The third one indicates bowing on the tailpiece.
 </text>
@@ -915,7 +930,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Bow at the edge of the bridge, no discernable pitch</text>
+          <text>Double Bass: bow at the edge of the bridge, no discernable pitch</text>
           </Text>
         </HBox>
       <Measure len="1/4">
@@ -938,7 +953,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Flageolett (finger only touches the string)</text>
           </Text>
         </HBox>
@@ -962,7 +977,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Dampen Strings with left hand</text>
           </Text>
         </HBox>
@@ -986,7 +1001,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Bartok Pizzicato</text>
           </Text>
         </HBox>
@@ -1010,8 +1025,8 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
-          <text>from left to right: almost no bow pressure, small bow pressure, 
+          <offset x="10" y="-3"/>
+          <text>From left to right: almost no bow pressure (no discernable pitch), small bow pressure ('flautando'), 
 more bow pressure than usual (pitch still discernable), lots of bow pressure (no clear pitch)
 </text>
           </Text>
@@ -1036,8 +1051,8 @@ more bow pressure than usual (pitch still discernable), lots of bow pressure (no
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
-          <text>con crini battuto, col legno battuto. Dampen with left hand - pitch is determined through contact point 
+          <offset x="10" y="-3"/>
+          <text>Con crini battuto, col legno battuto. Dampen with left hand - pitch is determined through contact point 
 of the bow. When not specified, play at ordinario position.
 </text>
           </Text>
@@ -1062,7 +1077,7 @@ of the bow. When not specified, play at ordinario position.
           <family>Yu Gothic UI</family>
           <size>12</size>
           <align>left,center</align>
-          <offset x="10" y="0"/>
+          <offset x="10" y="-3"/>
           <text>Artificial harmonic, glissando with both fingers independently on the same string. In most cases, the harmonic 
 will jump to another one mid glissando.
 </text>
@@ -1129,7 +1144,7 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -1137,8 +1152,7 @@ will jump to another one mid glissando.
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1199,7 +1213,7 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/4">
         <voice>
           <BarLine>
             <visible>0</visible>
@@ -1210,12 +1224,12 @@ will jump to another one mid glissando.
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="2"/>
-                <off2 x="-2.72876" y="0"/>
+                <off2 x="-9.88377" y="0"/>
                 </Segment>
               </HairPin>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -1269,25 +1283,25 @@ will jump to another one mid glissando.
                 </Spanner>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure len="2/4">
         <voice>
+          <BarLine>
+            <spanFromOffset>4</spanFromOffset>
+            <spanToOffset>-30</spanToOffset>
+            </BarLine>
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Stem>
@@ -1513,7 +1527,7 @@ will jump to another one mid glissando.
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <voice>
           <BarLine>
             <visible>0</visible>
@@ -1545,7 +1559,7 @@ will jump to another one mid glissando.
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="-0.332473" y="-2.49355"/>
-                    <off2 x="0" y="0"/>
+                    <off2 x="-0.373189" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1583,6 +1597,50 @@ will jump to another one mid glissando.
                 </Spanner>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <endText>&gt;</endText>
+                  <lineWidth>0.105</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-0.151687" y="-2.01445"/>
+                    <off2 x="-0.279891" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Tremolo>
+              <subtype>r32</subtype>
+              </Tremolo>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Tremolo>
+              <subtype>r8</subtype>
+              </Tremolo>
+            </Chord>
           </voice>
         </Measure>
       <Measure len="1/4">
@@ -1613,11 +1671,10 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/4">
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1799,8 +1856,8 @@ will jump to another one mid glissando.
                 <name>mensuralNoteheadLongaVoid</name>
                 <font>Bravura</font>
                 </Symbol>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               <Spanner type="TextLine">
                 <TextLine>
                   <lineWidth>0.5</lineWidth>
@@ -1826,8 +1883,8 @@ will jump to another one mid glissando.
               </Stem>
             <Note>
               <visible>0</visible>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               <Spanner type="TextLine">
                 <prev>
                   <location>
@@ -2033,7 +2090,7 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure len="2/4">
+      <Measure len="4/4">
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -2041,7 +2098,7 @@ will jump to another one mid glissando.
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -2060,11 +2117,10 @@ will jump to another one mid glissando.
             </Rest>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/4">
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -2224,7 +2280,7 @@ will jump to another one mid glissando.
             <Note>
               <Image>
                 <autoplace>0</autoplace>
-                <offset x="-11.12" y="-5.03"/>
+                <offset x="-9.12" y="-5.03"/>
                 <path>c7482df32e69971d9aff9fad8c680246.svg</path>
                 <linkPath>../Notation/vor_der_brücke.svg</linkPath>
                 <size w="8.46954" h="11.9757"/>
