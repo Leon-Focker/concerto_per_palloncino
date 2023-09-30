@@ -419,7 +419,7 @@
           <style>Frame</style>
           <family>Yu Gothic UI</family>
           <size>12</size>
-          <text>- Play everything non-vibrato, except when specified
+          <text>- Play everything non-vibrato, except when specified.
  
 - Grace notes always come before the beat.
 </text>
@@ -451,7 +451,7 @@
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Slow, mid-tempo and fast tremolo</text>
+          <text>Slow, mid-tempo and fast tremolo.</text>
           </Text>
         </HBox>
       <Measure len="4/4">
@@ -482,7 +482,7 @@
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Arrows show a gradual change between the specified states</text>
+          <text>Arrows show a gradual change between the specified states.</text>
           </Text>
         </HBox>
       <Measure len="1/4">
@@ -506,7 +506,7 @@
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Play as high as possible</text>
+          <text>Play as high as possible.</text>
           </Text>
         </HBox>
       <VBox>
@@ -536,7 +536,8 @@ It is mainly played by inflating it and then gripping the end (mouthpiece?) with
 should start to oscillate. It can then be modulated by both, the strength of the pull and the mouth of the player (by opening and 
 closing it with their lips).
 
-Vibrato                              Rapidly pull fingers apart and bring them back together for a vibrato effect
+Vibrato                              Rapidly pull fingers apart and bring them back together for a vibrato effect.
+
 'Multiphonics'                   At certain fingerpositions, especially when the fingers don't line up with each other, it is possible to find 'jumps'
                                           from one pitch to another. Sometimes even 'Multiphonics' are possible. Experiment! 
 
@@ -566,7 +567,7 @@ Vibrato                              Rapidly pull fingers apart and bring them b
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Inflate the balloon either fully or halfway, to prepare for the next passage</text>
+          <text>Inflate the balloon either fully or halfway, to prepare for the next passage.</text>
           </Text>
         </HBox>
       <Measure len="2/4">
@@ -652,7 +653,7 @@ and then let the balloon sound according to the notated rhythm (by opening and c
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Percussive sound, pull the flacid balloon and let it snap</text>
+          <text>Percussive sound, pull the flacid balloon and let it snap.</text>
           </Text>
         </HBox>
       <TBox>
@@ -737,6 +738,7 @@ Lowest note is most important.
         </Measure>
       <HBox>
         <width>125</width>
+        <visible>0</visible>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -746,7 +748,7 @@ Lowest note is most important.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Slap Tongue (Clarinet)</text>
+          <text>Slap Tongue (Clarinet).</text>
           </Text>
         </HBox>
       <Measure len="1/4">
@@ -770,7 +772,7 @@ Lowest note is most important.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Key noise, notated in pitch</text>
+          <text>Key noise, notated in pitch.</text>
           </Text>
         </HBox>
       <TBox>
@@ -804,7 +806,7 @@ Lowest note is most important.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Double harmonic (Oboe)</text>
+          <text>Double harmonic (Oboe).</text>
           </Text>
         </HBox>
       <Measure len="4/4">
@@ -827,7 +829,7 @@ Lowest note is most important.
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Glissando with embouchure, before or after note, the curve of the line indicates 
+          <text>Glissando with embouchure, before or after note, the curve of the line indicates. 
 </text>
           </Text>
         </HBox>
@@ -869,7 +871,7 @@ Lowest note is most important.
           <align>left,center</align>
           <offset x="10" y="-3"/>
           <text>Contact point of the bow with the strings. Stays valid until new indication. 
-ord. means ordinary contact point as well as ordinary bow pressure
+ord. means ordinary contact point as well as ordinary bow pressure.
 </text>
           </Text>
         </HBox>
@@ -894,7 +896,7 @@ ord. means ordinary contact point as well as ordinary bow pressure
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Bridge Clef, indicating the contact point of the bow. First note would be msp, second one mst</text>
+          <text>Bridge Clef, indicating the contact point of the bow. First note would be msp, second one mst.</text>
           </Text>
         </HBox>
       <Measure len="4/4">
@@ -944,7 +946,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="0"/>
-          <text>Double Bass: bow at the edge of the bridge, no discernable pitch</text>
+          <text>Double Bass: bow at the edge of the bridge, no discernable pitch.</text>
           </Text>
         </HBox>
       <Measure len="1/4">
@@ -968,7 +970,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Flageolett (finger only touches the string)</text>
+          <text>Flageolett (finger only touches the string).</text>
           </Text>
         </HBox>
       <Measure len="2/4">
@@ -992,7 +994,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Dampen Strings with left hand</text>
+          <text>Dampen Strings with left hand.</text>
           </Text>
         </HBox>
       <Measure len="1/4">
@@ -1016,7 +1018,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <size>12</size>
           <align>left,center</align>
           <offset x="10" y="-3"/>
-          <text>Bartok Pizzicato</text>
+          <text>Bartok Pizzicato.</text>
           </Text>
         </HBox>
       <Measure len="4/4">
@@ -1041,7 +1043,7 @@ second one on the not wrapped part near the bridge. The third one indicates bowi
           <align>left,center</align>
           <offset x="10" y="-3"/>
           <text>From left to right: almost no bow pressure (no discernable pitch), small bow pressure ('flautando'), 
-more bow pressure than usual (pitch still discernable), lots of bow pressure (no clear pitch)
+more bow pressure than usual (pitch still discernable), lots of bow pressure (no clear pitch).
 </text>
           </Text>
         </HBox>
