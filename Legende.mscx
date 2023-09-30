@@ -511,6 +511,8 @@
         </HBox>
       <VBox>
         <height>10</height>
+        <bottomGap>-0.5</bottomGap>
+        <visible>0</visible>
         <Text>
           <style>Frame</style>
           <family>Yu Gothic UI</family>
@@ -522,6 +524,7 @@
       <VBox>
         <topGap>-7</topGap>
         <bottomGap>11</bottomGap>
+        <visible>0</visible>
         <Text>
           <style>Frame</style>
           <family>Yu Gothic UI</family>
@@ -532,6 +535,13 @@
 It is mainly played by inflating it and then gripping the end (mouthpiece?) with both hands. By pulling the fingers apart, the mouthpiece
 should start to oscillate. It can then be modulated by both, the strength of the pull and the mouth of the player (by opening and 
 closing it with their lips).
+
+Vibrato                              Rapidly pull fingers apart and bring them back together for a vibrato effect
+'Multiphonics'                   At certain fingerpositions, especially when the fingers don't line up with each other, it is possible to find 'jumps'
+                                          from one pitch to another. Sometimes even 'Multiphonics' are possible. Experiment! 
+
+ 
+
 </text>
           </Text>
         </VBox>
@@ -546,6 +556,7 @@ closing it with their lips).
         </Measure>
       <HBox>
         <width>125</width>
+        <visible>0</visible>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -568,6 +579,7 @@ closing it with their lips).
         </Measure>
       <HBox>
         <width>125</width>
+        <visible>0</visible>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -604,6 +616,7 @@ mf-ff    - 'distorted' sound
         </Measure>
       <HBox>
         <width>125</width>
+        <visible>0</visible>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -629,6 +642,7 @@ and then let the balloon sound according to the notated rhythm (by opening and c
         </Measure>
       <HBox>
         <width>125</width>
+        <visible>0</visible>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1221,11 +1235,6 @@ will jump to another one mid glissando.
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-9.88377" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
