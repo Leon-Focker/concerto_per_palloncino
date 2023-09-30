@@ -1525,7 +1525,7 @@
         <Text>
           <linkedMain/>
           <style>Title</style>
-          <text>Concert for Balloon</text>
+          <text>Concerto per Palloncino</text>
           </Text>
         <Text>
           <linkedMain/>
@@ -1740,7 +1740,6 @@
         <voice>
           <BarLine>
             <span>0</span>
-            <linkedMain/>
             <visible>0</visible>
             </BarLine>
           <Rest>
@@ -2784,7 +2783,6 @@
         <stretch>0.9</stretch>
         <voice>
           <BarLine>
-            <linkedMain/>
             <visible>0</visible>
             </BarLine>
           <Chord>
@@ -3284,9 +3282,6 @@
                 </Spanner>
               <Spanner type="TextLine">
                 <TextLine>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
-                    </linked>
                   <lineWidth>0.500064</lineWidth>
                   <anchor>3</anchor>
                   </TextLine>
@@ -3298,7 +3293,6 @@
                 </Spanner>
               <Spanner type="TextLine">
                 <TextLine>
-                  <linkedMain/>
                   <diagonal>1</diagonal>
                   <lineWidth>0.105013</lineWidth>
                   <anchor>3</anchor>
@@ -3311,9 +3305,6 @@
                 </Spanner>
               <Spanner type="TextLine">
                 <TextLine>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
-                    </linked>
                   <diagonal>1</diagonal>
                   <lineWidth>0.105026</lineWidth>
                   <anchor>3</anchor>
@@ -3485,10 +3476,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <visible>0</visible>
               <pitch>89</pitch>
               <tpc>13</tpc>
@@ -3788,7 +3777,6 @@
         <voice>
           <BarLine>
             <spanToOffset>11</spanToOffset>
-            <linkedMain/>
             </BarLine>
           <Chord>
             <linkedMain/>
@@ -4516,7 +4504,6 @@ seal with lips
             <span>0</span>
             <spanFromOffset>17</spanFromOffset>
             <spanToOffset>-12</spanToOffset>
-            <linkedMain/>
             </BarLine>
           <Beam>
             <visible>0</visible>
@@ -9060,7 +9047,6 @@ then let balloon go, so it flies away
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Rest>
             <linkedMain/>
@@ -9788,7 +9774,6 @@ then let balloon go, so it flies away
         <voice>
           <BarLine>
             <span>1</span>
-            <linkedMain/>
             </BarLine>
           <Dynamic>
             <subtype>f</subtype>
@@ -10116,7 +10101,6 @@ then let balloon go, so it flies away
         <voice>
           <BarLine>
             <span>1</span>
-            <linkedMain/>
             </BarLine>
           <Rest>
             <linkedMain/>
@@ -20119,7 +20103,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Rest>
             <linkedMain/>
@@ -20998,7 +20981,6 @@ note ends
         <voice>
           <BarLine>
             <span>1</span>
-            <linkedMain/>
             </BarLine>
           <Rest>
             <linkedMain/>
@@ -21803,7 +21785,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Clef>
             <concertClefType>G</concertClefType>
@@ -23507,7 +23488,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Rest>
             <linkedMain/>
@@ -23607,7 +23587,6 @@ note ends
             <HairPin>
               <subtype>1</subtype>
               <hairpinCircledTip>1</hairpinCircledTip>
-              <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.99069" y="2"/>
@@ -25842,7 +25821,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Chord>
             <linkedMain/>
@@ -27141,7 +27119,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Dynamic>
             <subtype>mp</subtype>
@@ -28678,7 +28655,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Clef>
             <concertClefType>C3</concertClefType>
@@ -29991,7 +29967,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Rest>
             <linkedMain/>
@@ -31039,10 +31014,7 @@ note ends
           </voice>
         <voice>
           <location>
-            <fractions>1/2</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>3/4</fractions>
             </location>
           <Rest>
             <linkedMain/>
@@ -32974,7 +32946,6 @@ note ends
       <Measure>
         <voice>
           <BarLine>
-            <linkedMain/>
             </BarLine>
           <Dynamic>
             <subtype>mp</subtype>
@@ -42834,7 +42805,7 @@ touch strings with stick
             <linked>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -43070,7 +43041,6 @@ touch strings with stick
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -44282,12 +44252,10 @@ touch strings with stick
           <voice>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>77</pitch>
                 <tpc>13</tpc>
@@ -44795,7 +44763,6 @@ touch strings with stick
                 <tpc>13</tpc>
                 <Spanner type="TextLine">
                   <TextLine>
-                    <linkedMain/>
                     <diagonal>1</diagonal>
                     <lineWidth>0.104987</lineWidth>
                     <anchor>3</anchor>
@@ -44809,7 +44776,6 @@ touch strings with stick
                 <Spanner type="TextLine">
                   <TextLine>
                     <linked>
-                      <indexDiff>-1</indexDiff>
                       </linked>
                     <lineWidth>0.5</lineWidth>
                     <anchor>3</anchor>
@@ -44964,12 +44930,8 @@ touch strings with stick
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>whole</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <visible>0</visible>
                 <pitch>89</pitch>
                 <tpc>13</tpc>
@@ -45300,12 +45262,10 @@ touch strings with stick
           <voice>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>whole</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <visible>0</visible>
                 <pitch>89</pitch>
@@ -45313,7 +45273,6 @@ touch strings with stick
                 <Spanner type="TextLine">
                   <TextLine>
                     <linked>
-                      <indexDiff>1</indexDiff>
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
@@ -46102,7 +46061,6 @@ seal with lips
               </Beam>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               <Stem>
@@ -46110,7 +46068,6 @@ seal with lips
                 </Stem>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <visible>0</visible>
                 <pitch>89</pitch>
@@ -46118,7 +46075,6 @@ seal with lips
                 <Spanner type="TextLine">
                   <TextLine>
                     <linked>
-                      <indexDiff>1</indexDiff>
                       </linked>
                     <lineWidth>0.500064</lineWidth>
                     <anchor>3</anchor>
@@ -47364,7 +47320,7 @@ then let balloon go, so it flies away
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -49070,7 +49026,7 @@ then let balloon go, so it flies away
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -50298,7 +50254,6 @@ then let balloon go, so it flies away
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -50658,7 +50613,7 @@ then let balloon go, so it flies away
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -51293,23 +51248,19 @@ then let balloon go, so it flies away
               <subtype>f</subtype>
               <velocity>96</velocity>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>articStaccatoBelow</subtype>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 </Articulation>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>36</pitch>
                 <tpc>14</tpc>
@@ -51716,7 +51667,6 @@ then let balloon go, so it flies away
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -52689,7 +52639,7 @@ then let balloon go, so it flies away
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -63010,7 +62960,7 @@ note ends
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -64005,7 +63955,6 @@ note ends
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -65109,7 +65058,6 @@ note ends
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>measure</durationType>
               <duration>4/4</duration>
@@ -65444,7 +65392,7 @@ note ends
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -66227,13 +66175,11 @@ note ends
               <concertClefType>G</concertClefType>
               <transposingClefType>G</transposingClefType>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <visible>0</visible>
               </Clef>
             <Tuplet>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <normalNotes>4</normalNotes>
               <actualNotes>6</actualNotes>
@@ -66248,7 +66194,6 @@ note ends
               </Beam>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               <Stem>
@@ -66256,12 +66201,10 @@ note ends
                 </Stem>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <offset x="0" y="0.100013"/>
                 <Image>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="-26.65" y="-3.63"/>
                   <path>76f93fadc9a15f6d44a567a989e3d67f.svg</path>
@@ -68226,7 +68169,6 @@ note ends
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -68333,8 +68275,6 @@ note ends
             <Spanner type="HairPin">
               <HairPin>
                 <subtype>1</subtype>
-                <linked>
-                  </linked>
                 </HairPin>
               <next>
                 <location>
@@ -69978,7 +69918,7 @@ note ends
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -71002,12 +70942,10 @@ note ends
               </Clef>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <role>1</role>
@@ -71018,7 +70956,6 @@ note ends
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-4.00051"/>
                   </Symbol>
@@ -72533,23 +72470,19 @@ note ends
               <subtype>mp</subtype>
               <velocity>64</velocity>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <StaffText>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <text>vib.</text>
               </StaffText>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
@@ -72558,7 +72491,6 @@ note ends
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-5.5007"/>
                   </Symbol>
@@ -73422,7 +73354,7 @@ note ends
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -74461,13 +74393,11 @@ note ends
               <concertClefType>C3</concertClefType>
               <transposingClefType>C3</transposingClefType>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <visible>0</visible>
               </Clef>
             <Tuplet>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <normalNotes>4</normalNotes>
               <actualNotes>6</actualNotes>
@@ -74482,7 +74412,6 @@ note ends
               </Beam>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>16th</durationType>
               <Stem>
@@ -74490,13 +74419,11 @@ note ends
                 </Stem>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <offset x="0" y="0.100013"/>
                 <Image>
                   <autoplace>0</autoplace>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="-9.15116" y="-3.1304"/>
                   <visible>0</visible>
@@ -76010,7 +75937,6 @@ note ends
           <voice>
             <Rest>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               </Rest>
@@ -77167,10 +77093,7 @@ note ends
             </voice>
           <voice>
             <location>
-              <fractions>1/2</fractions>
-              </location>
-            <location>
-              <fractions>1/4</fractions>
+              <fractions>3/4</fractions>
               </location>
             <Rest>
               <linked>
@@ -77316,7 +77239,7 @@ note ends
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -79575,24 +79498,20 @@ note ends
               <subtype>mp</subtype>
               <velocity>64</velocity>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               </Dynamic>
             <StaffText>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <offset x="1.86618" y="-0.903007"/>
               <text>vib.</text>
               </StaffText>
             <Chord>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
@@ -79601,7 +79520,6 @@ note ends
                   <name>arrowBlackDown</name>
                   <font>Bravura</font>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-6"/>
                   </Symbol>
@@ -80708,7 +80626,7 @@ note ends
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -84095,7 +84013,7 @@ part of the strings
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
@@ -87327,7 +87245,7 @@ part of the strings
                 </location>
               </linked>
             <style>Title</style>
-            <text>Concert for Balloon</text>
+            <text>Concerto per Palloncino</text>
             </Text>
           <Text>
             <linked>
